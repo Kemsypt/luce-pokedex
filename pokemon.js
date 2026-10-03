@@ -253,7 +253,7 @@ window.POKEMON = [
       "Flying"
     ],
     "family": "Sky companions",
-    "entry": "",
+    "entry": "It glides between treetops in search of fruit. Its curiosity often leads it into trouble, though it usually escapes with a stolen snack.",
     "sheet": "assets/lemomo.png",
     "category": "",
     "typeNote": ""
@@ -261,13 +261,13 @@ window.POKEMON = [
   {
     "id": "appaloft",
     "number": 20,
-    "name": "Appaloft",
+    "name": "Apaloft",
     "types": [
       "Normal",
       "Flying"
     ],
     "family": "Sky companions",
-    "entry": "",
+    "entry": "It remembers the scent of every companion it has carried. Even after years apart, it can cross entire mountain ranges to find them again.",
     "sheet": "assets/appaloft.png",
     "category": "",
     "typeNote": ""

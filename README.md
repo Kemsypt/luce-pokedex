@@ -63,4 +63,6 @@ Phones use sticky **Pokémon entry / Browse Pokémon** tabs. Selecting a card op
 
 ## Confirmed Pokédex data
 
-The supplied Pokédex entries and typings are included verbatim. Cinnecub uses the supplied name spelling; its original `cinnacub` asset path and URL ID are retained for existing links. Descriptions for Andi, Andusk, Andistral, Lemomo and Appaloft remain empty pending their text.
+The supplied Pokédex entries and typings are included verbatim. Cinnecub uses the supplied name spelling; its original `cinnacub` asset path and URL ID are retained for existing links. Descriptions for Andi, Andusk and Andistral remain empty pending their text.
+
+Apaloft uses the latest supplied spelling, retaining `appaloft` as its asset path and URL ID for existing links.
