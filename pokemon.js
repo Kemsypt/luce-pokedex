@@ -7,7 +7,7 @@ window.POKEMON = [
       "Dark"
     ],
     "family": "Andi",
-    "entry": "",
+    "entry": "It watches its Trainer from shadowy corners, rarely making a sound. A lingering stare somehow earns it extra snacks, even moments after it has been fed.",
     "sheet": "assets/andi.png",
     "category": "",
     "typeNote": ""
@@ -20,7 +20,7 @@ window.POKEMON = [
       "Dark"
     ],
     "family": "Andi",
-    "entry": "",
+    "entry": "Its eyes gleam whenever it senses food being prepared. Trainers often forget why they banned it from the kitchen bench after meeting its mysterious gaze.",
     "sheet": "assets/andusk.png",
     "category": "",
     "typeNote": ""
@@ -34,7 +34,7 @@ window.POKEMON = [
       "Psychic"
     ],
     "family": "Andi",
-    "entry": "",
+    "entry": "It subtly controls its Trainer’s thoughts to secure snacks and food straight from their plate. Those under its influence insist they gave it permission all along.",
     "sheet": "assets/andistral.png",
     "category": "",
     "typeNote": ""
@@ -261,7 +261,7 @@ window.POKEMON = [
   {
     "id": "appaloft",
     "number": 20,
-    "name": "Apaloft",
+    "name": "Apalof",
     "types": [
       "Normal",
       "Flying"
