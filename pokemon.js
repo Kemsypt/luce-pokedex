@@ -42,7 +42,7 @@ window.POKEMON = [
   {
     "id": "cinnacub",
     "number": 4,
-    "name": "Cinnacub",
+    "name": "Cinnecub",
     "types": [
       "Normal"
     ],
@@ -56,12 +56,15 @@ window.POKEMON = [
     "id": "urswirl",
     "number": 5,
     "name": "Urswirl",
-    "types": [],
+    "types": [
+      "Normal",
+      "Fire"
+    ],
     "family": "Cinnamon bears",
     "entry": "Warmth rises from the thick swirls of fur on its body. It gathers cold or frightened Pokémon into its arms, soothing them with its gentle heat and sweet cinnamon scent.",
     "sheet": "assets/urswirl.png",
     "category": "",
-    "typeNote": "Typing to confirm"
+    "typeNote": ""
   },
   {
     "id": "cocobean",
@@ -95,8 +98,8 @@ window.POKEMON = [
     "number": 8,
     "name": "Chocobrew",
     "types": [
-      "Ground",
-      "Steel"
+      "Steel",
+      "Dark"
     ],
     "family": "Coffee",
     "entry": "It packs roasted beans into pods inside its metal body. It rewards trusted Trainers with sweet mocha, but sprays bitter coffee at anyone who interrupts its brewing.",
@@ -109,11 +112,11 @@ window.POKEMON = [
     "number": 9,
     "name": "Crowblaze",
     "types": [
-      "Fire",
-      "Flying"
+      "Flying",
+      "Fire"
     ],
     "family": "Crowblaze",
-    "entry": "",
+    "entry": "Its blazing feathers flare whenever PORTVOLT approaches. The two compete fiercely, with CROWBLAZE taking to the air to snatch the ball from its rival.",
     "sheet": "assets/crowblaze.png",
     "category": "",
     "typeNote": ""
@@ -124,10 +127,10 @@ window.POKEMON = [
     "name": "Portvolt",
     "types": [
       "Electric",
-      "Fighting"
+      "Flying"
     ],
     "family": "Portvolt",
-    "entry": "",
+    "entry": "It charges the ball with static before delivering a powerful kick. Its rivalry with CROWBLAZE is so fierce that distant thunder is sometimes mistaken for their matches.",
     "sheet": "assets/portvolt.png",
     "category": "",
     "typeNote": ""
@@ -140,10 +143,10 @@ window.POKEMON = [
       "Grass"
     ],
     "family": "Enchanted plants",
-    "entry": "",
+    "entry": "It wears a cracked flowerpot to protect its tender roots. When startled, its piercing cry sends nearby Pokémon fleeing.",
     "sheet": "assets/shriekling.png",
     "category": "",
-    "typeNote": "Proposed typing"
+    "typeNote": ""
   },
   {
     "id": "stranglevine",
@@ -154,10 +157,10 @@ window.POKEMON = [
       "Dark"
     ],
     "family": "Enchanted plants",
-    "entry": "",
+    "entry": "It lies motionless across shaded forest paths. Its vines tighten around anything that struggles against them.",
     "sheet": "assets/stranglevine.png",
     "category": "",
-    "typeNote": "Proposed typing"
+    "typeNote": ""
   },
   {
     "id": "willowrath",
@@ -168,10 +171,10 @@ window.POKEMON = [
       "Fighting"
     ],
     "family": "Enchanted plants",
-    "entry": "",
+    "entry": "It guards its patch of forest with powerful swings of its branches. Even large Pokémon hesitate to approach its roots.",
     "sheet": "assets/willowrath.png",
     "category": "",
-    "typeNote": "Proposed typing"
+    "typeNote": ""
   },
   {
     "id": "galindlet",
@@ -208,7 +211,7 @@ window.POKEMON = [
       "Psychic"
     ],
     "family": "Elphlet",
-    "entry": "",
+    "entry": "Misunderstood for its unusual colour, it often hides in quiet forests. A Galindlet’s kindness can draw out magical powers it never knew it possessed.",
     "sheet": "assets/elphlet.png",
     "category": "",
     "typeNote": ""
@@ -222,7 +225,7 @@ window.POKEMON = [
       "Flying"
     ],
     "family": "Elphlet",
-    "entry": "",
+    "entry": "It rides its enchanted broom into fierce winds to defend Pokémon treated unfairly. Glindora’s bubbles are among the few things it refuses to burst.",
     "sheet": "assets/dephyba.png",
     "category": "",
     "typeNote": ""
@@ -320,7 +323,7 @@ window.POKEMON = [
       "Psychic"
     ],
     "family": "Plumbgeist",
-    "entry": "",
+    "entry": "It slips into other creatures to guide their movements, with a green crystal hovering above its host’s head as the only sign of its presence. Possessed Pokémon may abruptly abandon their tasks to follow its whims. It grows frustrated when its hosts refuse even the simplest directions.",
     "sheet": "assets/plumbgeist.png",
     "category": "",
     "typeNote": ""

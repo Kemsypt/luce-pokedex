@@ -7,7 +7,8 @@
 <script src="pokemon.js" defer></script><script src="app.js" defer></script>
 </head>
 <body>
-<header class="masthead"><a class="wordmark" href="#cinnacub"><span class="mark" aria-hidden="true">L</span><span>LUCE <b>POKÉDEX</b></span></a><span class="edition">CUSTOM POKÉMON COLLECTION</span></header>
+
+<nav class="mobile-tabs" aria-label="Pokédex panels"><button id="show-entry" class="active" aria-pressed="true">Pokémon entry</button><button id="show-index" aria-pressed="false">Browse Pokémon</button></nav>
 <main class="device" aria-label="Luce Pokédex">
 <section class="left-shell" aria-label="Selected Pokémon">
 <div class="hardware"><div class="lens" aria-hidden="true"></div><div class="indicator red" aria-hidden="true"></div><div class="indicator gold" aria-hidden="true"></div><div class="indicator green" aria-hidden="true"></div><span class="hardware-label">POKÉDEX / LUCE</span></div>
@@ -24,9 +25,9 @@
 <section class="right-shell" aria-label="Pokémon collection">
 <div class="collection-heading"><div><p class="eyebrow">YOUR DISCOVERIES</p><h2>Pokémon index</h2></div><span class="collection-count"><b id="total">24</b> Pokémon</span></div>
 <div class="catalogue"><div class="filters"><label class="search"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="Search Pokémon…" aria-label="Search Pokémon" autocomplete="off"></label><label class="type-filter"><span class="sr-only">Filter by type</span><select id="type-filter"><option value="">All types</option></select></label></div><div class="catalogue-meta"><span id="result-count" role="status" aria-live="polite"></span><button id="clear" hidden>Clear filters</button><span id="catalogue-hint">SELECT TO EXPLORE</span></div><div id="grid" class="pokemon-grid"></div><div id="empty" class="empty" hidden><h3>No Pokémon found</h3><p>Try another name or type.</p><button id="reset">Reset filters</button></div></div>
-<div class="bottom-hardware"><div class="blue-keys" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div><span>LUCE / PLATINUM PROJECT</span></div>
+<div class="bottom-hardware"><div class="blue-keys" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div></div>
 </section>
 </main>
-<footer><span>A collection of creatures made for Luce.</span><span id="footer-count">24 Pokémon · 10 evolution families</span></footer>
+<footer><span id="footer-count">24 Pokémon · 10 evolution families</span></footer>
 <noscript><p class="noscript">Enable JavaScript to explore the Pokédex.</p></noscript>
 </body></html>

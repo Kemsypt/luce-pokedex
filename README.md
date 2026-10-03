@@ -52,9 +52,15 @@ The animation alternates the supplied poses in a short burst, with a three-displ
 
 ## Content to finish
 
-- Urswirl's final typing needs confirmation, so it is left unset.
-- The enchanted plant family's recovered proposed typings are visibly labelled “Proposed typing”.
 - Descriptions not recovered verbatim remain empty.
 - The sheet named `Elphling_connected.png` is shown under the agreed name **Elphlet**.
 - The ZIP also contained character portraits. These are excluded from this Pokémon-only catalogue.
 - The Pokémon already supplied are included; future creations can be added to `pokemon.js`.
+
+## Mobile update
+
+Phones use sticky **Pokémon entry / Browse Pokémon** tabs. Selecting a card opens its entry. The grid has two columns, controls have larger touch targets, and form fields use 16px text to avoid automatic iPhone input zoom. Upload the new `index.html`, `style.css`, and `app.js` over the previous files to apply this update.
+
+## Confirmed Pokédex data
+
+The supplied Pokédex entries and typings are included verbatim. Cinnecub uses the supplied name spelling; its original `cinnacub` asset path and URL ID are retained for existing links. Descriptions for Andi, Andusk, Andistral, Lemomo and Appaloft remain empty pending their text.
