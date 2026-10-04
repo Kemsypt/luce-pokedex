@@ -2,21 +2,22 @@
 7-Zip 24.08 (x64) : Copyright (c) 1999-2024 Igor Pavlov : 2024-08-11
 
 Scanning the drive for archives:
-1 file, 37416 bytes (37 KiB)
+1 file, 58070 bytes (57 KiB)
 
-Extracting archive: E:\CitiesSkylines\New folder\New folder\Pokedex-Three-Sprite-Update.zip
+Extracting archive: E:\CitiesSkylines\New folder\New folder\Pokedex-Evermore-Additions (1).zip
 --
-Path = E:\CitiesSkylines\New folder\New folder\Pokedex-Three-Sprite-Update.zip
+Path = E:\CitiesSkylines\New folder\New folder\Pokedex-Evermore-Additions (1).zip
 Type = zip
-Physical Size = 37416
+Physical Size = 58070
 
 - index.html
 - pokemon.js
-- assets\schuylaria.png
-- assets\sixsemble.png
-- assets\mantasteel.png
+- assets\champadeer.png
+- assets\willovix.png
+- assets\marjorig.png
+- assets\evetross.png
 Everything is Ok
 
-Files: 5
-Size:       52393
-Compressed: 37416
+Files: 6
+Size:       74146
+Compressed: 58070

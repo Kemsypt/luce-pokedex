@@ -600,5 +600,61 @@ window.POKEMON = [
     "sheet": "assets/mantasteel.png?v=20261004-1920",
     "category": "",
     "typeNote": ""
+  },
+  {
+    "id": "champadeer",
+    "number": 45,
+    "name": "Champadeer",
+    "types": [
+      "Water",
+      "Ghost"
+    ],
+    "family": "Champadeer",
+    "entry": "Its crystal body holds champagne from a celebration that never took place. One antler has gone flat, but it carefully preserves the bubbles in the other.",
+    "sheet": "assets/champadeer.png?v=20261005-0157",
+    "category": "",
+    "typeNote": ""
+  },
+  {
+    "id": "willovix",
+    "number": 46,
+    "name": "Willovix",
+    "types": [
+      "Grass",
+      "Psychic"
+    ],
+    "family": "Willovix",
+    "entry": "Once drawn to a Trainer, it quietly follows wherever their journey leads. Its golden threads tug gently at their sleeves whenever their paths begin to part.",
+    "sheet": "assets/willovix.png?v=20261005-0157",
+    "category": "",
+    "typeNote": ""
+  },
+  {
+    "id": "marjorig",
+    "number": 47,
+    "name": "Marjorig",
+    "types": [
+      "Normal",
+      "Ghost"
+    ],
+    "family": "Marjorig",
+    "entry": "Though the writer of its words is long gone, it still answers in their familiar voice. Its Trainer sometimes catches themselves speaking back.",
+    "sheet": "assets/marjorig.png?v=20261005-0157",
+    "category": "",
+    "typeNote": ""
+  },
+  {
+    "id": "evetross",
+    "number": 48,
+    "name": "Evetross",
+    "types": [
+      "Water",
+      "Flying"
+    ],
+    "family": "Evetross",
+    "entry": "Its sail-like breastplate grows more ragged with every crossing. Though it sometimes fears the wind will never ease, it has never failed to fly again when morning comes.",
+    "sheet": "assets/evetross.png?v=20261005-0157",
+    "category": "",
+    "typeNote": ""
   }
 ];
