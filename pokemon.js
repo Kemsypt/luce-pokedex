@@ -8,7 +8,7 @@ window.POKEMON = [
     ],
     "family": "Andi",
     "entry": "It watches its Trainer from shadowy corners, rarely making a sound. A lingering stare somehow earns it extra snacks, even moments after it has been fed.",
-    "sheet": "assets/andi.png",
+    "sheet": "assets/andi.png?v=20261004-1506",
     "category": "",
     "typeNote": ""
   },
@@ -21,7 +21,7 @@ window.POKEMON = [
     ],
     "family": "Andi",
     "entry": "Its eyes gleam whenever it senses food being prepared. Trainers often forget why they banned it from the kitchen bench after meeting its mysterious gaze.",
-    "sheet": "assets/andusk.png",
+    "sheet": "assets/andusk.png?v=20261004-1506",
     "category": "",
     "typeNote": ""
   },
@@ -35,13 +35,93 @@ window.POKEMON = [
     ],
     "family": "Andi",
     "entry": "It subtly controls its Trainer’s thoughts to secure snacks and food straight from their plate. Those under its influence insist they gave it permission all along.",
-    "sheet": "assets/andistral.png",
+    "sheet": "assets/andistral.png?v=20261004-1506",
+    "category": "",
+    "typeNote": ""
+  },
+  {
+    "id": "rory",
+    "number": 4,
+    "name": "Rory",
+    "types": [
+      "Fire"
+    ],
+    "family": "Rory",
+    "entry": "It seeks out the warmest spot in every room. Trainers often return to find it sleeping on the seat they have just left.",
+    "sheet": "assets/rory.png?v=20261004-1506",
+    "category": "",
+    "typeNote": ""
+  },
+  {
+    "id": "roaryre",
+    "number": 5,
+    "name": "Roaryre",
+    "types": [
+      "Fire"
+    ],
+    "family": "Rory",
+    "entry": "It loves batting at dripping taps and splashing through shallow puddles. Steam rises from its warm paws as it plays, but it hardly seems to notice.",
+    "sheet": "assets/roaryre.png?v=20261004-1506",
+    "category": "",
+    "typeNote": ""
+  },
+  {
+    "id": "roariptide",
+    "number": 6,
+    "name": "Roariptide",
+    "types": [
+      "Fire",
+      "Water"
+    ],
+    "family": "Rory",
+    "entry": "Despite its commanding appearance, it still enjoys warm beds and stolen snacks. Water from its tail betrays it whenever it sneaks onto the kitchen bench.",
+    "sheet": "assets/roariptide.png?v=20261004-1506",
+    "category": "",
+    "typeNote": ""
+  },
+  {
+    "id": "percy",
+    "number": 7,
+    "name": "Percy",
+    "types": [
+      "Fighting"
+    ],
+    "family": "Percy",
+    "entry": "It practises its fighting stance by pouncing on fallen leaves. After a successful strike, it looks around to make sure its Trainer was watching.",
+    "sheet": "assets/percy.png?v=20261004-1506",
+    "category": "",
+    "typeNote": ""
+  },
+  {
+    "id": "purrspar",
+    "number": 8,
+    "name": "Purrspar",
+    "types": [
+      "Fighting"
+    ],
+    "family": "Percy",
+    "entry": "It appears calm even during fierce battles, though its twitching tail reveals its excitement. A faint electrical charge builds in its white paws as it fights.",
+    "sheet": "assets/purrspar.png?v=20261004-1506",
+    "category": "",
+    "typeNote": ""
+  },
+  {
+    "id": "purrvolt",
+    "number": 9,
+    "name": "Purrvolt",
+    "types": [
+      "Fighting",
+      "Electric"
+    ],
+    "family": "Percy",
+    "entry": "It channels electricity through its claws, releasing thunderous strikes with precise movements. Despite its imposing appearance, it still gently kneads its Trainer’s lap before settling down.",
+    "sheet": "assets/purrvolt.png?v=20261004-1506",
     "category": "",
     "typeNote": ""
   },
   {
     "id": "cinnacub",
-    "number": 4,
+    "number": 10,
     "name": "Cinnecub",
     "types": [
       "Normal"
@@ -54,7 +134,7 @@ window.POKEMON = [
   },
   {
     "id": "urswirl",
-    "number": 5,
+    "number": 11,
     "name": "Urswirl",
     "types": [
       "Normal",
@@ -68,7 +148,7 @@ window.POKEMON = [
   },
   {
     "id": "cocobean",
-    "number": 6,
+    "number": 12,
     "name": "Cocobean",
     "types": [
       "Ground"
@@ -81,7 +161,7 @@ window.POKEMON = [
   },
   {
     "id": "mochurl",
-    "number": 7,
+    "number": 13,
     "name": "Mochurl",
     "types": [
       "Ground",
@@ -95,7 +175,7 @@ window.POKEMON = [
   },
   {
     "id": "chocobrew",
-    "number": 8,
+    "number": 14,
     "name": "Chocobrew",
     "types": [
       "Steel",
@@ -109,7 +189,7 @@ window.POKEMON = [
   },
   {
     "id": "crowblaze",
-    "number": 9,
+    "number": 15,
     "name": "Crowblaze",
     "types": [
       "Flying",
@@ -123,7 +203,7 @@ window.POKEMON = [
   },
   {
     "id": "portvolt",
-    "number": 10,
+    "number": 16,
     "name": "Portvolt",
     "types": [
       "Electric",
@@ -137,7 +217,7 @@ window.POKEMON = [
   },
   {
     "id": "shriekling",
-    "number": 11,
+    "number": 17,
     "name": "Shriekling",
     "types": [
       "Grass"
@@ -150,7 +230,7 @@ window.POKEMON = [
   },
   {
     "id": "stranglevine",
-    "number": 12,
+    "number": 18,
     "name": "Stranglevine",
     "types": [
       "Grass",
@@ -164,7 +244,7 @@ window.POKEMON = [
   },
   {
     "id": "willowrath",
-    "number": 13,
+    "number": 19,
     "name": "Willowrath",
     "types": [
       "Grass",
@@ -178,7 +258,7 @@ window.POKEMON = [
   },
   {
     "id": "galindlet",
-    "number": 14,
+    "number": 20,
     "name": "Galindlet",
     "types": [
       "Psychic"
@@ -191,7 +271,7 @@ window.POKEMON = [
   },
   {
     "id": "glindora",
-    "number": 15,
+    "number": 21,
     "name": "Glindora",
     "types": [
       "Psychic",
@@ -205,7 +285,7 @@ window.POKEMON = [
   },
   {
     "id": "elphlet",
-    "number": 16,
+    "number": 22,
     "name": "Elphlet",
     "types": [
       "Psychic"
@@ -218,7 +298,7 @@ window.POKEMON = [
   },
   {
     "id": "dephyba",
-    "number": 17,
+    "number": 23,
     "name": "Dephyba",
     "types": [
       "Psychic",
@@ -232,7 +312,7 @@ window.POKEMON = [
   },
   {
     "id": "basilurk",
-    "number": 18,
+    "number": 24,
     "name": "Basilurk",
     "types": [
       "Poison",
@@ -246,7 +326,7 @@ window.POKEMON = [
   },
   {
     "id": "lemomo",
-    "number": 19,
+    "number": 25,
     "name": "Lemomo",
     "types": [
       "Normal",
@@ -260,7 +340,7 @@ window.POKEMON = [
   },
   {
     "id": "appaloft",
-    "number": 20,
+    "number": 26,
     "name": "Apalof",
     "types": [
       "Normal",
@@ -274,7 +354,7 @@ window.POKEMON = [
   },
   {
     "id": "smiskit",
-    "number": 21,
+    "number": 27,
     "name": "Smiskit",
     "types": [
       "Normal",
@@ -288,7 +368,7 @@ window.POKEMON = [
   },
   {
     "id": "smistrio",
-    "number": 22,
+    "number": 28,
     "name": "Smistrio",
     "types": [
       "Normal",
@@ -302,7 +382,7 @@ window.POKEMON = [
   },
   {
     "id": "smisquin",
-    "number": 23,
+    "number": 29,
     "name": "Smisquin",
     "types": [
       "Normal",
@@ -316,7 +396,7 @@ window.POKEMON = [
   },
   {
     "id": "plumbgeist",
-    "number": 24,
+    "number": 30,
     "name": "Plumbgeist",
     "types": [
       "Ghost",

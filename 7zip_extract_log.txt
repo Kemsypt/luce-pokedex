@@ -1,0 +1,28 @@
+
+7-Zip 24.08 (x64) : Copyright (c) 1999-2024 Igor Pavlov : 2024-08-11
+
+Scanning the drive for archives:
+1 file, 111130 bytes (109 KiB)
+
+Extracting archive: E:\CitiesSkylines\New folder\New folder\Pokedex-Starter-Update (1).zip
+--
+Path = E:\CitiesSkylines\New folder\New folder\Pokedex-Starter-Update (1).zip
+Type = zip
+Physical Size = 111130
+
+- pokemon.js
+- index.html
+- assets\andi.png
+- assets\andusk.png
+- assets\andistral.png
+- assets\rory.png
+- assets\roaryre.png
+- assets\roariptide.png
+- assets\percy.png
+- assets\purrspar.png
+- assets\purrvolt.png
+Everything is Ok
+
+Files: 11
+Size:       121164
+Compressed: 111130

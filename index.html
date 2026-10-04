@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="theme-color" content="#be253a"><meta name="description" content="Meet the custom Pokémon of Luce: an animated Pokédex of original creatures, stories and evolution families.">
-<title>Luce Pokédex</title><link rel="icon" href="favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="style.css">
-<script src="pokemon.js" defer></script><script src="app.js" defer></script>
+<title>Luce Pokédex</title><link rel="icon" href="favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="style.css?v=20261004-1506">
+<script src="pokemon.js?v=20261004-1506" defer></script><script src="app.js?v=20261004-1506" defer></script>
 </head>
 <body>
 
@@ -13,21 +13,21 @@
 <section class="left-shell" aria-label="Selected Pokémon">
 <div class="hardware"><div class="lens" aria-hidden="true"></div><div class="indicator red" aria-hidden="true"></div><div class="indicator gold" aria-hidden="true"></div><div class="indicator green" aria-hidden="true"></div><span class="hardware-label">POKÉDEX / LUCE</span></div>
 <div class="screen-frame"><div class="screen">
-<div class="screen-top"><span id="selected-number">NO. 004</span><span id="view-label">FRONT VIEW</span></div>
-<div class="sprite-stage"><div class="stage-grid" aria-hidden="true"></div><div class="stage-ring" aria-hidden="true"></div><canvas id="main-sprite" width="80" height="80" role="img" aria-label="Cinnacub front sprite"></canvas><p id="image-error" hidden>Sprite unavailable</p></div>
+<div class="screen-top"><span id="selected-number">NO. 010</span><span id="view-label">FRONT VIEW</span></div>
+<div class="sprite-stage"><div class="stage-grid" aria-hidden="true"></div><div class="stage-ring" aria-hidden="true"></div><canvas id="main-sprite" width="80" height="80" role="img" aria-label="Cinnecub front sprite"></canvas><p id="image-error" hidden>Sprite unavailable</p></div>
 <div class="screen-bottom"><span>SPECIES RECORD</span><span id="frame-status">01 / 02</span></div>
 </div><div class="frame-bottom"><span class="red-dot" aria-hidden="true"></span><div class="speaker" aria-hidden="true"></div></div></div>
 <div class="sprite-controls"><div class="segmented" aria-label="Sprite view"><button id="front" class="active" aria-pressed="true">Front</button><button id="back" aria-pressed="false">Back</button></div><button class="small-button" id="replay" aria-label="Replay sprite animation">↻ Replay</button><button class="small-button" id="animate" aria-pressed="true">Animation on</button></div>
-<div class="entry-panel"><div class="entry-heading"><div><p class="eyebrow" id="category">POKÉMON</p><h1 id="name">Cinnacub</h1></div><div id="types" class="types"></div></div><p class="type-note" id="type-note" hidden></p><p id="entry" class="dex-entry"></p><div class="evolution-head"><h2>Evolution family</h2><span id="family-count"></span></div><div id="evolution" class="evolution"></div></div>
+<div class="entry-panel"><div class="entry-heading"><div><p class="eyebrow" id="category">POKÉMON</p><h1 id="name">Cinnecub</h1></div><div id="types" class="types"></div></div><p class="type-note" id="type-note" hidden></p><p id="entry" class="dex-entry"></p><div class="evolution-head"><h2>Evolution family</h2><span id="family-count"></span></div><div id="evolution" class="evolution"></div></div>
 <div class="navigation"><button id="previous" aria-label="Previous Pokémon">‹</button><span id="position"></span><button id="next" aria-label="Next Pokémon">›</button></div>
 </section>
 <div class="hinge" aria-hidden="true"><i></i><i></i><i></i></div>
 <section class="right-shell" aria-label="Pokémon collection">
-<div class="collection-heading"><div><p class="eyebrow">YOUR DISCOVERIES</p><h2>Pokémon index</h2></div><span class="collection-count"><b id="total">24</b> Pokémon</span></div>
+<div class="collection-heading"><div><p class="eyebrow">YOUR DISCOVERIES</p><h2>Pokémon index</h2></div><span class="collection-count"><b id="total">30</b> Pokémon</span></div>
 <div class="catalogue"><div class="filters"><label class="search"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="Search Pokémon…" aria-label="Search Pokémon" autocomplete="off"></label><label class="type-filter"><span class="sr-only">Filter by type</span><select id="type-filter"><option value="">All types</option></select></label></div><div class="catalogue-meta"><span id="result-count" role="status" aria-live="polite"></span><button id="clear" hidden>Clear filters</button><span id="catalogue-hint">SELECT TO EXPLORE</span></div><div id="grid" class="pokemon-grid"></div><div id="empty" class="empty" hidden><h3>No Pokémon found</h3><p>Try another name or type.</p><button id="reset">Reset filters</button></div></div>
 <div class="bottom-hardware"><div class="blue-keys" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div></div>
 </section>
 </main>
-<footer><span id="footer-count">24 Pokémon · 10 evolution families</span></footer>
+<footer><span id="footer-count">30 Pokémon · 14 evolution families</span></footer>
 <noscript><p class="noscript">Enable JavaScript to explore the Pokédex.</p></noscript>
 </body></html>
