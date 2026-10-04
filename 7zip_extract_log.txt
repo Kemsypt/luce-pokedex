@@ -2,27 +2,22 @@
 7-Zip 24.08 (x64) : Copyright (c) 1999-2024 Igor Pavlov : 2024-08-11
 
 Scanning the drive for archives:
-1 file, 111130 bytes (109 KiB)
+1 file, 50174 bytes (49 KiB)
 
-Extracting archive: E:\CitiesSkylines\New folder\New folder\Pokedex-Starter-Update (1).zip
+Extracting archive: E:\CitiesSkylines\New folder\New folder\Pokedex-Hamilton-Update.zip
 --
-Path = E:\CitiesSkylines\New folder\New folder\Pokedex-Starter-Update (1).zip
+Path = E:\CitiesSkylines\New folder\New folder\Pokedex-Hamilton-Update.zip
 Type = zip
-Physical Size = 111130
+Physical Size = 50174
 
-- pokemon.js
 - index.html
-- assets\andi.png
-- assets\andusk.png
-- assets\andistral.png
-- assets\rory.png
-- assets\roaryre.png
-- assets\roariptide.png
-- assets\percy.png
-- assets\purrspar.png
-- assets\purrvolt.png
+- pokemon.js
+- assets\hamilark.png
+- assets\revolquill.png
+- assets\foundalon.png
+- assets\georgal.png
 Everything is Ok
 
-Files: 11
-Size:       121164
-Compressed: 111130
+Files: 6
+Size:       61976
+Compressed: 50174

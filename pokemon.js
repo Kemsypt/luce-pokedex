@@ -407,5 +407,60 @@ window.POKEMON = [
     "sheet": "assets/plumbgeist.png",
     "category": "",
     "typeNote": ""
+  },
+  {
+    "id": "hamilark",
+    "number": 31,
+    "name": "Hamilark",
+    "types": [
+      "Flying"
+    ],
+    "family": "Hamilark",
+    "entry": "Small but fiercely ambitious, it sings about the great things it will accomplish. Its flock often struggles to get a word in.",
+    "sheet": "assets/hamilark.png?v=20261004-1559",
+    "category": "",
+    "typeNote": ""
+  },
+  {
+    "id": "revolquill",
+    "number": 32,
+    "name": "Revolquill",
+    "types": [
+      "Flying",
+      "Fighting"
+    ],
+    "family": "Hamilark",
+    "entry": "It writes declarations on its parchment tail before battle. Though its allies urge caution, it rarely lets an opportunity pass.",
+    "sheet": "assets/revolquill.png?v=20261004-1559",
+    "category": "",
+    "typeNote": ""
+  },
+  {
+    "id": "foundalon",
+    "number": 33,
+    "name": "Foundalon",
+    "types": [
+      "Flying",
+      "Steel"
+    ],
+    "family": "Hamilark",
+    "entry": "Its steel-tipped quill records rules that help rival flocks live together. It fiercely defends these agreements, including clauses nobody else remembers.",
+    "sheet": "assets/foundalon.png?v=20261004-1559",
+    "category": "",
+    "typeNote": ""
+  },
+  {
+    "id": "georgal",
+    "number": 34,
+    "name": "Georgal",
+    "types": [
+      "Normal",
+      "Dark"
+    ],
+    "family": "Georgal",
+    "entry": "It considers every Pokémon in its territory a loyal subject. Those that leave are greeted with cheerful cries that grow increasingly threatening.",
+    "sheet": "assets/georgal.png?v=20261004-1559",
+    "category": "",
+    "typeNote": ""
   }
 ];
