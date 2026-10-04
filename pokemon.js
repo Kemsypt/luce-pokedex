@@ -472,7 +472,7 @@ window.POKEMON = [
     ],
     "family": "Elizbud",
     "entry": "It preserves FOUNDALON’s writings through songs taught to younger Pokémon. Long after the parchment fades, its words live on beneath flowering branches.",
-    "sheet": "assets/schuylaria.png?v=20261004-1854",
+    "sheet": "assets/schuylaria.png?v=20261004-1920",
     "category": "",
     "typeNote": ""
   },
@@ -500,7 +500,7 @@ window.POKEMON = [
     ],
     "family": "Sixsemble",
     "entry": "Its members once argued over which had suffered the most. Now they draw strength from one another, weaving their memories into dazzling psychic performances.",
-    "sheet": "assets/sixsemble.png?v=20261004-1854",
+    "sheet": "assets/sixsemble.png?v=20261004-1920",
     "category": "",
     "typeNote": ""
   },
@@ -597,7 +597,7 @@ window.POKEMON = [
     ],
     "family": "Mantasteel",
     "entry": "Sunlight restores its strength as it glides above the clouds. When it hears a cry for help, it descends faster than the eye can follow.",
-    "sheet": "assets/mantasteel.png?v=20261004-1854",
+    "sheet": "assets/mantasteel.png?v=20261004-1920",
     "category": "",
     "typeNote": ""
   }
