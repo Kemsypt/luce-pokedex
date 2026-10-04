@@ -450,8 +450,35 @@ window.POKEMON = [
     "typeNote": ""
   },
   {
-    "id": "georgal",
+    "id": "elizbud",
     "number": 34,
+    "name": "Elizbud",
+    "types": [
+      "Flying"
+    ],
+    "family": "Elizbud",
+    "entry": "It gathers scraps of parchment dropped by HAMILARK. Though the writing means little to it, it recognises the care behind every mark.",
+    "sheet": "assets/elizbud.png?v=20261004-1902",
+    "category": "",
+    "typeNote": ""
+  },
+  {
+    "id": "schuylaria",
+    "number": 35,
+    "name": "Schuylaria",
+    "types": [
+      "Flying",
+      "Grass"
+    ],
+    "family": "Elizbud",
+    "entry": "It preserves FOUNDALON’s writings through songs taught to younger Pokémon. Long after the parchment fades, its words live on beneath flowering branches.",
+    "sheet": "assets/schuylaria.png?v=20261004-1854",
+    "category": "",
+    "typeNote": ""
+  },
+  {
+    "id": "georgal",
+    "number": 36,
     "name": "Georgal",
     "types": [
       "Normal",
@@ -460,6 +487,117 @@ window.POKEMON = [
     "family": "Georgal",
     "entry": "It considers every Pokémon in its territory a loyal subject. Those that leave are greeted with cheerful cries that grow increasingly threatening.",
     "sheet": "assets/georgal.png?v=20261004-1559",
+    "category": "",
+    "typeNote": ""
+  },
+  {
+    "id": "sixsemble",
+    "number": 37,
+    "name": "Sixsemble",
+    "types": [
+      "Ghost",
+      "Psychic"
+    ],
+    "family": "Sixsemble",
+    "entry": "Its members once argued over which had suffered the most. Now they draw strength from one another, weaving their memories into dazzling psychic performances.",
+    "sheet": "assets/sixsemble.png?v=20261004-1854",
+    "category": "",
+    "typeNote": ""
+  },
+  {
+    "id": "molly",
+    "number": 38,
+    "name": "Molly",
+    "types": [
+      "Grass",
+      "Ground"
+    ],
+    "family": "Molly",
+    "entry": "Despite its earthy paws and moss-covered coat, it insists on greeting its Trainer with a full-body cuddle. Fallen leaves mark every place it has been.",
+    "sheet": "assets/molly.png?v=20261004-1902",
+    "category": "",
+    "typeNote": ""
+  },
+  {
+    "id": "poppy",
+    "number": 39,
+    "name": "Poppy",
+    "types": [
+      "Rock",
+      "Water"
+    ],
+    "family": "Poppy",
+    "entry": "It proudly brings its Trainer smooth pebbles collected from riverbeds. It seems unaware that these are rarely the things it was asked to fetch.",
+    "sheet": "assets/poppy.png?v=20261004-1902",
+    "category": "",
+    "typeNote": ""
+  },
+  {
+    "id": "retrireef",
+    "number": 40,
+    "name": "Retrireef",
+    "types": [
+      "Rock",
+      "Water"
+    ],
+    "family": "Poppy",
+    "entry": "It patrols rocky coastlines, listening for cries beneath the surf. Its powerful tail lets it swim through currents that would sweep other Pokémon away.",
+    "sheet": "assets/retrireef.png?v=20261004-1902",
+    "category": "",
+    "typeNote": ""
+  },
+  {
+    "id": "george",
+    "number": 41,
+    "name": "George",
+    "types": [
+      "Ice"
+    ],
+    "family": "George",
+    "entry": "It eagerly follows footprints through fresh snow. Upon finding their owner, it celebrates as though it has completed a daring rescue.",
+    "sheet": "assets/george.png?v=20261004-1902",
+    "category": "",
+    "typeNote": ""
+  },
+  {
+    "id": "brrnard",
+    "number": 42,
+    "name": "Brrnard",
+    "types": [
+      "Ice",
+      "Ground"
+    ],
+    "family": "George",
+    "entry": "It practises rescue work by pulling its Trainer through snowdrifts. Unfortunately, it rarely checks whether they need rescuing first.",
+    "sheet": "assets/brrnard.png?v=20261004-1902",
+    "category": "",
+    "typeNote": ""
+  },
+  {
+    "id": "georglacier",
+    "number": 43,
+    "name": "Georglacier",
+    "types": [
+      "Ice",
+      "Ground"
+    ],
+    "family": "George",
+    "entry": "Despite its immense size, it still tries to curl up beside its Trainer. The resulting snowdrift usually leaves only their head visible.",
+    "sheet": "assets/georglacier.png?v=20261004-1902",
+    "category": "",
+    "typeNote": ""
+  },
+  {
+    "id": "mantasteel",
+    "number": 44,
+    "name": "Mantasteel",
+    "types": [
+      "Steel",
+      "Flying"
+    ],
+    "family": "Mantasteel",
+    "entry": "Sunlight restores its strength as it glides above the clouds. When it hears a cry for help, it descends faster than the eye can follow.",
+    "sheet": "assets/mantasteel.png?v=20261004-1854",
     "category": "",
     "typeNote": ""
   }

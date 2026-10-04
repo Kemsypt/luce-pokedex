@@ -2,22 +2,25 @@
 7-Zip 24.08 (x64) : Copyright (c) 1999-2024 Igor Pavlov : 2024-08-11
 
 Scanning the drive for archives:
-1 file, 50174 bytes (49 KiB)
+1 file, 74841 bytes (74 KiB)
 
-Extracting archive: E:\CitiesSkylines\New folder\New folder\Pokedex-Hamilton-Update.zip
+Extracting archive: E:\CitiesSkylines\New folder\New folder\Pokedex-Art-Order-Update.zip
 --
-Path = E:\CitiesSkylines\New folder\New folder\Pokedex-Hamilton-Update.zip
+Path = E:\CitiesSkylines\New folder\New folder\Pokedex-Art-Order-Update.zip
 Type = zip
-Physical Size = 50174
+Physical Size = 74841
 
 - index.html
 - pokemon.js
-- assets\hamilark.png
-- assets\revolquill.png
-- assets\foundalon.png
-- assets\georgal.png
+- assets\elizbud.png
+- assets\georglacier.png
+- assets\brrnard.png
+- assets\george.png
+- assets\molly.png
+- assets\retrireef.png
+- assets\poppy.png
 Everything is Ok
 
-Files: 6
-Size:       61976
-Compressed: 50174
+Files: 9
+Size:       89377
+Compressed: 74841
