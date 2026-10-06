@@ -656,5 +656,58 @@ window.POKEMON = [
     "sheet": "assets/evetross.png?v=20261005-0157",
     "category": "",
     "typeNote": ""
+  },
+  {
+    "id": "hermiamore",
+    "number": 49,
+    "name": "Hermiamorè",
+    "types": [
+      "Normal"
+    ],
+    "family": "Hermiamorè",
+    "entry": "It instinctively reaches for its first Trainer whenever they sit down. Other Pokémon grow jealous of its familiar place in their lap, but it never notices.",
+    "sheet": "assets/hermiamore.png?v=20261007-0046",
+    "category": "",
+    "typeNote": ""
+  },
+  {
+    "id": "maxling",
+    "number": 50,
+    "name": "Maxling",
+    "types": [
+      "Dragon"
+    ],
+    "family": "Maxling",
+    "entry": "It shelters beneath fallen rubble with others of its kind. When danger draws near, its scarlet magic holds collapsing stones above their heads.",
+    "sheet": "assets/maxling.png?v=20261007-0046",
+    "category": "",
+    "typeNote": ""
+  },
+  {
+    "id": "scarldrake",
+    "number": 51,
+    "name": "Scarldrake",
+    "types": [
+      "Dragon"
+    ],
+    "family": "Maxling",
+    "entry": "It fears hurting those it wants to protect and sometimes refuses to battle. Trusted companions help it find the courage to use its power again.",
+    "sheet": "assets/scarldrake.png?v=20261007-0046",
+    "category": "",
+    "typeNote": ""
+  },
+  {
+    "id": "chaosigil",
+    "number": 52,
+    "name": "Chaosigil",
+    "types": [
+      "Dragon",
+      "Dark"
+    ],
+    "family": "Maxling",
+    "entry": "Seeing those it loves recoil in fear can break its obsession. Legends tell of one that buried itself beneath a mountain to destroy the cursed source of its power.",
+    "sheet": "assets/chaosigil.png?v=20261007-0046",
+    "category": "",
+    "typeNote": ""
   }
 ];
