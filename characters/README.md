@@ -1,17 +1,39 @@
-# Luce Character Tracker
+# Platinum character index
 
-Open `index.html` locally, or use the `/characters/` section of the GitHub Pages website. The main Pokédex remains at the repository root.
+The existing Pokédex remains the main site. The character index lives at `/characters/` and has three views:
 
-The notebook provides original Pokémon Platinum profiles, chronological encounter references, trainer teams, starter branches, editable replacement profiles and images, per-encounter custom teams and dialogue plans, linked dependencies, and a manual ROM change/testing log.
+- **Official** shows original Pokémon Platinum reference information, character artwork, Pokémon artwork, appearances, teams and gifts. It has no editing or backup controls.
+- **Luce’s Version** is read-only and shows only explicitly confirmed values. An unconfirmed name, profile field, image, appearance or team stays blank. It never falls back to the original or a draft.
+- **Drafts** contains editable profile fields, custom images, appearance notes, team plans, the changes/testing log, import/export and confirmation controls. Original reference information stays alongside the editable fields.
 
-## Saving your work
+The bottom-right view switch retains the character and tab, open timeline entries, filter and scroll position. Changes & testing falls back to Profile in read-only views and returns when switching back to Drafts.
 
-Edits save to IndexedDB on this browser, with a localStorage fallback. They are not automatically committed to GitHub, synchronised between devices or detected from the ROM. **Export backup** downloads the complete notebook as JSON, including replacement images. **Import backup** replaces the current browser notebook after confirmation. Export your current notebook before replacing it. CSV export is a flat checklist report, not a complete restore file.
+## Existing data and local storage
 
-The original reference data is in `data.js`. Local data is separate and survives updates to the original reference files, provided character and encounter IDs are retained. Default checklist items appear when a profile is first opened. All profiles begin with seven editable checklist items. Mum is prefilled as Louisa; player as Luce. Taylor-era assignments remain blank.
+Drafts use the existing IndexedDB database `luce-platinum-character-notebook-v1`, object store `notebook`, key `current`; localStorage is the fallback. Version 1 notebooks migrate to version 2. A pre-migration copy is kept at `pre-v2` (or the localStorage key ending `-pre-v2`). Existing replacement names, notes, images, team variations and tested/edited statuses are preserved as **drafts**, never automatically confirmed. Character and appearance IDs are unchanged.
 
-## Reference conventions
+Complete JSON backups contain drafts, images, confirmed copies and the latest 200 confirmation-history records. Version 1 and version 2 backups can be restored. Import replaces the local notebook and does not alter the repository. CSV export contains the private change log.
 
-A continuous scene or encounter is one timeline entry. Repeatable visits and battle tiers are separate from unique scenes; the dashboard counts documented entries rather than claiming an exhaustive count of all conversations. Partner teams count as team-bearing encounters. Starter branches share the same encounter, with separate teams. Optional and postgame content is marked. Source notes describe missing or uncertain details. Character pages link to their sources; image provenance is retained with each image record.
+## Confirmed changes and publication
 
-Pokémon characters and graphics © Nintendo / Game Freak / Creatures. This is an unofficial personal fan project.
+Each profile field, replacement image, appearance field and team variant has its own confirmation button. Confirming creates a separate value snapshot with date and ROM build; subsequent draft edits do not change it. Confirm again to update the snapshot, or withdraw to return that field to blank. Withdrawal records prevent a previously published value from reappearing locally. A draft status of Edited/Tested alone never confirms anything.
+
+Confirmation is local until publication. To share the same read-only Luce’s Version across devices:
+
+1. In Drafts, export the confirmed snapshot as `confirmed.json`.
+2. Replace `characters/confirmed.json` in this repository and commit to main.
+3. GitHub Pages serves that snapshot on subsequent page loads.
+
+The GitHub uploader is linked in Drafts. The exported file can also be provided to an assistant with repository write access for publication. No access token is embedded in this public static site. The shared snapshot contains only approved profile/appearance values, images, team variants and confirmation metadata; private project notes, DSPRE locations, testing details and change logs are excluded. Newer local confirmations are merged with the published snapshot by confirmation date. Publish the latest export to synchronize those changes.
+
+An empty shared snapshot is supplied initially; local draft work is not published by this update.
+
+## Reference information and artwork
+
+`data.js` contains the canonical Platinum profiles and 191 timeline entries. Appearances are marked for battles, partner battles, gifts, item/HM rewards, progression, repeatable visits, optional events, postgame, tutorials, contests and facilities. Starter branches share an appearance but have independent party variants. Contest parties and Battle Tower pools are distinguished from fixed Trainer battles. Coverage is documented in linked sources, including grouped dialogue states; this index does not claim to list every possible line or visit.
+
+Character artwork and game sprites are served from `images/`. `pokemon-art.js` maps 116 associated original species to official artwork and Platinum sprites in the PokeAPI sprite archive. Table entries, gift Pokémon and other documented Pokémon are illustrated. A Platinum sprite is used if the artwork cannot load. Pokémon artwork belongs to Nintendo / Game Freak / Creatures, and reference sources are linked in the UI.
+
+Confirmed custom Pokémon can display existing sprites from the main Pokédex via its unchanged `pokemon.js` manifest. The main Pokédex files and completion-tracking storage are not modified by the character view update.
+
+This is a static notebook: it records ROM changes manually and does not modify a ROM. Drafts remain in the browser until exported; clearing site storage removes them. Use complete backups to keep a durable copy.

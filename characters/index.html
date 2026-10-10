@@ -2,16 +2,17 @@
 <html lang="en-AU">
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#a5233b">
-<meta name="description" content="Luce's Pokémon Platinum character reference and ROM customisation tracker.">
-<title>Character Tracker · Luce</title><link rel="icon" href="../favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="style.css?v=1">
-<script src="data.js?v=1" defer></script><script src="app.js?v=1" defer></script>
+<meta name="description" content="Browse official Pokémon Platinum characters, Luce’s confirmed changes, and private editable drafts.">
+<title>Official Character Index · Luce</title><link rel="icon" href="../favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="style.css?v=3-modes">
+<script src="../pokemon.js" defer></script><script src="data.js?v=3-modes" defer></script><script src="pokemon-art.js?v=3-modes" defer></script><script src="app.js?v=3-modes" defer></script>
 </head>
 <body>
 <header class="topbar"><a class="brand" href="../"><span class="brand-mark">L</span><span>LUCE <small>PROJECT NOTEBOOK</small></span></a><nav aria-label="Project sections"><a href="../">Pokédex</a><a href="#" aria-current="page">Characters</a><a href="https://github.com/Kemsypt/luce-pokedex" target="_blank" rel="noopener">GitHub ↗</a></nav></header>
 <div class="workspace">
-<aside class="sidebar"><div class="sidebar-title"><span class="eyebrow">PLATINUM / CAST</span><a href="#" class="home-link">Character index <span>↗</span></a></div><label class="search-label"><span class="sr-only">Search characters</span><input id="search" type="search" placeholder="Search name or replacement…" autocomplete="off"></label><label class="sr-only" for="group">Character group</label><select id="group"><option value="">All characters</option></select><div id="character-nav"></div><div class="sidebar-bottom"><p id="save-status" role="status">Loading your notebook…</p><button id="export">↓ Export backup</button><button id="import">↑ Import backup</button><input id="import-file" type="file" accept="application/json,.json" hidden><p class="storage-note">Edits save on this browser. Export a backup to use another device. ROM edits are recorded manually.</p></div></aside>
+<aside class="sidebar"><div class="sidebar-title"><span class="eyebrow" id="mode-label">Official</span><a href="#" class="home-link"><span id="index-heading">Official character index</span><span aria-hidden="true">↗</span></a></div><label class="search-label"><span class="sr-only">Search characters</span><input id="search" type="search" placeholder="Search official characters…" autocomplete="off"></label><label class="sr-only" for="group">Character group</label><select id="group"><option value="">All characters</option></select><div id="character-nav"></div><p class="storage-note" id="reference-note">Original Pokémon Platinum reference. Read-only.</p><div class="sidebar-bottom" id="draft-tools" hidden><p id="save-status" role="status">Loading drafts…</p><button id="export">↓ Export complete backup</button><button id="import">↑ Import backup</button><input id="import-file" type="file" accept="application/json,.json" hidden><p class="storage-note">Drafts and confirmations save on this browser. Export a complete backup to keep them. Publish the confirmed snapshot to share Luce’s Version across devices.</p></div></aside>
 <main id="main" tabindex="-1"><p class="loading">Opening the character notebook…</p></main>
 </div>
+<div class="mode-switch" role="group" aria-label="Character index mode"><button data-mode="official" class="active" aria-pressed="true">Official</button><button data-mode="luce" aria-pressed="false">Luce’s Version</button><button data-mode="drafts" aria-pressed="false">Drafts</button></div>
 <div id="toast" role="status" aria-live="polite" hidden></div>
 <dialog id="import-dialog"><h2>Restore this notebook?</h2><p id="import-summary"></p><p>The imported backup will replace this browser’s notebook. Export your current work first if you need to keep it.</p><div class="actions"><button id="import-cancel">Cancel</button><button id="import-confirm" class="primary">Restore backup</button></div></dialog>
 <noscript><p class="notice">Enable JavaScript to browse characters and save customisations.</p></noscript>

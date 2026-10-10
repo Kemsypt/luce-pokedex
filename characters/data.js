@@ -3,10 +3,10 @@ window.CHARACTERS = [
     "id": "barry",
     "name": "Barry",
     "category": "Story",
-    "role": "Childhood friend and rival; begins alongside Luce, repeatedly tests her team, and partners against Team Galactic.",
+    "role": "Childhood friend and rival; begins alongside the player, repeatedly tests her team, and partners against Team Galactic.",
     "personality": "Impatient, energetic, boastful and loyal. His loss at Lake Acuity moves him towards responsibility and effort rather than simply winning.",
     "relationships": [
-      "Luce: childhood friend / rival",
+      "the player: childhood friend / rival",
       "Palmer: father and Tower Tycoon",
       "Mum and his mother: friends",
       "Crasher Wake: self-appointed mentor",
@@ -39,12 +39,19 @@ window.CHARACTERS = [
       {
         "id": "opening-room",
         "title": "Opening visit",
-        "location": "Luce’s room, Twinleaf Town",
+        "location": "the player’s room, Twinleaf Town",
         "phase": "Main story",
         "optional": false,
-        "summary": "Watches the Rowan TV programme with Luce and proposes getting Pokémon.",
+        "summary": "Watches the Rowan TV programme with the player and proposes getting Pokémon.",
         "teams": [],
-        "repeatable": false
+        "repeatable": false,
+        "tags": [],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Barry_(game)",
+          "https://bulbapedia.bulbagarden.net/wiki/Barry_(game)/Quotes",
+          "https://bulbapedia.bulbagarden.net/wiki/Barry_(game)/Platinum",
+          "https://bulbapedia.bulbagarden.net/wiki/Talk:Barry_(game)/Platinum"
+        ]
       },
       {
         "id": "barry-house",
@@ -52,9 +59,16 @@ window.CHARACTERS = [
         "location": "Barry’s house, Twinleaf Town",
         "phase": "Main story",
         "optional": false,
-        "summary": "Crashes into Luce outside, then retrieves his Bag and Journal upstairs.",
+        "summary": "Crashes into the player outside, then retrieves his Bag and Journal upstairs.",
         "teams": [],
-        "repeatable": false
+        "repeatable": false,
+        "tags": [],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Barry_(game)",
+          "https://bulbapedia.bulbagarden.net/wiki/Barry_(game)/Quotes",
+          "https://bulbapedia.bulbagarden.net/wiki/Barry_(game)/Platinum",
+          "https://bulbapedia.bulbagarden.net/wiki/Talk:Barry_(game)/Platinum"
+        ]
       },
       {
         "id": "starter",
@@ -62,10 +76,10 @@ window.CHARACTERS = [
         "location": "Route 201",
         "phase": "Main story",
         "optional": false,
-        "summary": "Attempts to cross the grass; Rowan intervenes. Chooses the stronger starter slot and challenges Luce. This battle can be lost without blocking progress.",
+        "summary": "Attempts to cross the grass; Rowan intervenes. Chooses the stronger starter slot and challenges the player. This battle can be lost without blocking progress.",
         "teams": [
           {
-            "label": "Luce chose Turtwig → Andi",
+            "label": "Player chose Turtwig",
             "pokemon": [
               {
                 "species": "Chimchar",
@@ -80,7 +94,7 @@ window.CHARACTERS = [
             ]
           },
           {
-            "label": "Luce chose Chimchar → Rory",
+            "label": "Player chose Chimchar",
             "pokemon": [
               {
                 "species": "Piplup",
@@ -95,7 +109,7 @@ window.CHARACTERS = [
             ]
           },
           {
-            "label": "Luce chose Piplup → Percy",
+            "label": "Player chose Piplup",
             "pokemon": [
               {
                 "species": "Turtwig",
@@ -110,7 +124,17 @@ window.CHARACTERS = [
             ]
           }
         ],
-        "repeatable": false
+        "repeatable": false,
+        "tags": [
+          "Battle",
+          "Progression"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Barry_(game)",
+          "https://bulbapedia.bulbagarden.net/wiki/Barry_(game)/Quotes",
+          "https://bulbapedia.bulbagarden.net/wiki/Barry_(game)/Platinum",
+          "https://bulbapedia.bulbagarden.net/wiki/Talk:Barry_(game)/Platinum"
+        ]
       },
       {
         "id": "lake-trip",
@@ -120,7 +144,14 @@ window.CHARACTERS = [
         "optional": false,
         "summary": "After the Running Shoes, proposes catching the legendary Pokémon. Encounters Cyrus and realises neither has Poké Balls.",
         "teams": [],
-        "repeatable": false
+        "repeatable": false,
+        "tags": [],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Barry_(game)",
+          "https://bulbapedia.bulbagarden.net/wiki/Barry_(game)/Quotes",
+          "https://bulbapedia.bulbagarden.net/wiki/Barry_(game)/Platinum",
+          "https://bulbapedia.bulbagarden.net/wiki/Talk:Barry_(game)/Platinum"
+        ]
       },
       {
         "id": "sandgem",
@@ -128,9 +159,16 @@ window.CHARACTERS = [
         "location": "Sandgem Town",
         "phase": "Main story",
         "optional": false,
-        "summary": "Rushes out of Rowan’s laboratory and bumps into Luce.",
+        "summary": "Rushes out of Rowan’s laboratory and bumps into the player.",
         "teams": [],
-        "repeatable": false
+        "repeatable": false,
+        "tags": [],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Barry_(game)",
+          "https://bulbapedia.bulbagarden.net/wiki/Barry_(game)/Quotes",
+          "https://bulbapedia.bulbagarden.net/wiki/Barry_(game)/Platinum",
+          "https://bulbapedia.bulbagarden.net/wiki/Talk:Barry_(game)/Platinum"
+        ]
       },
       {
         "id": "school",
@@ -138,9 +176,19 @@ window.CHARACTERS = [
         "location": "Trainers’ School, Jubilife City",
         "phase": "Main story",
         "optional": false,
-        "summary": "Receives the Parcel from his mother; gives Luce the spare Town Map.",
+        "summary": "Receives the Parcel from his mother; gives the player the spare Town Map.",
         "teams": [],
-        "repeatable": false
+        "repeatable": false,
+        "tags": [
+          "Item / HM",
+          "Progression"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Barry_(game)",
+          "https://bulbapedia.bulbagarden.net/wiki/Barry_(game)/Quotes",
+          "https://bulbapedia.bulbagarden.net/wiki/Barry_(game)/Platinum",
+          "https://bulbapedia.bulbagarden.net/wiki/Talk:Barry_(game)/Platinum"
+        ]
       },
       {
         "id": "route203",
@@ -148,10 +196,10 @@ window.CHARACTERS = [
         "location": "Route 203",
         "phase": "Main story",
         "optional": false,
-        "summary": "Tests Luce’s growing team before Oreburgh.",
+        "summary": "Tests the player’s growing team before Oreburgh.",
         "teams": [
           {
-            "label": "Luce chose Turtwig → Andi",
+            "label": "Player chose Turtwig",
             "pokemon": [
               {
                 "species": "Starly",
@@ -176,7 +224,7 @@ window.CHARACTERS = [
             ]
           },
           {
-            "label": "Luce chose Chimchar → Rory",
+            "label": "Player chose Chimchar",
             "pokemon": [
               {
                 "species": "Starly",
@@ -201,7 +249,7 @@ window.CHARACTERS = [
             ]
           },
           {
-            "label": "Luce chose Piplup → Percy",
+            "label": "Player chose Piplup",
             "pokemon": [
               {
                 "species": "Starly",
@@ -226,7 +274,17 @@ window.CHARACTERS = [
             ]
           }
         ],
-        "repeatable": false
+        "repeatable": false,
+        "tags": [
+          "Battle",
+          "Progression"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Barry_(game)",
+          "https://bulbapedia.bulbagarden.net/wiki/Barry_(game)/Quotes",
+          "https://bulbapedia.bulbagarden.net/wiki/Barry_(game)/Platinum",
+          "https://bulbapedia.bulbagarden.net/wiki/Talk:Barry_(game)/Platinum"
+        ]
       },
       {
         "id": "oreburgh-gym",
@@ -236,7 +294,14 @@ window.CHARACTERS = [
         "optional": false,
         "summary": "Explains that Roark is at the mine and compares him with his father.",
         "teams": [],
-        "repeatable": false
+        "repeatable": false,
+        "tags": [],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Barry_(game)",
+          "https://bulbapedia.bulbagarden.net/wiki/Barry_(game)/Quotes",
+          "https://bulbapedia.bulbagarden.net/wiki/Barry_(game)/Platinum",
+          "https://bulbapedia.bulbagarden.net/wiki/Talk:Barry_(game)/Platinum"
+        ]
       },
       {
         "id": "oreburgh-exit",
@@ -246,7 +311,14 @@ window.CHARACTERS = [
         "optional": false,
         "summary": "After the Coal Badge, discusses the blocked cycling slope and heads for Eterna.",
         "teams": [],
-        "repeatable": false
+        "repeatable": false,
+        "tags": [],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Barry_(game)",
+          "https://bulbapedia.bulbagarden.net/wiki/Barry_(game)/Quotes",
+          "https://bulbapedia.bulbagarden.net/wiki/Barry_(game)/Platinum",
+          "https://bulbapedia.bulbagarden.net/wiki/Talk:Barry_(game)/Platinum"
+        ]
       },
       {
         "id": "eterna-statue",
@@ -254,9 +326,16 @@ window.CHARACTERS = [
         "location": "Eterna City",
         "phase": "Main story",
         "optional": false,
-        "summary": "Leads Luce to the statue, sees Cyrus, and proposes his unrealistic perfect-battle strategy.",
+        "summary": "Leads the player to the statue, sees Cyrus, and proposes his unrealistic perfect-battle strategy.",
         "teams": [],
-        "repeatable": false
+        "repeatable": false,
+        "tags": [],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Barry_(game)",
+          "https://bulbapedia.bulbagarden.net/wiki/Barry_(game)/Quotes",
+          "https://bulbapedia.bulbagarden.net/wiki/Barry_(game)/Platinum",
+          "https://bulbapedia.bulbagarden.net/wiki/Talk:Barry_(game)/Platinum"
+        ]
       },
       {
         "id": "route209",
@@ -267,7 +346,7 @@ window.CHARACTERS = [
         "summary": "His perfect-battle strategy fails; decides to train properly.",
         "teams": [
           {
-            "label": "Luce chose Turtwig → Andi",
+            "label": "Player chose Turtwig",
             "pokemon": [
               {
                 "species": "Staravia",
@@ -320,7 +399,7 @@ window.CHARACTERS = [
             ]
           },
           {
-            "label": "Luce chose Chimchar → Rory",
+            "label": "Player chose Chimchar",
             "pokemon": [
               {
                 "species": "Staravia",
@@ -373,7 +452,7 @@ window.CHARACTERS = [
             ]
           },
           {
-            "label": "Luce chose Piplup → Percy",
+            "label": "Player chose Piplup",
             "pokemon": [
               {
                 "species": "Staravia",
@@ -426,7 +505,17 @@ window.CHARACTERS = [
             ]
           }
         ],
-        "repeatable": false
+        "repeatable": false,
+        "tags": [
+          "Battle",
+          "Progression"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Barry_(game)",
+          "https://bulbapedia.bulbagarden.net/wiki/Barry_(game)/Quotes",
+          "https://bulbapedia.bulbagarden.net/wiki/Barry_(game)/Platinum",
+          "https://bulbapedia.bulbagarden.net/wiki/Talk:Barry_(game)/Platinum"
+        ]
       },
       {
         "id": "solaceon",
@@ -436,7 +525,14 @@ window.CHARACTERS = [
         "optional": false,
         "summary": "Shows off Seals, mentions the ruins and Defog, but does not battle.",
         "teams": [],
-        "repeatable": false
+        "repeatable": false,
+        "tags": [],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Barry_(game)",
+          "https://bulbapedia.bulbagarden.net/wiki/Barry_(game)/Quotes",
+          "https://bulbapedia.bulbagarden.net/wiki/Barry_(game)/Platinum",
+          "https://bulbapedia.bulbagarden.net/wiki/Talk:Barry_(game)/Platinum"
+        ]
       },
       {
         "id": "pastoria-early",
@@ -446,7 +542,16 @@ window.CHARACTERS = [
         "optional": true,
         "summary": "If reached before the Cobble Badge, says Wake is at Veilstone.",
         "teams": [],
-        "repeatable": false
+        "repeatable": false,
+        "tags": [
+          "Optional"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Barry_(game)",
+          "https://bulbapedia.bulbagarden.net/wiki/Barry_(game)/Quotes",
+          "https://bulbapedia.bulbagarden.net/wiki/Barry_(game)/Platinum",
+          "https://bulbapedia.bulbagarden.net/wiki/Talk:Barry_(game)/Platinum"
+        ]
       },
       {
         "id": "pastoria-battle",
@@ -454,10 +559,10 @@ window.CHARACTERS = [
         "location": "Pastoria City, Gym entrance",
         "phase": "Main story",
         "optional": false,
-        "summary": "Tests Luce before Wake’s Gym; claims Wake as his mentor.",
+        "summary": "Tests the player before Wake’s Gym; claims Wake as his mentor.",
         "teams": [
           {
-            "label": "Luce chose Turtwig → Andi",
+            "label": "Player chose Turtwig",
             "pokemon": [
               {
                 "species": "Staravia",
@@ -510,7 +615,7 @@ window.CHARACTERS = [
             ]
           },
           {
-            "label": "Luce chose Chimchar → Rory",
+            "label": "Player chose Chimchar",
             "pokemon": [
               {
                 "species": "Staravia",
@@ -563,7 +668,7 @@ window.CHARACTERS = [
             ]
           },
           {
-            "label": "Luce chose Piplup → Percy",
+            "label": "Player chose Piplup",
             "pokemon": [
               {
                 "species": "Staravia",
@@ -616,7 +721,17 @@ window.CHARACTERS = [
             ]
           }
         ],
-        "repeatable": false
+        "repeatable": false,
+        "tags": [
+          "Battle",
+          "Progression"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Barry_(game)",
+          "https://bulbapedia.bulbagarden.net/wiki/Barry_(game)/Quotes",
+          "https://bulbapedia.bulbagarden.net/wiki/Barry_(game)/Platinum",
+          "https://bulbapedia.bulbagarden.net/wiki/Talk:Barry_(game)/Platinum"
+        ]
       },
       {
         "id": "pastoria-bomb",
@@ -624,9 +739,16 @@ window.CHARACTERS = [
         "location": "Pastoria City",
         "phase": "Main story",
         "optional": false,
-        "summary": "Warns Wake about Galactic’s bomb and remains behind while Luce pursues the grunt. Croagunk board dialogue is part of this event.",
+        "summary": "Warns Wake about Galactic’s bomb and remains behind while the player pursues the grunt. Croagunk board dialogue is part of this event.",
         "teams": [],
-        "repeatable": false
+        "repeatable": false,
+        "tags": [],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Barry_(game)",
+          "https://bulbapedia.bulbagarden.net/wiki/Barry_(game)/Quotes",
+          "https://bulbapedia.bulbagarden.net/wiki/Barry_(game)/Platinum",
+          "https://bulbapedia.bulbagarden.net/wiki/Talk:Barry_(game)/Platinum"
+        ]
       },
       {
         "id": "valor-message",
@@ -634,9 +756,16 @@ window.CHARACTERS = [
         "location": "Valor Lakefront",
         "phase": "Main story",
         "optional": false,
-        "summary": "Reports that the Great Marsh explosion was not serious; briefly mistakes Cynthia for Luce’s sister.",
+        "summary": "Reports that the Great Marsh explosion was not serious; briefly mistakes Cynthia for the player’s sister.",
         "teams": [],
-        "repeatable": false
+        "repeatable": false,
+        "tags": [],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Barry_(game)",
+          "https://bulbapedia.bulbagarden.net/wiki/Barry_(game)/Quotes",
+          "https://bulbapedia.bulbagarden.net/wiki/Barry_(game)/Platinum",
+          "https://bulbapedia.bulbagarden.net/wiki/Talk:Barry_(game)/Platinum"
+        ]
       },
       {
         "id": "canalave-battle",
@@ -644,10 +773,10 @@ window.CHARACTERS = [
         "location": "Canalave City bridge",
         "phase": "Main story",
         "optional": false,
-        "summary": "Tests Luce before Byron and recommends Iron Island.",
+        "summary": "Tests the player before Byron and recommends Iron Island.",
         "teams": [
           {
-            "label": "Luce chose Turtwig → Andi",
+            "label": "Player chose Turtwig",
             "pokemon": [
               {
                 "species": "Staraptor",
@@ -712,7 +841,7 @@ window.CHARACTERS = [
             ]
           },
           {
-            "label": "Luce chose Chimchar → Rory",
+            "label": "Player chose Chimchar",
             "pokemon": [
               {
                 "species": "Staraptor",
@@ -777,7 +906,7 @@ window.CHARACTERS = [
             ]
           },
           {
-            "label": "Luce chose Piplup → Percy",
+            "label": "Player chose Piplup",
             "pokemon": [
               {
                 "species": "Staraptor",
@@ -842,7 +971,17 @@ window.CHARACTERS = [
             ]
           }
         ],
-        "repeatable": false
+        "repeatable": false,
+        "tags": [
+          "Battle",
+          "Progression"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Barry_(game)",
+          "https://bulbapedia.bulbagarden.net/wiki/Barry_(game)/Quotes",
+          "https://bulbapedia.bulbagarden.net/wiki/Barry_(game)/Platinum",
+          "https://bulbapedia.bulbagarden.net/wiki/Talk:Barry_(game)/Platinum"
+        ]
       },
       {
         "id": "library",
@@ -850,9 +989,18 @@ window.CHARACTERS = [
         "location": "Canalave Library",
         "phase": "Main story",
         "optional": false,
-        "summary": "After Mine Badge and obtaining Strength, brings Luce to Rowan. Learns his assignment is Lake Acuity; leaves after the Lake Valor explosion.",
+        "summary": "After Mine Badge and obtaining Strength, brings the player to Rowan. Learns his assignment is Lake Acuity; leaves after the Lake Valor explosion.",
         "teams": [],
-        "repeatable": false
+        "repeatable": false,
+        "tags": [
+          "Progression"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Barry_(game)",
+          "https://bulbapedia.bulbagarden.net/wiki/Barry_(game)/Quotes",
+          "https://bulbapedia.bulbagarden.net/wiki/Barry_(game)/Platinum",
+          "https://bulbapedia.bulbagarden.net/wiki/Talk:Barry_(game)/Platinum"
+        ]
       },
       {
         "id": "acuity-entrance",
@@ -862,7 +1010,14 @@ window.CHARACTERS = [
         "optional": false,
         "summary": "Explains the climb requires Snowpoint’s Badge and runs ahead.",
         "teams": [],
-        "repeatable": false
+        "repeatable": false,
+        "tags": [],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Barry_(game)",
+          "https://bulbapedia.bulbagarden.net/wiki/Barry_(game)/Quotes",
+          "https://bulbapedia.bulbagarden.net/wiki/Barry_(game)/Platinum",
+          "https://bulbapedia.bulbagarden.net/wiki/Talk:Barry_(game)/Platinum"
+        ]
       },
       {
         "id": "acuity-defeat",
@@ -872,7 +1027,14 @@ window.CHARACTERS = [
         "optional": false,
         "summary": "Found after Jupiter beats him. Uxie has been captured; resolves to become stronger to protect Pokémon.",
         "teams": [],
-        "repeatable": false
+        "repeatable": false,
+        "tags": [],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Barry_(game)",
+          "https://bulbapedia.bulbagarden.net/wiki/Barry_(game)/Quotes",
+          "https://bulbapedia.bulbagarden.net/wiki/Barry_(game)/Platinum",
+          "https://bulbapedia.bulbagarden.net/wiki/Talk:Barry_(game)/Platinum"
+        ]
       },
       {
         "id": "spear",
@@ -880,10 +1042,10 @@ window.CHARACTERS = [
         "location": "Spear Pillar",
         "phase": "Main story",
         "optional": false,
-        "summary": "Joins Luce in the double battle, then heals her team before leaving the climax to her.",
+        "summary": "Joins the player in the double battle, then heals her team before leaving the climax to her.",
         "teams": [
           {
-            "label": "Luce chose Turtwig → Andi",
+            "label": "Player chose Turtwig",
             "pokemon": [
               {
                 "species": "Munchlax",
@@ -960,7 +1122,7 @@ window.CHARACTERS = [
             ]
           },
           {
-            "label": "Luce chose Chimchar → Rory",
+            "label": "Player chose Chimchar",
             "pokemon": [
               {
                 "species": "Munchlax",
@@ -1037,7 +1199,7 @@ window.CHARACTERS = [
             ]
           },
           {
-            "label": "Luce chose Piplup → Percy",
+            "label": "Player chose Piplup",
             "pokemon": [
               {
                 "species": "Munchlax",
@@ -1114,7 +1276,18 @@ window.CHARACTERS = [
             ]
           }
         ],
-        "repeatable": false
+        "repeatable": false,
+        "tags": [
+          "Battle",
+          "Partner battle",
+          "Progression"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Barry_(game)",
+          "https://bulbapedia.bulbagarden.net/wiki/Barry_(game)/Quotes",
+          "https://bulbapedia.bulbagarden.net/wiki/Barry_(game)/Platinum",
+          "https://bulbapedia.bulbagarden.net/wiki/Talk:Barry_(game)/Platinum"
+        ]
       },
       {
         "id": "sunyshore",
@@ -1122,9 +1295,16 @@ window.CHARACTERS = [
         "location": "Sunyshore City",
         "phase": "Main story",
         "optional": false,
-        "summary": "After the Beacon Badge, acknowledges Luce’s strength and races towards the League.",
+        "summary": "After the Beacon Badge, acknowledges the player’s strength and races towards the League.",
         "teams": [],
-        "repeatable": false
+        "repeatable": false,
+        "tags": [],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Barry_(game)",
+          "https://bulbapedia.bulbagarden.net/wiki/Barry_(game)/Quotes",
+          "https://bulbapedia.bulbagarden.net/wiki/Barry_(game)/Platinum",
+          "https://bulbapedia.bulbagarden.net/wiki/Talk:Barry_(game)/Platinum"
+        ]
       },
       {
         "id": "league",
@@ -1135,7 +1315,7 @@ window.CHARACTERS = [
         "summary": "Final main-story test before the Elite Four.",
         "teams": [
           {
-            "label": "Luce chose Turtwig → Andi",
+            "label": "Player chose Turtwig",
             "pokemon": [
               {
                 "species": "Staraptor",
@@ -1212,7 +1392,7 @@ window.CHARACTERS = [
             ]
           },
           {
-            "label": "Luce chose Chimchar → Rory",
+            "label": "Player chose Chimchar",
             "pokemon": [
               {
                 "species": "Staraptor",
@@ -1289,7 +1469,7 @@ window.CHARACTERS = [
             ]
           },
           {
-            "label": "Luce chose Piplup → Percy",
+            "label": "Player chose Piplup",
             "pokemon": [
               {
                 "species": "Staraptor",
@@ -1366,7 +1546,17 @@ window.CHARACTERS = [
             ]
           }
         ],
-        "repeatable": false
+        "repeatable": false,
+        "tags": [
+          "Battle",
+          "Progression"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Barry_(game)",
+          "https://bulbapedia.bulbagarden.net/wiki/Barry_(game)/Quotes",
+          "https://bulbapedia.bulbagarden.net/wiki/Barry_(game)/Platinum",
+          "https://bulbapedia.bulbagarden.net/wiki/Talk:Barry_(game)/Platinum"
+        ]
       },
       {
         "id": "fight-area",
@@ -1374,10 +1564,10 @@ window.CHARACTERS = [
         "location": "Fight Area",
         "phase": "Postgame",
         "optional": false,
-        "summary": "Teams up with Luce, then reunites with his father Palmer.",
+        "summary": "Teams up with the player, then reunites with his father Palmer.",
         "teams": [
           {
-            "label": "Luce chose Turtwig → Andi",
+            "label": "Player chose Turtwig",
             "pokemon": [
               {
                 "species": "Staraptor",
@@ -1454,7 +1644,7 @@ window.CHARACTERS = [
             ]
           },
           {
-            "label": "Luce chose Chimchar → Rory",
+            "label": "Player chose Chimchar",
             "pokemon": [
               {
                 "species": "Staraptor",
@@ -1531,7 +1721,7 @@ window.CHARACTERS = [
             ]
           },
           {
-            "label": "Luce chose Piplup → Percy",
+            "label": "Player chose Piplup",
             "pokemon": [
               {
                 "species": "Staraptor",
@@ -1608,7 +1798,19 @@ window.CHARACTERS = [
             ]
           }
         ],
-        "repeatable": false
+        "repeatable": false,
+        "tags": [
+          "Battle",
+          "Partner battle",
+          "Progression",
+          "Postgame"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Barry_(game)",
+          "https://bulbapedia.bulbagarden.net/wiki/Barry_(game)/Quotes",
+          "https://bulbapedia.bulbagarden.net/wiki/Barry_(game)/Platinum",
+          "https://bulbapedia.bulbagarden.net/wiki/Talk:Barry_(game)/Platinum"
+        ]
       },
       {
         "id": "route227",
@@ -1618,7 +1820,16 @@ window.CHARACTERS = [
         "optional": false,
         "summary": "Requests Wake’s help getting into the Survival Area club before heading to the Frontier.",
         "teams": [],
-        "repeatable": false
+        "repeatable": false,
+        "tags": [
+          "Postgame"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Barry_(game)",
+          "https://bulbapedia.bulbagarden.net/wiki/Barry_(game)/Quotes",
+          "https://bulbapedia.bulbagarden.net/wiki/Barry_(game)/Platinum",
+          "https://bulbapedia.bulbagarden.net/wiki/Talk:Barry_(game)/Platinum"
+        ]
       },
       {
         "id": "villa-intro",
@@ -1626,9 +1837,19 @@ window.CHARACTERS = [
         "location": "Resort Area villa",
         "phase": "Postgame",
         "optional": true,
-        "summary": "When Luce first receives the villa, volunteers to tell everyone.",
+        "summary": "When the player first receives the villa, volunteers to tell everyone.",
         "teams": [],
-        "repeatable": false
+        "repeatable": false,
+        "tags": [
+          "Optional",
+          "Postgame"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Barry_(game)",
+          "https://bulbapedia.bulbagarden.net/wiki/Barry_(game)/Quotes",
+          "https://bulbapedia.bulbagarden.net/wiki/Barry_(game)/Platinum",
+          "https://bulbapedia.bulbagarden.net/wiki/Talk:Barry_(game)/Platinum"
+        ]
       },
       {
         "id": "survival",
@@ -1638,7 +1859,17 @@ window.CHARACTERS = [
         "optional": false,
         "summary": "After Stark Mountain, talks about loving Pokémon and becoming the greatest Trainer.",
         "teams": [],
-        "repeatable": true
+        "repeatable": true,
+        "tags": [
+          "Repeatable",
+          "Postgame"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Barry_(game)",
+          "https://bulbapedia.bulbagarden.net/wiki/Barry_(game)/Quotes",
+          "https://bulbapedia.bulbagarden.net/wiki/Barry_(game)/Platinum",
+          "https://bulbapedia.bulbagarden.net/wiki/Talk:Barry_(game)/Platinum"
+        ]
       },
       {
         "id": "weekend-base",
@@ -1649,7 +1880,7 @@ window.CHARACTERS = [
         "summary": "Saturday/Sunday battles after the Stark Mountain quest. Starter reaches Lv.65.",
         "teams": [
           {
-            "label": "Luce chose Turtwig → Andi",
+            "label": "Player chose Turtwig",
             "pokemon": [
               {
                 "species": "Staraptor",
@@ -1726,7 +1957,7 @@ window.CHARACTERS = [
             ]
           },
           {
-            "label": "Luce chose Chimchar → Rory",
+            "label": "Player chose Chimchar",
             "pokemon": [
               {
                 "species": "Staraptor",
@@ -1803,7 +2034,7 @@ window.CHARACTERS = [
             ]
           },
           {
-            "label": "Luce chose Piplup → Percy",
+            "label": "Player chose Piplup",
             "pokemon": [
               {
                 "species": "Staraptor",
@@ -1880,7 +2111,19 @@ window.CHARACTERS = [
             ]
           }
         ],
-        "repeatable": true
+        "repeatable": true,
+        "tags": [
+          "Battle",
+          "Repeatable",
+          "Optional",
+          "Postgame"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Barry_(game)",
+          "https://bulbapedia.bulbagarden.net/wiki/Barry_(game)/Quotes",
+          "https://bulbapedia.bulbagarden.net/wiki/Barry_(game)/Platinum",
+          "https://bulbapedia.bulbagarden.net/wiki/Talk:Barry_(game)/Platinum"
+        ]
       },
       {
         "id": "weekend-high",
@@ -1891,7 +2134,7 @@ window.CHARACTERS = [
         "summary": "Uses the high tier after 20 Hall of Fame entries; starter reaches Lv.85. This is the actual next usable tier in unmodified Platinum.",
         "teams": [
           {
-            "label": "Luce chose Turtwig → Andi",
+            "label": "Player chose Turtwig",
             "pokemon": [
               {
                 "species": "Staraptor",
@@ -1968,7 +2211,7 @@ window.CHARACTERS = [
             ]
           },
           {
-            "label": "Luce chose Chimchar → Rory",
+            "label": "Player chose Chimchar",
             "pokemon": [
               {
                 "species": "Staraptor",
@@ -2045,7 +2288,7 @@ window.CHARACTERS = [
             ]
           },
           {
-            "label": "Luce chose Piplup → Percy",
+            "label": "Player chose Piplup",
             "pokemon": [
               {
                 "species": "Staraptor",
@@ -2122,7 +2365,19 @@ window.CHARACTERS = [
             ]
           }
         ],
-        "repeatable": true
+        "repeatable": true,
+        "tags": [
+          "Battle",
+          "Repeatable",
+          "Optional",
+          "Postgame"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Barry_(game)",
+          "https://bulbapedia.bulbagarden.net/wiki/Barry_(game)/Quotes",
+          "https://bulbapedia.bulbagarden.net/wiki/Barry_(game)/Platinum",
+          "https://bulbapedia.bulbagarden.net/wiki/Talk:Barry_(game)/Platinum"
+        ]
       },
       {
         "id": "villa",
@@ -2132,10 +2387,21 @@ window.CHARACTERS = [
         "optional": true,
         "summary": "Optional rotating visitor; talks about the Frontier, his father and the journey.",
         "teams": [],
-        "repeatable": true
+        "repeatable": true,
+        "tags": [
+          "Repeatable",
+          "Optional",
+          "Postgame"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Barry_(game)",
+          "https://bulbapedia.bulbagarden.net/wiki/Barry_(game)/Quotes",
+          "https://bulbapedia.bulbagarden.net/wiki/Barry_(game)/Platinum",
+          "https://bulbapedia.bulbagarden.net/wiki/Talk:Barry_(game)/Platinum"
+        ]
       }
     ],
-    "sourceNotes": "Platinum only. Timeline rows are distinct editing checkpoints, with continuous scenes grouped. Optional visits and repeatable interactions are listed separately; this is a reference inventory, not a verified script-by-script ROM count. No team shown means no scripted Pokémon battle at that checkpoint. A Lv.75 starter intermediate tier exists in trainer data but is unused by the normal rematch script. It is excluded from encounter counts; the playable weekend tiers are Lv.65 and Lv.85 after 20 Hall of Fame entries.",
+    "sourceNotes": "Platinum only. Timeline rows are documented story checkpoints, with continuous scenes grouped. Optional visits and repeatable interactions are listed separately; this is a reference inventory, not an exhaustive event count. No team shown means no scripted Pokémon battle at that checkpoint. A Lv.75 starter intermediate tier exists in trainer data but is unused by the normal rematch script. It is excluded from encounter counts; the playable weekend tiers are Lv.65 and Lv.85 after 20 Hall of Fame entries.",
     "images": [
       {
         "label": "Portrait (Platinum)",
@@ -2165,7 +2431,7 @@ window.CHARACTERS = [
     "image": "barry-portrait.png",
     "unusedTrainerTeams": [
       {
-        "label": "Luce chose Turtwig → Andi",
+        "label": "Player chose Turtwig",
         "pokemon": [
           {
             "species": "Staraptor",
@@ -2242,7 +2508,7 @@ window.CHARACTERS = [
         ]
       },
       {
-        "label": "Luce chose Chimchar → Rory",
+        "label": "Player chose Chimchar",
         "pokemon": [
           {
             "species": "Staraptor",
@@ -2319,7 +2585,7 @@ window.CHARACTERS = [
         ]
       },
       {
-        "label": "Luce chose Piplup → Percy",
+        "label": "Player chose Piplup",
         "pokemon": [
           {
             "species": "Staraptor",
@@ -2401,12 +2667,12 @@ window.CHARACTERS = [
     "id": "cynthia",
     "name": "Cynthia",
     "category": "Champion",
-    "role": "Sinnoh Champion and mythology researcher; guides Luce through the central legendary crisis and becomes the final League opponent.",
+    "role": "Sinnoh Champion and mythology researcher; guides the player through the central legendary crisis and becomes the final League opponent.",
     "personality": "Calm, curious, generous and polite; deeply interested in myths and the bond between Pokémon and people. Confident and demanding in battle.",
     "relationships": [
       "Rowan: former Pokédex mentor",
       "Grandmother: elder in Celestic Town",
-      "Luce: developing Trainer she helps",
+      "the player: developing Trainer she helps",
       "Barry: brief Valor Lakefront conversation",
       "Cyrus: rejects his attempt to erase spirit"
     ],
@@ -2441,7 +2707,15 @@ window.CHARACTERS = [
         "optional": false,
         "summary": "Introduces her research and gives HM01 Cut.",
         "teams": [],
-        "repeatable": false
+        "repeatable": false,
+        "tags": [
+          "Item / HM",
+          "Progression"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Cynthia",
+          "https://bulbapedia.bulbagarden.net/wiki/Cynthia/Quotes"
+        ]
       },
       {
         "id": "egg",
@@ -2451,7 +2725,17 @@ window.CHARACTERS = [
         "optional": false,
         "summary": "After Jupiter’s defeat, offers a Togepi Egg; party-space checks affect this scene.",
         "teams": [],
-        "repeatable": false
+        "repeatable": false,
+        "tags": [
+          "Gift Pokémon"
+        ],
+        "giftPokemon": [
+          "Togepi"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Cynthia",
+          "https://bulbapedia.bulbagarden.net/wiki/Cynthia/Quotes"
+        ]
       },
       {
         "id": "valor",
@@ -2461,7 +2745,15 @@ window.CHARACTERS = [
         "optional": false,
         "summary": "After chasing the Galactic grunt, supplies Psyduck medicine. Barry interrupts this conversation.",
         "teams": [],
-        "repeatable": false
+        "repeatable": false,
+        "tags": [
+          "Item / HM",
+          "Progression"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Cynthia",
+          "https://bulbapedia.bulbagarden.net/wiki/Cynthia/Quotes"
+        ]
       },
       {
         "id": "route210",
@@ -2469,9 +2761,17 @@ window.CHARACTERS = [
         "location": "Route 210",
         "phase": "Main story",
         "optional": false,
-        "summary": "After curing the Psyduck, asks Luce to deliver an Old Charm to her grandmother.",
+        "summary": "After curing the Psyduck, asks the player to deliver an Old Charm to her grandmother.",
         "teams": [],
-        "repeatable": false
+        "repeatable": false,
+        "tags": [
+          "Item / HM",
+          "Progression"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Cynthia",
+          "https://bulbapedia.bulbagarden.net/wiki/Cynthia/Quotes"
+        ]
       },
       {
         "id": "celestic",
@@ -2481,7 +2781,12 @@ window.CHARACTERS = [
         "optional": false,
         "summary": "Acknowledges Galactic’s danger and recommends Canalave Library.",
         "teams": [],
-        "repeatable": false
+        "repeatable": false,
+        "tags": [],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Cynthia",
+          "https://bulbapedia.bulbagarden.net/wiki/Cynthia/Quotes"
+        ]
       },
       {
         "id": "spear",
@@ -2489,9 +2794,16 @@ window.CHARACTERS = [
         "location": "Spear Pillar",
         "phase": "Main story",
         "optional": false,
-        "summary": "Arrives after Giratina takes Cyrus; explains the danger and enters the portal with Luce.",
+        "summary": "Arrives after Giratina takes Cyrus; explains the danger and enters the portal with the player.",
         "teams": [],
-        "repeatable": false
+        "repeatable": false,
+        "tags": [
+          "Progression"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Cynthia",
+          "https://bulbapedia.bulbagarden.net/wiki/Cynthia/Quotes"
+        ]
       },
       {
         "id": "distortion",
@@ -2499,9 +2811,16 @@ window.CHARACTERS = [
         "location": "Distortion World: entrance through Giratina chamber",
         "phase": "Main story",
         "optional": false,
-        "summary": "Appears at several separated platforms. Explains the world, splits up to find the way, comments on the lake-guardian boulder puzzle, confronts Cyrus, heals Luce’s party after his defeat and encourages the Giratina battle. Grouped as one continuous dungeon event.",
+        "summary": "Appears at several separated platforms. Explains the world, splits up to find the way, comments on the lake-guardian boulder puzzle, confronts Cyrus, heals the player’s party after his defeat and encourages the Giratina battle. Grouped as one continuous dungeon event.",
         "teams": [],
-        "repeatable": false
+        "repeatable": false,
+        "tags": [
+          "Progression"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Cynthia",
+          "https://bulbapedia.bulbagarden.net/wiki/Cynthia/Quotes"
+        ]
       },
       {
         "id": "sendoff",
@@ -2509,9 +2828,16 @@ window.CHARACTERS = [
         "location": "Sendoff Spring",
         "phase": "Main story",
         "optional": false,
-        "summary": "After Giratina, thanks Luce and asks her to visit Rowan. Her follow-up line changes after visiting him.",
+        "summary": "After Giratina, thanks the player and asks her to visit Rowan. Her follow-up line changes after visiting him.",
         "teams": [],
-        "repeatable": false
+        "repeatable": false,
+        "tags": [
+          "Progression"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Cynthia",
+          "https://bulbapedia.bulbagarden.net/wiki/Cynthia/Quotes"
+        ]
       },
       {
         "id": "league",
@@ -2599,7 +2925,16 @@ window.CHARACTERS = [
             ]
           }
         ],
-        "repeatable": true
+        "repeatable": true,
+        "tags": [
+          "Battle",
+          "Progression",
+          "Repeatable"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Cynthia",
+          "https://bulbapedia.bulbagarden.net/wiki/Cynthia/Quotes"
+        ]
       },
       {
         "id": "hall",
@@ -2607,9 +2942,17 @@ window.CHARACTERS = [
         "location": "Pokémon League",
         "phase": "Main story",
         "optional": false,
-        "summary": "Escorts Luce into the Hall of Fame and records her victory with Rowan.",
+        "summary": "Escorts the player into the Hall of Fame and records her victory with Rowan.",
         "teams": [],
-        "repeatable": true
+        "repeatable": true,
+        "tags": [
+          "Progression",
+          "Repeatable"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Cynthia",
+          "https://bulbapedia.bulbagarden.net/wiki/Cynthia/Quotes"
+        ]
       },
       {
         "id": "snowpoint",
@@ -2619,7 +2962,14 @@ window.CHARACTERS = [
         "optional": false,
         "summary": "After the first Hall of Fame, speaks when approaching the ship to the Battle Zone.",
         "teams": [],
-        "repeatable": false
+        "repeatable": false,
+        "tags": [
+          "Postgame"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Cynthia",
+          "https://bulbapedia.bulbagarden.net/wiki/Cynthia/Quotes"
+        ]
       },
       {
         "id": "ruins",
@@ -2629,7 +2979,15 @@ window.CHARACTERS = [
         "optional": true,
         "summary": "After the Hall of Fame, offers an optional interpretation of the mural and Original One.",
         "teams": [],
-        "repeatable": false
+        "repeatable": false,
+        "tags": [
+          "Optional",
+          "Postgame"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Cynthia",
+          "https://bulbapedia.bulbagarden.net/wiki/Cynthia/Quotes"
+        ]
       },
       {
         "id": "league-rematch",
@@ -2717,7 +3075,17 @@ window.CHARACTERS = [
             ]
           }
         ],
-        "repeatable": true
+        "repeatable": true,
+        "tags": [
+          "Battle",
+          "Repeatable",
+          "Optional",
+          "Postgame"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Cynthia",
+          "https://bulbapedia.bulbagarden.net/wiki/Cynthia/Quotes"
+        ]
       },
       {
         "id": "villa",
@@ -2727,10 +3095,19 @@ window.CHARACTERS = [
         "optional": true,
         "summary": "Can visit after the piano is purchased and discusses music and research.",
         "teams": [],
-        "repeatable": true
+        "repeatable": true,
+        "tags": [
+          "Repeatable",
+          "Optional",
+          "Postgame"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Cynthia",
+          "https://bulbapedia.bulbagarden.net/wiki/Cynthia/Quotes"
+        ]
       }
     ],
-    "sourceNotes": "Platinum only. Timeline rows are distinct editing checkpoints, with continuous scenes grouped. Optional visits and repeatable interactions are listed separately; this is a reference inventory, not a verified script-by-script ROM count. No team shown means no scripted Pokémon battle at that checkpoint.",
+    "sourceNotes": "Platinum only. Timeline rows are documented story checkpoints, with continuous scenes grouped. Optional visits and repeatable interactions are listed separately; this is a reference inventory, not an exhaustive event count. No team shown means no scripted Pokémon battle at that checkpoint.",
     "images": [
       {
         "label": "Portrait (Diamond/Pearl era)",
@@ -2761,7 +3138,7 @@ window.CHARACTERS = [
     "personality": "Cold, intense and controlling. Distrusts emotions; publicly promises his followers a new world while privately planning it for himself.",
     "relationships": [
       "Mars, Jupiter, Saturn, Charon: commanders",
-      "Luce: opposes his plan",
+      "the player: opposes his plan",
       "Cynthia: challenges his philosophy",
       "Looker: investigates Galactic",
       "Grandfather on Route 228: backstory"
@@ -2793,7 +3170,11 @@ window.CHARACTERS = [
         "optional": false,
         "summary": "Leaves the lake early in the journey; no battle.",
         "teams": [],
-        "repeatable": false
+        "repeatable": false,
+        "tags": [],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Cyrus"
+        ]
       },
       {
         "id": "eterna",
@@ -2801,9 +3182,13 @@ window.CHARACTERS = [
         "location": "Eterna City statue",
         "phase": "Main story",
         "optional": false,
-        "summary": "Discusses the mythological statue while Barry brings Luce there.",
+        "summary": "Discusses the mythological statue while Barry brings the player there.",
         "teams": [],
-        "repeatable": false
+        "repeatable": false,
+        "tags": [],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Cyrus"
+        ]
       },
       {
         "id": "coronet",
@@ -2813,7 +3198,11 @@ window.CHARACTERS = [
         "optional": false,
         "summary": "Speaks about Sinnoh’s origin and the human spirit; no battle.",
         "teams": [],
-        "repeatable": false
+        "repeatable": false,
+        "tags": [],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Cyrus"
+        ]
       },
       {
         "id": "celestic",
@@ -2865,7 +3254,14 @@ window.CHARACTERS = [
             ]
           }
         ],
-        "repeatable": false
+        "repeatable": false,
+        "tags": [
+          "Battle",
+          "Progression"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Cyrus"
+        ]
       },
       {
         "id": "speech",
@@ -2873,9 +3269,13 @@ window.CHARACTERS = [
         "location": "Team Galactic HQ meeting room",
         "phase": "Main story",
         "optional": false,
-        "summary": "Luce and Looker witness the speech promising a new world.",
+        "summary": "the player and Looker witness the speech promising a new world.",
         "teams": [],
-        "repeatable": false
+        "repeatable": false,
+        "tags": [],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Cyrus"
+        ]
       },
       {
         "id": "hq",
@@ -2883,7 +3283,7 @@ window.CHARACTERS = [
         "location": "Team Galactic HQ office",
         "phase": "Main story",
         "optional": false,
-        "summary": "Reveals his selfish goal, battles Luce, then gives the Master Ball and allows her to release the lake guardians.",
+        "summary": "Reveals his selfish goal, battles the player, then gives the Master Ball and allows her to release the lake guardians.",
         "teams": [
           {
             "label": "Original Platinum team",
@@ -2927,7 +3327,15 @@ window.CHARACTERS = [
             ]
           }
         ],
-        "repeatable": false
+        "repeatable": false,
+        "tags": [
+          "Battle",
+          "Item / HM",
+          "Progression"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Cyrus"
+        ]
       },
       {
         "id": "spear",
@@ -2937,7 +3345,13 @@ window.CHARACTERS = [
         "optional": false,
         "summary": "Summons both Dialga and Palkia. Giratina interrupts and takes him into the Distortion World.",
         "teams": [],
-        "repeatable": false
+        "repeatable": false,
+        "tags": [
+          "Progression"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Cyrus"
+        ]
       },
       {
         "id": "distortion",
@@ -3013,10 +3427,17 @@ window.CHARACTERS = [
             ]
           }
         ],
-        "repeatable": false
+        "repeatable": false,
+        "tags": [
+          "Battle",
+          "Progression"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Cyrus"
+        ]
       }
     ],
-    "sourceNotes": "Platinum only. Timeline rows are distinct editing checkpoints, with continuous scenes grouped. Optional visits and repeatable interactions are listed separately; this is a reference inventory, not a verified script-by-script ROM count. No team shown means no scripted Pokémon battle at that checkpoint.",
+    "sourceNotes": "Platinum only. Timeline rows are documented story checkpoints, with continuous scenes grouped. Optional visits and repeatable interactions are listed separately; this is a reference inventory, not an exhaustive event count. No team shown means no scripted Pokémon battle at that checkpoint.",
     "images": [
       {
         "label": "Portrait (Diamond/Pearl era)",
@@ -3046,7 +3467,7 @@ window.CHARACTERS = [
     "role": "International Police investigator pursuing Team Galactic; assists infiltrations and resolves Charon’s postgame plot.",
     "personality": "Theatrical, earnest and eccentric; uses disguises and unusual phrasing but takes crime seriously.",
     "relationships": [
-      "Luce: informant and trusted ally",
+      "the player: informant and trusted ally",
       "Rowan / assistant: meets during early journey",
       "Cyrus: investigation target",
       "Charon: arrest target",
@@ -3078,9 +3499,16 @@ window.CHARACTERS = [
         "location": "Jubilife City",
         "phase": "Main story",
         "optional": false,
-        "summary": "Meets Luce and the assistant, introduces his police work and gives the recorder. Trainer School/Pokétch hints are follow-ups in this visit.",
+        "summary": "Meets the player and the assistant, introduces his police work and gives the recorder. Trainer School/Pokétch hints are follow-ups in this visit.",
         "teams": [],
-        "repeatable": false
+        "repeatable": false,
+        "tags": [
+          "Item / HM"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Looker",
+          "https://bulbapedia.bulbagarden.net/wiki/Looker/Quotes"
+        ]
       },
       {
         "id": "jubilife-return",
@@ -3088,9 +3516,14 @@ window.CHARACTERS = [
         "location": "Jubilife City",
         "phase": "Main story",
         "optional": false,
-        "summary": "Checks whether Luce has a Pal Pad and leaves to investigate elsewhere.",
+        "summary": "Checks whether the player has a Pal Pad and leaves to investigate elsewhere.",
         "teams": [],
-        "repeatable": false
+        "repeatable": false,
+        "tags": [],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Looker",
+          "https://bulbapedia.bulbagarden.net/wiki/Looker/Quotes"
+        ]
       },
       {
         "id": "windworks",
@@ -3100,7 +3533,12 @@ window.CHARACTERS = [
         "optional": false,
         "summary": "After Mars leaves, inspects the building and follows a tip to Eterna.",
         "teams": [],
-        "repeatable": false
+        "repeatable": false,
+        "tags": [],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Looker",
+          "https://bulbapedia.bulbagarden.net/wiki/Looker/Quotes"
+        ]
       },
       {
         "id": "eterna",
@@ -3110,7 +3548,12 @@ window.CHARACTERS = [
         "optional": false,
         "summary": "Disguised as a grunt, warns about trap stairways.",
         "teams": [],
-        "repeatable": false
+        "repeatable": false,
+        "tags": [],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Looker",
+          "https://bulbapedia.bulbagarden.net/wiki/Looker/Quotes"
+        ]
       },
       {
         "id": "gamecorner-early",
@@ -3120,7 +3563,14 @@ window.CHARACTERS = [
         "optional": true,
         "summary": "Optional conversation before the Cobble Badge; suspects Galactic activity.",
         "teams": [],
-        "repeatable": false
+        "repeatable": false,
+        "tags": [
+          "Optional"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Looker",
+          "https://bulbapedia.bulbagarden.net/wiki/Looker/Quotes"
+        ]
       },
       {
         "id": "warehouse-first",
@@ -3128,9 +3578,17 @@ window.CHARACTERS = [
         "location": "Veilstone City → Galactic Warehouse",
         "phase": "Main story",
         "optional": false,
-        "summary": "After Luce and the assistant defeat grunts, investigates the warehouse and points out HM02 Fly. The inner door is locked.",
+        "summary": "After the player and the assistant defeat grunts, investigates the warehouse and points out HM02 Fly. The inner door is locked.",
         "teams": [],
-        "repeatable": false
+        "repeatable": false,
+        "tags": [
+          "Item / HM",
+          "Progression"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Looker",
+          "https://bulbapedia.bulbagarden.net/wiki/Looker/Quotes"
+        ]
       },
       {
         "id": "route213",
@@ -3140,7 +3598,12 @@ window.CHARACTERS = [
         "optional": false,
         "summary": "During the chase, learns Galactic’s cargo was a bomb and pursues the grunt.",
         "teams": [],
-        "repeatable": false
+        "repeatable": false,
+        "tags": [],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Looker",
+          "https://bulbapedia.bulbagarden.net/wiki/Looker/Quotes"
+        ]
       },
       {
         "id": "hotel",
@@ -3148,9 +3611,14 @@ window.CHARACTERS = [
         "location": "Hotel Grand Lake lobby, Route 213",
         "phase": "Main story",
         "optional": false,
-        "summary": "Interviews guests during the pursuit and asks Luce to search outside.",
+        "summary": "Interviews guests during the pursuit and asks the player to search outside.",
         "teams": [],
-        "repeatable": false
+        "repeatable": false,
+        "tags": [],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Looker",
+          "https://bulbapedia.bulbagarden.net/wiki/Looker/Quotes"
+        ]
       },
       {
         "id": "hq-key",
@@ -3160,7 +3628,15 @@ window.CHARACTERS = [
         "optional": false,
         "summary": "After Icicle Badge and Lake Acuity, offers the Storage Key route into HQ.",
         "teams": [],
-        "repeatable": false
+        "repeatable": false,
+        "tags": [
+          "Item / HM",
+          "Progression"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Looker",
+          "https://bulbapedia.bulbagarden.net/wiki/Looker/Quotes"
+        ]
       },
       {
         "id": "warehouse-key",
@@ -3170,7 +3646,15 @@ window.CHARACTERS = [
         "optional": false,
         "summary": "Opens the locked door and advances inside.",
         "teams": [],
-        "repeatable": false
+        "repeatable": false,
+        "tags": [
+          "Item / HM",
+          "Progression"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Looker",
+          "https://bulbapedia.bulbagarden.net/wiki/Looker/Quotes"
+        ]
       },
       {
         "id": "hq-speech",
@@ -3178,9 +3662,16 @@ window.CHARACTERS = [
         "location": "Team Galactic HQ meeting room",
         "phase": "Main story",
         "optional": false,
-        "summary": "Watches Cyrus’s speech with Luce, then separates.",
+        "summary": "Watches Cyrus’s speech with the player, then separates.",
         "teams": [],
-        "repeatable": false
+        "repeatable": false,
+        "tags": [
+          "Progression"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Looker",
+          "https://bulbapedia.bulbagarden.net/wiki/Looker/Quotes"
+        ]
       },
       {
         "id": "coronet",
@@ -3188,9 +3679,16 @@ window.CHARACTERS = [
         "location": "Mt. Coronet, broken mural",
         "phase": "Main story",
         "optional": false,
-        "summary": "Before Spear Pillar, asks Luce to stop Cyrus and gives a Black Flute.",
+        "summary": "Before Spear Pillar, asks the player to stop Cyrus and gives a Black Flute.",
         "teams": [],
-        "repeatable": false
+        "repeatable": false,
+        "tags": [
+          "Item / HM"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Looker",
+          "https://bulbapedia.bulbagarden.net/wiki/Looker/Quotes"
+        ]
       },
       {
         "id": "stark",
@@ -3200,7 +3698,18 @@ window.CHARACTERS = [
         "optional": false,
         "summary": "Reveals his boulder disguise; Croagunk retrieves the Magma Stone. Police arrest Charon; Looker explains the investigation outside and says farewell.",
         "teams": [],
-        "repeatable": false
+        "repeatable": false,
+        "tags": [
+          "Progression",
+          "Postgame"
+        ],
+        "featuredPokemon": [
+          "Croagunk"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Looker",
+          "https://bulbapedia.bulbagarden.net/wiki/Looker/Quotes"
+        ]
       },
       {
         "id": "gamecorner-late",
@@ -3210,7 +3719,16 @@ window.CHARACTERS = [
         "optional": true,
         "summary": "After Stark Mountain, stays to teach moves to his Pokémon.",
         "teams": [],
-        "repeatable": true
+        "repeatable": true,
+        "tags": [
+          "Repeatable",
+          "Optional",
+          "Postgame"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Looker",
+          "https://bulbapedia.bulbagarden.net/wiki/Looker/Quotes"
+        ]
       }
     ],
     "sourceNotes": "No battle with or against Looker exists in Platinum. Croagunk appears in the arrest cutscene, with no battle level or moves specified. Continuous warehouse/arrest conversations are grouped; Game Corner localisation varies.",
@@ -3240,13 +3758,13 @@ window.CHARACTERS = [
     "id": "rowan",
     "name": "Professor Rowan",
     "category": "Story",
-    "role": "Pokémon Evolution researcher who gives Luce her starter and Pokédex, assigns the lake investigation and recognises her Champion victory.",
+    "role": "Pokémon Evolution researcher who gives the player her starter and Pokédex, assigns the lake investigation and recognises her Champion victory.",
     "personality": "Stern and patient, with a kind core, dry humour and a fondness for sweets.",
     "relationships": [
       "Lucas/Dawn: assistant",
       "Professor Oak: old colleague",
       "Cynthia: earlier Pokédex protégé",
-      "Luce and Barry: new Trainers"
+      "the player and Barry: new Trainers"
     ],
     "responsibilities": [
       "Starter selection",
@@ -3274,12 +3792,17 @@ window.CHARACTERS = [
       {
         "id": "intro",
         "title": "Introduction and TV programme",
-        "location": "New-game introduction / Luce’s TV",
+        "location": "New-game introduction / the player’s TV",
         "phase": "Main story",
         "optional": false,
         "summary": "Opening narration and TV programme introduce the Pokémon researcher.",
         "teams": [],
-        "repeatable": false
+        "repeatable": false,
+        "tags": [],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Professor_Rowan",
+          "https://bulbapedia.bulbagarden.net/wiki/Professor_Rowan/Quotes"
+        ]
       },
       {
         "id": "starter",
@@ -3287,9 +3810,23 @@ window.CHARACTERS = [
         "location": "Route 201",
         "phase": "Main story",
         "optional": false,
-        "summary": "Stops Luce and Barry entering grass and entrusts them with Pokémon.",
+        "summary": "Stops the player and Barry entering grass and entrusts them with Pokémon.",
         "teams": [],
-        "repeatable": false
+        "repeatable": false,
+        "tags": [
+          "Gift Pokémon",
+          "Progression"
+        ],
+        "giftPokemon": [
+          "Turtwig",
+          "Chimchar",
+          "Piplup"
+        ],
+        "giftNote": "Choose one starter; these are the three possible species, not three simultaneous gifts.",
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Professor_Rowan",
+          "https://bulbapedia.bulbagarden.net/wiki/Professor_Rowan/Quotes"
+        ]
       },
       {
         "id": "lab",
@@ -3297,9 +3834,17 @@ window.CHARACTERS = [
         "location": "Sandgem laboratory → exterior",
         "phase": "Main story",
         "optional": false,
-        "summary": "Checks the bond with Luce’s starter, requests Pokédex help, and gives TM27 Return outside.",
+        "summary": "Checks the bond with the player’s starter, requests Pokédex help, and gives TM27 Return outside.",
         "teams": [],
-        "repeatable": false
+        "repeatable": false,
+        "tags": [
+          "Item / HM",
+          "Progression"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Professor_Rowan",
+          "https://bulbapedia.bulbagarden.net/wiki/Professor_Rowan/Quotes"
+        ]
       },
       {
         "id": "jubilife",
@@ -3307,9 +3852,16 @@ window.CHARACTERS = [
         "location": "Jubilife City",
         "phase": "Main story",
         "optional": false,
-        "summary": "After Coal Badge, Galactic tries to take his research. Luce and assistant battle the grunts.",
+        "summary": "After Coal Badge, Galactic tries to take his research. the player and assistant battle the grunts.",
         "teams": [],
-        "repeatable": false
+        "repeatable": false,
+        "tags": [
+          "Progression"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Professor_Rowan",
+          "https://bulbapedia.bulbagarden.net/wiki/Professor_Rowan/Quotes"
+        ]
       },
       {
         "id": "library",
@@ -3319,7 +3871,14 @@ window.CHARACTERS = [
         "optional": false,
         "summary": "After Mine Badge, assigns each Trainer a lake. The explosion at Lake Valor interrupts the meeting.",
         "teams": [],
-        "repeatable": false
+        "repeatable": false,
+        "tags": [
+          "Progression"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Professor_Rowan",
+          "https://bulbapedia.bulbagarden.net/wiki/Professor_Rowan/Quotes"
+        ]
       },
       {
         "id": "verity",
@@ -3327,9 +3886,16 @@ window.CHARACTERS = [
         "location": "Lake Verity",
         "phase": "Main story",
         "optional": false,
-        "summary": "After the lake assignment, can be visited before Valor. Once Valor is checked, asks Luce to help the assistant against Mars.",
+        "summary": "After the lake assignment, can be visited before Valor. Once Valor is checked, asks the player to help the assistant against Mars.",
         "teams": [],
-        "repeatable": false
+        "repeatable": false,
+        "tags": [
+          "Progression"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Professor_Rowan",
+          "https://bulbapedia.bulbagarden.net/wiki/Professor_Rowan/Quotes"
+        ]
       },
       {
         "id": "after-distortion",
@@ -3337,9 +3903,14 @@ window.CHARACTERS = [
         "location": "Sandgem laboratory",
         "phase": "Main story",
         "optional": false,
-        "summary": "After the legendary crisis, welcomes Luce back and directs the remaining journey.",
+        "summary": "After the legendary crisis, welcomes the player back and directs the remaining journey.",
         "teams": [],
-        "repeatable": false
+        "repeatable": false,
+        "tags": [],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Professor_Rowan",
+          "https://bulbapedia.bulbagarden.net/wiki/Professor_Rowan/Quotes"
+        ]
       },
       {
         "id": "mesprit",
@@ -3349,7 +3920,14 @@ window.CHARACTERS = [
         "optional": true,
         "summary": "After interacting with the released Mesprit, comments on the lake research and recommends the Marking Map.",
         "teams": [],
-        "repeatable": false
+        "repeatable": false,
+        "tags": [
+          "Optional"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Professor_Rowan",
+          "https://bulbapedia.bulbagarden.net/wiki/Professor_Rowan/Quotes"
+        ]
       },
       {
         "id": "hall",
@@ -3357,9 +3935,16 @@ window.CHARACTERS = [
         "location": "Hall of Fame",
         "phase": "Main story",
         "optional": false,
-        "summary": "Congratulates Luce and joins Cynthia for the victory record.",
+        "summary": "Congratulates the player and joins Cynthia for the victory record.",
         "teams": [],
-        "repeatable": true
+        "repeatable": true,
+        "tags": [
+          "Repeatable"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Professor_Rowan",
+          "https://bulbapedia.bulbagarden.net/wiki/Professor_Rowan/Quotes"
+        ]
       },
       {
         "id": "dex-evaluation",
@@ -3367,9 +3952,17 @@ window.CHARACTERS = [
         "location": "Sandgem laboratory / PC service",
         "phase": "Main story",
         "optional": true,
-        "summary": "Evaluates how many Sinnoh Pokémon Luce has seen; no fixed encounter total.",
+        "summary": "Evaluates how many Sinnoh Pokémon the player has seen; no fixed encounter total.",
         "teams": [],
-        "repeatable": true
+        "repeatable": true,
+        "tags": [
+          "Repeatable",
+          "Optional"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Professor_Rowan",
+          "https://bulbapedia.bulbagarden.net/wiki/Professor_Rowan/Quotes"
+        ]
       },
       {
         "id": "national",
@@ -3379,7 +3972,16 @@ window.CHARACTERS = [
         "optional": false,
         "summary": "After seeing all 210 Sinnoh entries, Professor Oak arrives and upgrades the Pokédex; Rowan hosts the event.",
         "teams": [],
-        "repeatable": false
+        "repeatable": false,
+        "tags": [
+          "Item / HM",
+          "Progression",
+          "Postgame"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Professor_Rowan",
+          "https://bulbapedia.bulbagarden.net/wiki/Professor_Rowan/Quotes"
+        ]
       },
       {
         "id": "sweets",
@@ -3389,7 +3991,16 @@ window.CHARACTERS = [
         "optional": true,
         "summary": "Optional postgame conversation about sweets and unusual Evolution locations.",
         "teams": [],
-        "repeatable": true
+        "repeatable": true,
+        "tags": [
+          "Repeatable",
+          "Optional",
+          "Postgame"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Professor_Rowan",
+          "https://bulbapedia.bulbagarden.net/wiki/Professor_Rowan/Quotes"
+        ]
       },
       {
         "id": "villa",
@@ -3399,7 +4010,16 @@ window.CHARACTERS = [
         "optional": true,
         "summary": "Can visit after the bookshelf purchase.",
         "teams": [],
-        "repeatable": true
+        "repeatable": true,
+        "tags": [
+          "Repeatable",
+          "Optional",
+          "Postgame"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Professor_Rowan",
+          "https://bulbapedia.bulbagarden.net/wiki/Professor_Rowan/Quotes"
+        ]
       },
       {
         "id": "rotom",
@@ -3409,10 +4029,17 @@ window.CHARACTERS = [
         "optional": true,
         "summary": "Comments after Rotom first enters an appliance. Requires the distribution-only Secret Key in original Platinum.",
         "teams": [],
-        "repeatable": false
+        "repeatable": false,
+        "tags": [
+          "Optional"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Professor_Rowan",
+          "https://bulbapedia.bulbagarden.net/wiki/Professor_Rowan/Quotes"
+        ]
       }
     ],
-    "sourceNotes": "Platinum only. Timeline rows are distinct editing checkpoints, with continuous scenes grouped. Optional visits and repeatable interactions are listed separately; this is a reference inventory, not a verified script-by-script ROM count. No team shown means no scripted Pokémon battle at that checkpoint.",
+    "sourceNotes": "Platinum only. Timeline rows are documented story checkpoints, with continuous scenes grouped. Optional visits and repeatable interactions are listed separately; this is a reference inventory, not an exhaustive event count. No team shown means no scripted Pokémon battle at that checkpoint.",
     "images": [
       {
         "label": "Portrait (Diamond/Pearl era)",
@@ -3437,13 +4064,13 @@ window.CHARACTERS = [
   },
   {
     "id": "lucas",
-    "name": "Lucas — assistant",
+    "name": "Lucas",
     "category": "Story",
-    "role": "Professor Rowan’s assistant when the female player branch is used; friendly guide and double-battle partner. If Luce uses the male branch, Dawn fills this same role.",
+    "role": "Professor Rowan’s assistant when the female player branch is used; friendly guide and double-battle partner. If the player uses the male branch, Dawn fills this same role.",
     "personality": "Helpful, curious and modest; shares practical tools and encourages Pokédex progress.",
     "relationships": [
       "Rowan: employer and mentor",
-      "Luce: fellow Pokédex researcher",
+      "the player: fellow Pokédex researcher",
       "Father: Rowan’s assistant",
       "Sister and grandfather: Sandgem family"
     ],
@@ -3475,7 +4102,12 @@ window.CHARACTERS = [
         "optional": false,
         "summary": "Returns the briefcase from the lake during the starter event.",
         "teams": [],
-        "repeatable": false
+        "repeatable": false,
+        "tags": [],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Lucas_(game)",
+          "https://bulbapedia.bulbagarden.net/wiki/Lucas_(game)/Quotes"
+        ]
       },
       {
         "id": "sandgem",
@@ -3483,9 +4115,16 @@ window.CHARACTERS = [
         "location": "Sandgem Town",
         "phase": "Main story",
         "optional": false,
-        "summary": "Welcomes Luce, introduces the lab and demonstrates the Pokémon Center / Mart locations.",
+        "summary": "Welcomes the player, introduces the lab and demonstrates the Pokémon Center / Mart locations.",
         "teams": [],
-        "repeatable": false
+        "repeatable": false,
+        "tags": [
+          "Progression"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Lucas_(game)",
+          "https://bulbapedia.bulbagarden.net/wiki/Lucas_(game)/Quotes"
+        ]
       },
       {
         "id": "catch",
@@ -3496,7 +4135,7 @@ window.CHARACTERS = [
         "summary": "Blocks departure until Mum has been told. Demonstrates catching Bidoof with a Lv.5 starter and gives Poké Balls. Tutorial, not a Trainer battle.",
         "teams": [
           {
-            "label": "Luce chose Turtwig → Andi",
+            "label": "Player chose Turtwig",
             "pokemon": [
               {
                 "species": "Piplup",
@@ -3511,7 +4150,7 @@ window.CHARACTERS = [
             ]
           },
           {
-            "label": "Luce chose Chimchar → Rory",
+            "label": "Player chose Chimchar",
             "pokemon": [
               {
                 "species": "Turtwig",
@@ -3526,7 +4165,7 @@ window.CHARACTERS = [
             ]
           },
           {
-            "label": "Luce chose Piplup → Percy",
+            "label": "Player chose Piplup",
             "pokemon": [
               {
                 "species": "Chimchar",
@@ -3541,7 +4180,19 @@ window.CHARACTERS = [
             ]
           }
         ],
-        "repeatable": false
+        "repeatable": false,
+        "tags": [
+          "Item / HM",
+          "Progression",
+          "Tutorial"
+        ],
+        "featuredPokemon": [
+          "Bidoof"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Lucas_(game)",
+          "https://bulbapedia.bulbagarden.net/wiki/Lucas_(game)/Quotes"
+        ]
       },
       {
         "id": "jubilife",
@@ -3549,9 +4200,14 @@ window.CHARACTERS = [
         "location": "Jubilife City",
         "phase": "Main story",
         "optional": false,
-        "summary": "Introduces Looker and points Luce towards the Trainer School.",
+        "summary": "Introduces Looker and points the player towards the Trainer School.",
         "teams": [],
-        "repeatable": false
+        "repeatable": false,
+        "tags": [],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Lucas_(game)",
+          "https://bulbapedia.bulbagarden.net/wiki/Lucas_(game)/Quotes"
+        ]
       },
       {
         "id": "jubilife-battle",
@@ -3562,7 +4218,7 @@ window.CHARACTERS = [
         "summary": "After Coal Badge, helps protect Rowan’s research.",
         "teams": [
           {
-            "label": "Luce chose Turtwig → Andi",
+            "label": "Player chose Turtwig",
             "pokemon": [
               {
                 "species": "Piplup",
@@ -3577,7 +4233,7 @@ window.CHARACTERS = [
             ]
           },
           {
-            "label": "Luce chose Chimchar → Rory",
+            "label": "Player chose Chimchar",
             "pokemon": [
               {
                 "species": "Turtwig",
@@ -3592,7 +4248,7 @@ window.CHARACTERS = [
             ]
           },
           {
-            "label": "Luce chose Piplup → Percy",
+            "label": "Player chose Piplup",
             "pokemon": [
               {
                 "species": "Chimchar",
@@ -3607,7 +4263,16 @@ window.CHARACTERS = [
             ]
           }
         ],
-        "repeatable": false
+        "repeatable": false,
+        "tags": [
+          "Battle",
+          "Partner battle",
+          "Progression"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Lucas_(game)",
+          "https://bulbapedia.bulbagarden.net/wiki/Lucas_(game)/Quotes"
+        ]
       },
       {
         "id": "tools",
@@ -3615,9 +4280,17 @@ window.CHARACTERS = [
         "location": "Route 207",
         "phase": "Main story",
         "optional": false,
-        "summary": "Offers both tools regardless of which hand Luce chooses.",
+        "summary": "Offers both tools regardless of which hand the player chooses.",
         "teams": [],
-        "repeatable": false
+        "repeatable": false,
+        "tags": [
+          "Item / HM",
+          "Progression"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Lucas_(game)",
+          "https://bulbapedia.bulbagarden.net/wiki/Lucas_(game)/Quotes"
+        ]
       },
       {
         "id": "veilstone-intro",
@@ -3625,9 +4298,14 @@ window.CHARACTERS = [
         "location": "Veilstone City",
         "phase": "Main story",
         "optional": false,
-        "summary": "Checks Luce’s progress around the Gym visit.",
+        "summary": "Checks the player’s progress around the Gym visit.",
         "teams": [],
-        "repeatable": false
+        "repeatable": false,
+        "tags": [],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Lucas_(game)",
+          "https://bulbapedia.bulbagarden.net/wiki/Lucas_(game)/Quotes"
+        ]
       },
       {
         "id": "veilstone-battle",
@@ -3638,7 +4316,7 @@ window.CHARACTERS = [
         "summary": "Asks for help after grunts steal the Pokédex; joins the double battle.",
         "teams": [
           {
-            "label": "Luce chose Turtwig → Andi",
+            "label": "Player chose Turtwig",
             "pokemon": [
               {
                 "species": "Clefairy",
@@ -3679,7 +4357,7 @@ window.CHARACTERS = [
             ]
           },
           {
-            "label": "Luce chose Chimchar → Rory",
+            "label": "Player chose Chimchar",
             "pokemon": [
               {
                 "species": "Clefairy",
@@ -3720,7 +4398,7 @@ window.CHARACTERS = [
             ]
           },
           {
-            "label": "Luce chose Piplup → Percy",
+            "label": "Player chose Piplup",
             "pokemon": [
               {
                 "species": "Clefairy",
@@ -3761,7 +4439,16 @@ window.CHARACTERS = [
             ]
           }
         ],
-        "repeatable": false
+        "repeatable": false,
+        "tags": [
+          "Battle",
+          "Partner battle",
+          "Progression"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Lucas_(game)",
+          "https://bulbapedia.bulbagarden.net/wiki/Lucas_(game)/Quotes"
+        ]
       },
       {
         "id": "library",
@@ -3771,7 +4458,12 @@ window.CHARACTERS = [
         "optional": false,
         "summary": "Assigned to Lake Verity during Rowan’s research meeting.",
         "teams": [],
-        "repeatable": false
+        "repeatable": false,
+        "tags": [],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Lucas_(game)",
+          "https://bulbapedia.bulbagarden.net/wiki/Lucas_(game)/Quotes"
+        ]
       },
       {
         "id": "verity",
@@ -3779,9 +4471,14 @@ window.CHARACTERS = [
         "location": "Lake Verity",
         "phase": "Main story",
         "optional": false,
-        "summary": "Needs Luce’s help against Galactic, then reports the guardian has been taken.",
+        "summary": "Needs the player’s help against Galactic, then reports the guardian has been taken.",
         "teams": [],
-        "repeatable": false
+        "repeatable": false,
+        "tags": [],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Lucas_(game)",
+          "https://bulbapedia.bulbagarden.net/wiki/Lucas_(game)/Quotes"
+        ]
       },
       {
         "id": "lab-followups",
@@ -3791,7 +4488,14 @@ window.CHARACTERS = [
         "optional": false,
         "summary": "Dialogue changes after Distortion World, Hall of Fame, the elder’s advice, catching Dialga/Palkia and Pokédex progress. Grouped repeatable dialogue states.",
         "teams": [],
-        "repeatable": true
+        "repeatable": true,
+        "tags": [
+          "Repeatable"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Lucas_(game)",
+          "https://bulbapedia.bulbagarden.net/wiki/Lucas_(game)/Quotes"
+        ]
       },
       {
         "id": "radar",
@@ -3801,7 +4505,16 @@ window.CHARACTERS = [
         "optional": true,
         "summary": "After National Pokédex and related Sandgem dialogue, explains chaining.",
         "teams": [],
-        "repeatable": false
+        "repeatable": false,
+        "tags": [
+          "Optional",
+          "Postgame",
+          "Tutorial"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Lucas_(game)",
+          "https://bulbapedia.bulbagarden.net/wiki/Lucas_(game)/Quotes"
+        ]
       },
       {
         "id": "completion",
@@ -3809,9 +4522,18 @@ window.CHARACTERS = [
         "location": "Sandgem laboratory",
         "phase": "Postgame",
         "optional": true,
-        "summary": "Congratulates Luce on completion and can recognise the player’s birthday.",
+        "summary": "Congratulates the player on completion and can recognise the player’s birthday.",
         "teams": [],
-        "repeatable": true
+        "repeatable": true,
+        "tags": [
+          "Repeatable",
+          "Optional",
+          "Postgame"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Lucas_(game)",
+          "https://bulbapedia.bulbagarden.net/wiki/Lucas_(game)/Quotes"
+        ]
       },
       {
         "id": "hall",
@@ -3821,7 +4543,17 @@ window.CHARACTERS = [
         "optional": true,
         "summary": "Can appear after successful Battle Hall performance.",
         "teams": [],
-        "repeatable": true
+        "repeatable": true,
+        "tags": [
+          "Repeatable",
+          "Optional",
+          "Postgame",
+          "Facility"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Lucas_(game)",
+          "https://bulbapedia.bulbagarden.net/wiki/Lucas_(game)/Quotes"
+        ]
       },
       {
         "id": "villa",
@@ -3831,10 +4563,19 @@ window.CHARACTERS = [
         "optional": true,
         "repeatable": true,
         "summary": "Can visit after the small sofa purchase; comments about the furniture, research and Battle Zone.",
-        "teams": []
+        "teams": [],
+        "tags": [
+          "Repeatable",
+          "Optional",
+          "Postgame"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Lucas_(game)",
+          "https://bulbapedia.bulbagarden.net/wiki/Lucas_(game)/Quotes"
+        ]
       }
     ],
-    "sourceNotes": "Assumes Luce replaces Dawn’s playable branch; the NPC is Lucas. Original Platinum has no battles AGAINST Lucas/Dawn. The Lv.5 party is the catching demonstration; Lv.13 and Lv.25/28 parties are partner battles. Sandgem postgame state changes are grouped instead of claiming an exact appearance total.",
+    "sourceNotes": "Lucas is Professor Rowan’s assistant when Dawn is the playable character; Dawn fills this role when Lucas is playable. Original Platinum has no battles AGAINST Lucas/Dawn. The Lv.5 party is the catching demonstration; Lv.13 and Lv.25/28 parties are partner battles. Sandgem postgame state changes are grouped instead of claiming an exact appearance total.",
     "images": [
       {
         "label": "Portrait (Platinum)",
@@ -3873,7 +4614,7 @@ window.CHARACTERS = [
       "Cyrus: leader",
       "Jupiter: fellow commander / rival",
       "Charon: resents his leadership",
-      "Luce: recurring opponent"
+      "the player: recurring opponent"
     ],
     "responsibilities": [
       "Windworks occupation",
@@ -3898,7 +4639,7 @@ window.CHARACTERS = [
         "location": "Valley Windworks",
         "phase": "Main story",
         "optional": false,
-        "summary": "First major Galactic boss; withdraws with Charon after Luce wins.",
+        "summary": "First major Galactic boss; withdraws with Charon after the player wins.",
         "teams": [
           {
             "label": "Original Platinum team",
@@ -3928,7 +4669,14 @@ window.CHARACTERS = [
             ]
           }
         ],
-        "repeatable": false
+        "repeatable": false,
+        "tags": [
+          "Battle",
+          "Progression"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Mars"
+        ]
       },
       {
         "id": "verity",
@@ -3936,7 +4684,7 @@ window.CHARACTERS = [
         "location": "Lake Verity",
         "phase": "Main story",
         "optional": false,
-        "summary": "Guards the captured Mesprit operation; Luce helps Rowan and the assistant.",
+        "summary": "Guards the captured Mesprit operation; the player helps Rowan and the assistant.",
         "teams": [
           {
             "label": "Original Platinum team",
@@ -3980,7 +4728,14 @@ window.CHARACTERS = [
             ]
           }
         ],
-        "repeatable": false
+        "repeatable": false,
+        "tags": [
+          "Battle",
+          "Progression"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Mars"
+        ]
       },
       {
         "id": "spear",
@@ -3988,7 +4743,7 @@ window.CHARACTERS = [
         "location": "Spear Pillar",
         "phase": "Main story",
         "optional": false,
-        "summary": "Battles Luce and Barry together. Only Mars’s three Pokémon are shown here; Jupiter has the other three.",
+        "summary": "Battles the player and Barry together. Only Mars’s three Pokémon are shown here; Jupiter has the other three.",
         "teams": [
           {
             "label": "Original Platinum team",
@@ -4032,7 +4787,14 @@ window.CHARACTERS = [
             ]
           }
         ],
-        "repeatable": false
+        "repeatable": false,
+        "tags": [
+          "Battle",
+          "Progression"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Mars"
+        ]
       },
       {
         "id": "stark",
@@ -4084,10 +4846,18 @@ window.CHARACTERS = [
             ]
           }
         ],
-        "repeatable": false
+        "repeatable": false,
+        "tags": [
+          "Battle",
+          "Progression",
+          "Postgame"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Mars"
+        ]
       }
     ],
-    "sourceNotes": "Platinum only. Timeline rows are distinct editing checkpoints, with continuous scenes grouped. Optional visits and repeatable interactions are listed separately; this is a reference inventory, not a verified script-by-script ROM count. No team shown means no scripted Pokémon battle at that checkpoint.",
+    "sourceNotes": "Platinum only. Timeline rows are documented story checkpoints, with continuous scenes grouped. Optional visits and repeatable interactions are listed separately; this is a reference inventory, not an exhaustive event count. No team shown means no scripted Pokémon battle at that checkpoint.",
     "images": [
       {
         "label": "Portrait (Diamond/Pearl era)",
@@ -4175,7 +4945,14 @@ window.CHARACTERS = [
             ]
           }
         ],
-        "repeatable": false
+        "repeatable": false,
+        "tags": [
+          "Battle",
+          "Progression"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Jupiter"
+        ]
       },
       {
         "id": "acuity",
@@ -4183,9 +4960,13 @@ window.CHARACTERS = [
         "location": "Lake Acuity",
         "phase": "Main story",
         "optional": false,
-        "summary": "Seen after beating Barry and taking Uxie. Luce does not battle her here.",
+        "summary": "Seen after beating Barry and taking Uxie. the player does not battle her here.",
         "teams": [],
-        "repeatable": false
+        "repeatable": false,
+        "tags": [],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Jupiter"
+        ]
       },
       {
         "id": "spear",
@@ -4193,7 +4974,7 @@ window.CHARACTERS = [
         "location": "Spear Pillar",
         "phase": "Main story",
         "optional": false,
-        "summary": "Battles Luce and Barry; only Jupiter’s three Pokémon are listed on this page.",
+        "summary": "Battles the player and Barry; only Jupiter’s three Pokémon are listed on this page.",
         "teams": [
           {
             "label": "Original Platinum team",
@@ -4237,7 +5018,14 @@ window.CHARACTERS = [
             ]
           }
         ],
-        "repeatable": false
+        "repeatable": false,
+        "tags": [
+          "Battle",
+          "Progression"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Jupiter"
+        ]
       },
       {
         "id": "stark",
@@ -4289,10 +5077,18 @@ window.CHARACTERS = [
             ]
           }
         ],
-        "repeatable": false
+        "repeatable": false,
+        "tags": [
+          "Battle",
+          "Progression",
+          "Postgame"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Jupiter"
+        ]
       }
     ],
-    "sourceNotes": "Platinum only. Timeline rows are distinct editing checkpoints, with continuous scenes grouped. Optional visits and repeatable interactions are listed separately; this is a reference inventory, not a verified script-by-script ROM count. No team shown means no scripted Pokémon battle at that checkpoint.",
+    "sourceNotes": "Platinum only. Timeline rows are documented story checkpoints, with continuous scenes grouped. Optional visits and repeatable interactions are listed separately; this is a reference inventory, not an exhaustive event count. No team shown means no scripted Pokémon battle at that checkpoint.",
     "images": [
       {
         "label": "Portrait (Diamond/Pearl era)",
@@ -4347,7 +5143,7 @@ window.CHARACTERS = [
         "location": "Valor Cavern",
         "phase": "Main story",
         "optional": false,
-        "summary": "Leads the lake operation after the explosion and battles Luce.",
+        "summary": "Leads the lake operation after the explosion and battles the player.",
         "teams": [
           {
             "label": "Original Platinum team",
@@ -4391,7 +5187,14 @@ window.CHARACTERS = [
             ]
           }
         ],
-        "repeatable": false
+        "repeatable": false,
+        "tags": [
+          "Battle",
+          "Progression"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Saturn"
+        ]
       },
       {
         "id": "hq",
@@ -4399,7 +5202,7 @@ window.CHARACTERS = [
         "location": "Team Galactic HQ",
         "phase": "Main story",
         "optional": false,
-        "summary": "Seen with Charon; battles after Cyrus’s office fight. Defeat allows Luce to press the release button.",
+        "summary": "Seen with Charon; battles after Cyrus’s office fight. Defeat allows the player to press the release button.",
         "teams": [
           {
             "label": "Original Platinum team",
@@ -4443,7 +5246,14 @@ window.CHARACTERS = [
             ]
           }
         ],
-        "repeatable": false
+        "repeatable": false,
+        "tags": [
+          "Battle",
+          "Progression"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Saturn"
+        ]
       },
       {
         "id": "hq-after",
@@ -4453,10 +5263,17 @@ window.CHARACTERS = [
         "optional": true,
         "summary": "After Cyrus vanishes, remains at HQ and reflects on how Cyrus deceived them. No additional battle.",
         "teams": [],
-        "repeatable": true
+        "repeatable": true,
+        "tags": [
+          "Repeatable",
+          "Optional"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Saturn"
+        ]
       }
     ],
-    "sourceNotes": "Platinum only. Timeline rows are distinct editing checkpoints, with continuous scenes grouped. Optional visits and repeatable interactions are listed separately; this is a reference inventory, not a verified script-by-script ROM count. No team shown means no scripted Pokémon battle at that checkpoint.",
+    "sourceNotes": "Platinum only. Timeline rows are documented story checkpoints, with continuous scenes grouped. Optional visits and repeatable interactions are listed separately; this is a reference inventory, not an exhaustive event count. No team shown means no scripted Pokémon battle at that checkpoint.",
     "images": [
       {
         "label": "Portrait (Diamond/Pearl era)",
@@ -4481,12 +5298,12 @@ window.CHARACTERS = [
   },
   {
     "id": "mum",
-    "name": "Mum — Johanna",
+    "name": "Johanna",
     "category": "Family",
-    "role": "Luce’s mother and home support; also a successful Super Contest participant. Planned replacement: Louisa.",
-    "personality": "Warm, encouraging and independent; supports the journey while reminding Luce to care for Pokémon.",
+    "role": "The player’s mother and home support; also an accomplished Super Contest participant.",
+    "personality": "Warm, encouraging and independent; supports the journey while reminding the player to care for Pokémon.",
     "relationships": [
-      "Luce: daughter / player",
+      "the player: daughter / player",
       "Barry’s mother: friend",
       "Keira: Contest friend",
       "Jumpy: contest Kangaskhan"
@@ -4519,7 +5336,12 @@ window.CHARACTERS = [
         "optional": false,
         "summary": "Warns about tall grass and comments on Barry rushing away.",
         "teams": [],
-        "repeatable": false
+        "repeatable": false,
+        "tags": [],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Johanna",
+          "https://bulbapedia.bulbagarden.net/wiki/Johanna/Quotes"
+        ]
       },
       {
         "id": "shoes",
@@ -4527,9 +5349,17 @@ window.CHARACTERS = [
         "location": "Player’s house",
         "phase": "Main story",
         "optional": false,
-        "summary": "After first rival battle, gives Running Shoes and asks Luce to thank Rowan.",
+        "summary": "After first rival battle, gives Running Shoes and asks the player to thank Rowan.",
         "teams": [],
-        "repeatable": false
+        "repeatable": false,
+        "tags": [
+          "Item / HM",
+          "Progression"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Johanna",
+          "https://bulbapedia.bulbagarden.net/wiki/Johanna/Quotes"
+        ]
       },
       {
         "id": "journal",
@@ -4537,9 +5367,17 @@ window.CHARACTERS = [
         "location": "Player’s house",
         "phase": "Main story",
         "optional": false,
-        "summary": "After the Sandgem visit, gives the Journal. Barry’s mother arrives with the Parcel for Luce to deliver.",
+        "summary": "After the Sandgem visit, gives the Journal. Barry’s mother arrives with the Parcel for the player to deliver.",
         "teams": [],
-        "repeatable": false
+        "repeatable": false,
+        "tags": [
+          "Item / HM",
+          "Progression"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Johanna",
+          "https://bulbapedia.bulbagarden.net/wiki/Johanna/Quotes"
+        ]
       },
       {
         "id": "home",
@@ -4549,7 +5387,15 @@ window.CHARACTERS = [
         "optional": true,
         "summary": "Repeatable party healing and changing family dialogue.",
         "teams": [],
-        "repeatable": true
+        "repeatable": true,
+        "tags": [
+          "Repeatable",
+          "Optional"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Johanna",
+          "https://bulbapedia.bulbagarden.net/wiki/Johanna/Quotes"
+        ]
       },
       {
         "id": "contest-intro",
@@ -4559,7 +5405,16 @@ window.CHARACTERS = [
         "optional": true,
         "summary": "Introduces Keira and supplies the appropriate Dress / Tuxedo.",
         "teams": [],
-        "repeatable": false
+        "repeatable": false,
+        "tags": [
+          "Item / HM",
+          "Optional",
+          "Contest"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Johanna",
+          "https://bulbapedia.bulbagarden.net/wiki/Johanna/Quotes"
+        ]
       },
       {
         "id": "master-contest",
@@ -4588,7 +5443,16 @@ window.CHARACTERS = [
             ]
           }
         ],
-        "repeatable": true
+        "repeatable": true,
+        "tags": [
+          "Repeatable",
+          "Optional",
+          "Contest"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Johanna",
+          "https://bulbapedia.bulbagarden.net/wiki/Johanna/Quotes"
+        ]
       },
       {
         "id": "post-league",
@@ -4596,9 +5460,16 @@ window.CHARACTERS = [
         "location": "Player’s house",
         "phase": "Postgame",
         "optional": false,
-        "summary": "After first Hall of Fame, says Barry wants Luce to take the Snowpoint ship.",
+        "summary": "After first Hall of Fame, says Barry wants the player to take the Snowpoint ship.",
         "teams": [],
-        "repeatable": false
+        "repeatable": false,
+        "tags": [
+          "Postgame"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Johanna",
+          "https://bulbapedia.bulbagarden.net/wiki/Johanna/Quotes"
+        ]
       },
       {
         "id": "battlehall",
@@ -4606,9 +5477,19 @@ window.CHARACTERS = [
         "location": "Battle Hall lobby",
         "phase": "Postgame",
         "optional": true,
-        "summary": "Can appear after Luce performs well in the facility.",
+        "summary": "Can appear after the player performs well in the facility.",
         "teams": [],
-        "repeatable": true
+        "repeatable": true,
+        "tags": [
+          "Repeatable",
+          "Optional",
+          "Postgame",
+          "Facility"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Johanna",
+          "https://bulbapedia.bulbagarden.net/wiki/Johanna/Quotes"
+        ]
       },
       {
         "id": "villa",
@@ -4618,13 +5499,19 @@ window.CHARACTERS = [
         "optional": true,
         "summary": "Optional rotating visitor.",
         "teams": [],
-        "repeatable": true
+        "repeatable": true,
+        "tags": [
+          "Repeatable",
+          "Optional",
+          "Postgame"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Johanna",
+          "https://bulbapedia.bulbagarden.net/wiki/Johanna/Quotes"
+        ]
       }
     ],
-    "sourceNotes": "Louisa is the confirmed replacement. Johanna has no Trainer battle in Platinum. Jumpy’s contest moves are documented, but no battle level, held item or ability should be invented; anime Glameow/Umbreon are not her Platinum party. No unique official game portrait is supplied; the exact Generation IV overworld sprite is shown.",
-    "prefill": {
-      "name": "Louisa"
-    },
+    "sourceNotes": "Johanna has no Trainer battle in Platinum. Jumpy’s contest moves are documented, but no battle level, held item or ability should be invented; anime Glameow/Umbreon are not her Platinum party. No unique official game portrait is supplied; the exact Generation IV overworld sprite is shown.",
     "images": [
       {
         "label": "Overworld sprite",
@@ -4674,7 +5561,11 @@ window.CHARACTERS = [
         "optional": false,
         "summary": "Stands with Mars during the occupation; comments after her defeat.",
         "teams": [],
-        "repeatable": false
+        "repeatable": false,
+        "tags": [],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Charon"
+        ]
       },
       {
         "id": "hq",
@@ -4684,7 +5575,11 @@ window.CHARACTERS = [
         "optional": false,
         "summary": "Seen with Saturn around the captive guardians and their release button.",
         "teams": [],
-        "repeatable": false
+        "repeatable": false,
+        "tags": [],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Charon"
+        ]
       },
       {
         "id": "stark-entry",
@@ -4692,9 +5587,16 @@ window.CHARACTERS = [
         "location": "Stark Mountain entrance chamber",
         "phase": "Postgame",
         "optional": false,
-        "summary": "Leads the remaining group; Mars and Jupiter battle Luce then quit.",
+        "summary": "Leads the remaining group; Mars and Jupiter battle the player then quit.",
         "teams": [],
-        "repeatable": false
+        "repeatable": false,
+        "tags": [
+          "Progression",
+          "Postgame"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Charon"
+        ]
       },
       {
         "id": "stark-arrest",
@@ -4704,7 +5606,14 @@ window.CHARACTERS = [
         "optional": false,
         "summary": "Tries to take the Magma Stone, but Looker’s Croagunk retrieves it and police arrest him.",
         "teams": [],
-        "repeatable": false
+        "repeatable": false,
+        "tags": [
+          "Progression",
+          "Postgame"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Charon"
+        ]
       }
     ],
     "sourceNotes": "Charon is never battled in original Platinum and has no scripted battle team. His illustrated trainer sprite exists, but does not imply a playable fight. The Rotom notebook is an indirect reference and should be excluded from in-person appearance counts.",
@@ -4738,7 +5647,7 @@ window.CHARACTERS = [
     "personality": "Knowledgeable and forthright; protective of the town and its history.",
     "relationships": [
       "Cynthia: granddaughter",
-      "Luce: Old Charm courier",
+      "the player: Old Charm courier",
       "Cyrus: confronts his threat to the ruins"
     ],
     "responsibilities": [
@@ -4764,9 +5673,16 @@ window.CHARACTERS = [
         "location": "Celestic Town → Celestic Ruins",
         "phase": "Main story",
         "optional": false,
-        "summary": "After Luce deals with the grunt, receives Cynthia’s Old Charm, explains the mural and challenges Cyrus’s claims. After the Cyrus battle, gives HM03 Surf.",
+        "summary": "After the player deals with the grunt, receives Cynthia’s Old Charm, explains the mural and challenges Cyrus’s claims. After the Cyrus battle, gives HM03 Surf.",
         "teams": [],
-        "repeatable": false
+        "repeatable": false,
+        "tags": [
+          "Item / HM",
+          "Progression"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Professor_Carolina"
+        ]
       },
       {
         "id": "town",
@@ -4776,7 +5692,14 @@ window.CHARACTERS = [
         "optional": true,
         "summary": "Optional returns for changing local and legendary dialogue.",
         "teams": [],
-        "repeatable": true
+        "repeatable": true,
+        "tags": [
+          "Repeatable",
+          "Optional"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Professor_Carolina"
+        ]
       },
       {
         "id": "legendaries",
@@ -4786,20 +5709,19 @@ window.CHARACTERS = [
         "optional": true,
         "summary": "Postgame discussion explains returning to Spear Pillar with the Adamant and Lustrous Orbs; no battle.",
         "teams": [],
-        "repeatable": false
+        "repeatable": false,
+        "tags": [
+          "Optional",
+          "Postgame"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Professor_Carolina"
+        ]
       }
     ],
-    "sourceNotes": "The game never calls the elder Professor Carolina; that name belongs to her animation counterpart. No unique Platinum portrait or battle team is established. The Celestic delivery / Cyrus event is grouped as one continuous encounter. Image is a labelled generic elderly NPC reference (Wilma), not a verified unique grandmother portrait. Confirm the shared ROM overworld sprite before replacing it.",
-    "images": [
-      {
-        "label": "Generic elderly NPC reference (Wilma sprite; confirm ROM sprite)",
-        "path": "grandmother-overworld.png",
-        "url": "https://archives.bulbagarden.net/media/upload/0/03/Wilma_DPPt_OD.png",
-        "source": "https://bulbapedia.bulbagarden.net/wiki/Wilma"
-      }
-    ],
-    "image": "grandmother-overworld.png",
-    "imageAlt": "Generic elderly NPC sprite reference; confirm the grandmother sprite in the ROM"
+    "sourceNotes": "The game does not call Cynthia’s grandmother Professor Carolina; that name belongs to her animation counterpart. A unique Platinum portrait and Pokémon battle team are not established in the linked references. The Celestic delivery and Cyrus event are grouped as one continuous encounter.",
+    "images": [],
+    "image": ""
   },
   {
     "id": "buck",
@@ -4810,7 +5732,7 @@ window.CHARACTERS = [
     "relationships": [
       "Flint: older brother",
       "Grandfather: runs the Battleground",
-      "Luce: temporary partner",
+      "the player: temporary partner",
       "Looker: helps restore Magma Stone",
       "Barry: meets at Fight Area"
     ],
@@ -4839,9 +5761,16 @@ window.CHARACTERS = [
         "location": "Fight Area",
         "phase": "Postgame",
         "optional": false,
-        "summary": "Watches Luce and Barry fight Flint / Volkner, then introduces himself.",
+        "summary": "Watches the player and Barry fight Flint / Volkner, then introduces himself.",
         "teams": [],
-        "repeatable": false
+        "repeatable": false,
+        "tags": [
+          "Postgame"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Buck",
+          "https://bulbapedia.bulbagarden.net/wiki/Buck/Quotes"
+        ]
       },
       {
         "id": "route227",
@@ -4849,9 +5778,16 @@ window.CHARACTERS = [
         "location": "Route 227",
         "phase": "Postgame",
         "optional": false,
-        "summary": "Asks Luce to investigate vandals at Stark Mountain.",
+        "summary": "Asks the player to investigate vandals at Stark Mountain.",
         "teams": [],
-        "repeatable": false
+        "repeatable": false,
+        "tags": [
+          "Postgame"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Buck",
+          "https://bulbapedia.bulbagarden.net/wiki/Buck/Quotes"
+        ]
       },
       {
         "id": "stark-partner",
@@ -4859,7 +5795,7 @@ window.CHARACTERS = [
         "location": "Stark Mountain main cavern",
         "phase": "Postgame",
         "optional": false,
-        "summary": "Joins Luce after the Mars / Jupiter fights, uses Claydol and keeps Luce’s party healed.",
+        "summary": "Joins the player after the Mars / Jupiter fights, uses Claydol and keeps the player’s party healed.",
         "teams": [
           {
             "label": "Partner Pokémon",
@@ -4879,7 +5815,17 @@ window.CHARACTERS = [
             ]
           }
         ],
-        "repeatable": false
+        "repeatable": false,
+        "tags": [
+          "Battle",
+          "Partner battle",
+          "Progression",
+          "Postgame"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Buck",
+          "https://bulbapedia.bulbagarden.net/wiki/Buck/Quotes"
+        ]
       },
       {
         "id": "magma",
@@ -4887,9 +5833,17 @@ window.CHARACTERS = [
         "location": "Stark Mountain inner chamber → exterior",
         "phase": "Postgame",
         "optional": false,
-        "summary": "Confronts Charon with Luce, then takes the recovered stone from Looker and returns it.",
+        "summary": "Confronts Charon with the player, then takes the recovered stone from Looker and returns it.",
         "teams": [],
-        "repeatable": false
+        "repeatable": false,
+        "tags": [
+          "Progression",
+          "Postgame"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Buck",
+          "https://bulbapedia.bulbagarden.net/wiki/Buck/Quotes"
+        ]
       },
       {
         "id": "survival",
@@ -4897,9 +5851,17 @@ window.CHARACTERS = [
         "location": "Survival Area / Battleground",
         "phase": "Postgame",
         "optional": false,
-        "summary": "Invites Luce into his place and explains its tough-Trainer membership.",
+        "summary": "Invites the player into his place and explains its tough-Trainer membership.",
         "teams": [],
-        "repeatable": false
+        "repeatable": false,
+        "tags": [
+          "Progression",
+          "Postgame"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Buck",
+          "https://bulbapedia.bulbagarden.net/wiki/Buck/Quotes"
+        ]
       },
       {
         "id": "battle",
@@ -4975,7 +5937,18 @@ window.CHARACTERS = [
             ]
           }
         ],
-        "repeatable": true
+        "repeatable": true,
+        "tags": [
+          "Battle",
+          "Repeatable",
+          "Optional",
+          "Postgame",
+          "Facility"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Buck",
+          "https://bulbapedia.bulbagarden.net/wiki/Buck/Quotes"
+        ]
       },
       {
         "id": "tower",
@@ -6466,7 +7439,19 @@ window.CHARACTERS = [
             "pool": true
           }
         ],
-        "repeatable": true
+        "repeatable": true,
+        "tags": [
+          "Battle",
+          "Partner battle",
+          "Repeatable",
+          "Optional",
+          "Postgame",
+          "Facility"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Buck",
+          "https://bulbapedia.bulbagarden.net/wiki/Buck/Quotes"
+        ]
       }
     ],
     "sourceNotes": "Original Platinum: partner Claydol is Lv.63 (Diamond/Pearl uses Lv.58). Battleground party is fixed. Battle Tower selection pool is provided with moves/items/natures/EVs; two are chosen for Multi Battles. The format controls levels, so null levels mean format-dependent, not Lv.0. Published roster does not specify the ability selection. These pool records are not extra appearances.",
@@ -6500,16 +7485,16 @@ window.CHARACTERS = [
   },
   {
     "id": "player",
-    "name": "Luce — player",
+    "name": "Dawn",
     "category": "Player",
-    "role": "Main playable character; replaces the chosen protagonist branch and drives every mandatory event.",
-    "personality": "Player-controlled. Custom personality, voice and appearance belong to Luce rather than the original silent protagonist.",
+    "role": "A playable protagonist in Pokémon Platinum; begins in Twinleaf Town and journeys through Sinnoh.",
+    "personality": "A silent, player-controlled protagonist. The player chooses her name and guides her exploration, battles and Pokémon team.",
     "relationships": [
-      "Louisa: Mum",
-      "Barry replacement: childhood friend / rival",
-      "Rowan: Pokédex mentor",
-      "Lucas/Dawn: research companion",
-      "Cynthia replacement: mentor / Champion"
+      "Johanna: mother",
+      "Barry: childhood friend and rival",
+      "Professor Rowan: Pokédex mentor",
+      "Lucas: research companion when Dawn is playable",
+      "Cynthia: mentor and Champion"
     ],
     "responsibilities": [
       "Player naming and gender branch",
@@ -6536,9 +7521,13 @@ window.CHARACTERS = [
         "location": "New game → Twinleaf Town",
         "phase": "Main story",
         "optional": false,
-        "summary": "Set the player name to Luce; choose the playable Dawn branch if Lucas is intended as the assistant.",
+        "summary": "The player chooses a protagonist and name, then begins at home in Twinleaf Town. Johanna is the player’s mother, and Barry is their childhood friend.",
         "teams": [],
-        "repeatable": false
+        "repeatable": false,
+        "tags": [],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Dawn_(game)"
+        ]
       },
       {
         "id": "starter",
@@ -6546,9 +7535,15 @@ window.CHARACTERS = [
         "location": "Route 201",
         "phase": "Main story",
         "optional": false,
-        "summary": "Confirmed project mapping: Turtwig → Andi, Chimchar → Rory, Piplup → Percy. All rival / assistant variants follow the ROM slots.",
+        "summary": "Professor Rowan offers Turtwig, Chimchar or Piplup on Route 201. The player chooses one; Barry and the assistant’s Pokémon depend on that choice.",
         "teams": [],
-        "repeatable": false
+        "repeatable": false,
+        "tags": [
+          "Progression"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Dawn_(game)"
+        ]
       },
       {
         "id": "journey",
@@ -6558,7 +7553,13 @@ window.CHARACTERS = [
         "optional": false,
         "summary": "Player participates in the whole main story, so an NPC-style appearance count is not meaningful.",
         "teams": [],
-        "repeatable": false
+        "repeatable": false,
+        "tags": [
+          "Progression"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Dawn_(game)"
+        ]
       },
       {
         "id": "climax",
@@ -6568,7 +7569,13 @@ window.CHARACTERS = [
         "optional": false,
         "summary": "Works with Barry then Cynthia; defeats Cyrus and resolves Giratina.",
         "teams": [],
-        "repeatable": false
+        "repeatable": false,
+        "tags": [
+          "Progression"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Dawn_(game)"
+        ]
       },
       {
         "id": "champion",
@@ -6578,7 +7585,13 @@ window.CHARACTERS = [
         "optional": false,
         "summary": "Becomes Champion, then unlocks postgame exploration.",
         "teams": [],
-        "repeatable": false
+        "repeatable": false,
+        "tags": [
+          "Progression"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Dawn_(game)"
+        ]
       },
       {
         "id": "postgame",
@@ -6586,15 +7599,19 @@ window.CHARACTERS = [
         "location": "Battle Zone / other optional locations",
         "phase": "Postgame",
         "optional": true,
-        "summary": "Tracker checkpoints for postgame player changes.",
+        "summary": "After the Hall of Fame, the player explores the Battle Zone, optional areas and battle facilities.",
         "teams": [],
-        "repeatable": false
+        "repeatable": false,
+        "tags": [
+          "Optional",
+          "Postgame"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Dawn_(game)"
+        ]
       }
     ],
-    "sourceNotes": "The player is continuously present; six planning checkpoints are listed instead of claiming six appearances. Original Dawn artwork is a visual reference, not Luce’s finished design. No fixed player team or level is prescribed.",
-    "prefill": {
-      "name": "Luce"
-    },
+    "sourceNotes": "The protagonist is continuously present. These six story milestones organise the journey rather than count individual appearances. Dawn is shown as the playable branch; Lucas is the alternative protagonist. The player’s team and levels depend on their choices.",
     "images": [
       {
         "label": "Original Dawn portrait (Platinum reference)",
@@ -6622,7 +7639,7 @@ window.CHARACTERS = [
       }
     ],
     "image": "player-portrait.png",
-    "imageAlt": "Original Dawn reference artwork for the Luce player replacement"
+    "imageAlt": "Dawn official Pokémon Platinum artwork"
   },
   {
     "id": "roark",
@@ -6655,7 +7672,14 @@ window.CHARACTERS = [
         "optional": false,
         "summary": "Shows Rock Smash, introduces himself and returns to the Gym.",
         "teams": [],
-        "repeatable": false
+        "repeatable": false,
+        "tags": [],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Roark",
+          "https://bulbapedia.bulbagarden.net/wiki/Roark/Quotes",
+          "https://bulbapedia.bulbagarden.net/wiki/Villa",
+          "https://www.serebii.net/platinum/toptrainercafe.shtml"
+        ]
       },
       {
         "id": "roark-gym",
@@ -6703,7 +7727,18 @@ window.CHARACTERS = [
             ]
           }
         ],
-        "repeatable": false
+        "repeatable": false,
+        "tags": [
+          "Battle",
+          "Item / HM",
+          "Progression"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Roark",
+          "https://bulbapedia.bulbagarden.net/wiki/Roark/Quotes",
+          "https://bulbapedia.bulbagarden.net/wiki/Villa",
+          "https://www.serebii.net/platinum/toptrainercafe.shtml"
+        ]
       },
       {
         "id": "roark-underground",
@@ -6713,7 +7748,17 @@ window.CHARACTERS = [
         "optional": true,
         "summary": "Welcomes the player on their first Underground visit and explains features.",
         "teams": [],
-        "repeatable": false
+        "repeatable": false,
+        "tags": [
+          "Optional",
+          "Tutorial"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Roark",
+          "https://bulbapedia.bulbagarden.net/wiki/Roark/Quotes",
+          "https://bulbapedia.bulbagarden.net/wiki/Villa",
+          "https://www.serebii.net/platinum/toptrainercafe.shtml"
+        ]
       },
       {
         "id": "roark-battleground",
@@ -6789,7 +7834,20 @@ window.CHARACTERS = [
             ]
           }
         ],
-        "repeatable": true
+        "repeatable": true,
+        "tags": [
+          "Battle",
+          "Repeatable",
+          "Optional",
+          "Postgame",
+          "Facility"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Roark",
+          "https://bulbapedia.bulbagarden.net/wiki/Roark/Quotes",
+          "https://bulbapedia.bulbagarden.net/wiki/Villa",
+          "https://www.serebii.net/platinum/toptrainercafe.shtml"
+        ]
       },
       {
         "id": "roark-villa",
@@ -6799,7 +7857,18 @@ window.CHARACTERS = [
         "optional": true,
         "summary": "Repeatable visiting dialogue; not a fixed number of encounters. ",
         "teams": [],
-        "repeatable": true
+        "repeatable": true,
+        "tags": [
+          "Repeatable",
+          "Optional",
+          "Postgame"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Roark",
+          "https://bulbapedia.bulbagarden.net/wiki/Roark/Quotes",
+          "https://bulbapedia.bulbagarden.net/wiki/Villa",
+          "https://www.serebii.net/platinum/toptrainercafe.shtml"
+        ]
       }
     ],
     "image": "roark-artwork.png",
@@ -6823,7 +7892,7 @@ window.CHARACTERS = [
         "source": "https://bulbapedia.bulbagarden.net/wiki/Roark"
       }
     ],
-    "sourceNotes": "Platinum only. Timeline counts group continuous scenes; repeatable dialogue and visits are listed separately, never treated as a finite appearance total. Event text/trainer IDs require checking in your ROM and DSPRE. Minor ambient and TV dialogue is not counted as a physical appearance.",
+    "sourceNotes": "Platinum only. Timeline counts group continuous scenes; repeatable dialogue and visits are listed separately, never treated as a finite appearance total. Minor ambient and TV dialogue is not counted as a physical appearance.",
     "appearanceCounts": {
       "scripted": 3,
       "battleEncounters": 1,
@@ -6861,7 +7930,14 @@ window.CHARACTERS = [
         "optional": false,
         "summary": "Introduces the Gym and its challengers before the Grass-type test.",
         "teams": [],
-        "repeatable": false
+        "repeatable": false,
+        "tags": [],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Gardenia",
+          "https://bulbapedia.bulbagarden.net/wiki/Gardenia/Quotes",
+          "https://bulbapedia.bulbagarden.net/wiki/Villa",
+          "https://www.serebii.net/platinum/toptrainercafe.shtml"
+        ]
       },
       {
         "id": "gardenia-gym",
@@ -6913,7 +7989,18 @@ window.CHARACTERS = [
             ]
           }
         ],
-        "repeatable": false
+        "repeatable": false,
+        "tags": [
+          "Battle",
+          "Item / HM",
+          "Progression"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Gardenia",
+          "https://bulbapedia.bulbagarden.net/wiki/Gardenia/Quotes",
+          "https://bulbapedia.bulbagarden.net/wiki/Villa",
+          "https://www.serebii.net/platinum/toptrainercafe.shtml"
+        ]
       },
       {
         "id": "gardenia-chateau",
@@ -6923,7 +8010,16 @@ window.CHARACTERS = [
         "optional": true,
         "summary": "Warns about ghost stories at the mansion.",
         "teams": [],
-        "repeatable": false
+        "repeatable": false,
+        "tags": [
+          "Optional"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Gardenia",
+          "https://bulbapedia.bulbagarden.net/wiki/Gardenia/Quotes",
+          "https://bulbapedia.bulbagarden.net/wiki/Villa",
+          "https://www.serebii.net/platinum/toptrainercafe.shtml"
+        ]
       },
       {
         "id": "gardenia-battleground",
@@ -6999,7 +8095,20 @@ window.CHARACTERS = [
             ]
           }
         ],
-        "repeatable": true
+        "repeatable": true,
+        "tags": [
+          "Battle",
+          "Repeatable",
+          "Optional",
+          "Postgame",
+          "Facility"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Gardenia",
+          "https://bulbapedia.bulbagarden.net/wiki/Gardenia/Quotes",
+          "https://bulbapedia.bulbagarden.net/wiki/Villa",
+          "https://www.serebii.net/platinum/toptrainercafe.shtml"
+        ]
       },
       {
         "id": "gardenia-villa",
@@ -7009,7 +8118,18 @@ window.CHARACTERS = [
         "optional": true,
         "summary": "Repeatable visiting dialogue; not a fixed number of encounters. Houseplant purchase guarantees a Gardenia visit.",
         "teams": [],
-        "repeatable": true
+        "repeatable": true,
+        "tags": [
+          "Repeatable",
+          "Optional",
+          "Postgame"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Gardenia",
+          "https://bulbapedia.bulbagarden.net/wiki/Gardenia/Quotes",
+          "https://bulbapedia.bulbagarden.net/wiki/Villa",
+          "https://www.serebii.net/platinum/toptrainercafe.shtml"
+        ]
       }
     ],
     "image": "gardenia-artwork.png",
@@ -7033,7 +8153,7 @@ window.CHARACTERS = [
         "source": "https://bulbapedia.bulbagarden.net/wiki/Gardenia"
       }
     ],
-    "sourceNotes": "Platinum only. Timeline counts group continuous scenes; repeatable dialogue and visits are listed separately, never treated as a finite appearance total. Event text/trainer IDs require checking in your ROM and DSPRE. Minor ambient and TV dialogue is not counted as a physical appearance.",
+    "sourceNotes": "Platinum only. Timeline counts group continuous scenes; repeatable dialogue and visits are listed separately, never treated as a finite appearance total. Minor ambient and TV dialogue is not counted as a physical appearance.",
     "appearanceCounts": {
       "scripted": 3,
       "battleEncounters": 1,
@@ -7071,7 +8191,17 @@ window.CHARACTERS = [
         "optional": false,
         "summary": "Meeting Fantina here makes the Gym challenge available.",
         "teams": [],
-        "repeatable": false
+        "repeatable": false,
+        "tags": [
+          "Progression",
+          "Contest"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Fantina",
+          "https://bulbapedia.bulbagarden.net/wiki/Fantina/Quotes",
+          "https://bulbapedia.bulbagarden.net/wiki/Villa",
+          "https://www.serebii.net/platinum/toptrainercafe.shtml"
+        ]
       },
       {
         "id": "fantina-gym",
@@ -7123,7 +8253,18 @@ window.CHARACTERS = [
             ]
           }
         ],
-        "repeatable": false
+        "repeatable": false,
+        "tags": [
+          "Battle",
+          "Item / HM",
+          "Progression"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Fantina",
+          "https://bulbapedia.bulbagarden.net/wiki/Fantina/Quotes",
+          "https://bulbapedia.bulbagarden.net/wiki/Villa",
+          "https://www.serebii.net/platinum/toptrainercafe.shtml"
+        ]
       },
       {
         "id": "fantina-super-contests",
@@ -7133,7 +8274,21 @@ window.CHARACTERS = [
         "optional": true,
         "summary": "Can appear as an opponent using her Drifblim, Loony. Contest entries are not trainer-battle teams; no battle level applies.",
         "teams": [],
-        "repeatable": true
+        "repeatable": true,
+        "tags": [
+          "Repeatable",
+          "Optional",
+          "Contest"
+        ],
+        "featuredPokemon": [
+          "Drifblim"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Fantina",
+          "https://bulbapedia.bulbagarden.net/wiki/Fantina/Quotes",
+          "https://bulbapedia.bulbagarden.net/wiki/Villa",
+          "https://www.serebii.net/platinum/toptrainercafe.shtml"
+        ]
       },
       {
         "id": "fantina-battleground",
@@ -7209,7 +8364,20 @@ window.CHARACTERS = [
             ]
           }
         ],
-        "repeatable": true
+        "repeatable": true,
+        "tags": [
+          "Battle",
+          "Repeatable",
+          "Optional",
+          "Postgame",
+          "Facility"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Fantina",
+          "https://bulbapedia.bulbagarden.net/wiki/Fantina/Quotes",
+          "https://bulbapedia.bulbagarden.net/wiki/Villa",
+          "https://www.serebii.net/platinum/toptrainercafe.shtml"
+        ]
       },
       {
         "id": "fantina-villa",
@@ -7219,7 +8387,18 @@ window.CHARACTERS = [
         "optional": true,
         "summary": "Repeatable visiting dialogue; not a fixed number of encounters. ",
         "teams": [],
-        "repeatable": true
+        "repeatable": true,
+        "tags": [
+          "Repeatable",
+          "Optional",
+          "Postgame"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Fantina",
+          "https://bulbapedia.bulbagarden.net/wiki/Fantina/Quotes",
+          "https://bulbapedia.bulbagarden.net/wiki/Villa",
+          "https://www.serebii.net/platinum/toptrainercafe.shtml"
+        ]
       }
     ],
     "image": "fantina-artwork.png",
@@ -7243,7 +8422,7 @@ window.CHARACTERS = [
         "source": "https://bulbapedia.bulbagarden.net/wiki/Fantina"
       }
     ],
-    "sourceNotes": "Platinum only. Timeline counts group continuous scenes; repeatable dialogue and visits are listed separately, never treated as a finite appearance total. Event text/trainer IDs require checking in your ROM and DSPRE. Minor ambient and TV dialogue is not counted as a physical appearance.",
+    "sourceNotes": "Platinum only. Timeline counts group continuous scenes; repeatable dialogue and visits are listed separately, never treated as a finite appearance total. Minor ambient and TV dialogue is not counted as a physical appearance.",
     "appearanceCounts": {
       "scripted": 2,
       "battleEncounters": 1,
@@ -7323,7 +8502,18 @@ window.CHARACTERS = [
             ]
           }
         ],
-        "repeatable": false
+        "repeatable": false,
+        "tags": [
+          "Battle",
+          "Item / HM",
+          "Progression"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Maylene",
+          "https://bulbapedia.bulbagarden.net/wiki/Maylene/Quotes",
+          "https://bulbapedia.bulbagarden.net/wiki/Villa",
+          "https://www.serebii.net/platinum/toptrainercafe.shtml"
+        ]
       },
       {
         "id": "maylene-snow-route",
@@ -7333,7 +8523,14 @@ window.CHARACTERS = [
         "optional": false,
         "summary": "Walks toward Snowpoint instead of flying, training herself in the cold.",
         "teams": [],
-        "repeatable": false
+        "repeatable": false,
+        "tags": [],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Maylene",
+          "https://bulbapedia.bulbagarden.net/wiki/Maylene/Quotes",
+          "https://bulbapedia.bulbagarden.net/wiki/Villa",
+          "https://www.serebii.net/platinum/toptrainercafe.shtml"
+        ]
       },
       {
         "id": "maylene-snow-center",
@@ -7343,7 +8540,16 @@ window.CHARACTERS = [
         "optional": true,
         "summary": "Talks about admiring Candice and training with her.",
         "teams": [],
-        "repeatable": false
+        "repeatable": false,
+        "tags": [
+          "Optional"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Maylene",
+          "https://bulbapedia.bulbagarden.net/wiki/Maylene/Quotes",
+          "https://bulbapedia.bulbagarden.net/wiki/Villa",
+          "https://www.serebii.net/platinum/toptrainercafe.shtml"
+        ]
       },
       {
         "id": "maylene-battleground",
@@ -7419,7 +8625,20 @@ window.CHARACTERS = [
             ]
           }
         ],
-        "repeatable": true
+        "repeatable": true,
+        "tags": [
+          "Battle",
+          "Repeatable",
+          "Optional",
+          "Postgame",
+          "Facility"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Maylene",
+          "https://bulbapedia.bulbagarden.net/wiki/Maylene/Quotes",
+          "https://bulbapedia.bulbagarden.net/wiki/Villa",
+          "https://www.serebii.net/platinum/toptrainercafe.shtml"
+        ]
       },
       {
         "id": "maylene-villa",
@@ -7429,7 +8648,18 @@ window.CHARACTERS = [
         "optional": true,
         "summary": "Repeatable visiting dialogue; not a fixed number of encounters. Can appear together with Candice.",
         "teams": [],
-        "repeatable": true
+        "repeatable": true,
+        "tags": [
+          "Repeatable",
+          "Optional",
+          "Postgame"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Maylene",
+          "https://bulbapedia.bulbagarden.net/wiki/Maylene/Quotes",
+          "https://bulbapedia.bulbagarden.net/wiki/Villa",
+          "https://www.serebii.net/platinum/toptrainercafe.shtml"
+        ]
       }
     ],
     "image": "maylene-artwork.png",
@@ -7453,7 +8683,7 @@ window.CHARACTERS = [
         "source": "https://bulbapedia.bulbagarden.net/wiki/Maylene"
       }
     ],
-    "sourceNotes": "Platinum only. Timeline counts group continuous scenes; repeatable dialogue and visits are listed separately, never treated as a finite appearance total. Event text/trainer IDs require checking in your ROM and DSPRE. Minor ambient and TV dialogue is not counted as a physical appearance.",
+    "sourceNotes": "Platinum only. Timeline counts group continuous scenes; repeatable dialogue and visits are listed separately, never treated as a finite appearance total. Minor ambient and TV dialogue is not counted as a physical appearance.",
     "appearanceCounts": {
       "scripted": 3,
       "battleEncounters": 1,
@@ -7492,7 +8722,14 @@ window.CHARACTERS = [
         "optional": false,
         "summary": "Introduces himself to you and the professor’s assistant outside Maylene’s Gym; praises Maylene’s skill.",
         "teams": [],
-        "repeatable": false
+        "repeatable": false,
+        "tags": [],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Crasher_Wake",
+          "https://bulbapedia.bulbagarden.net/wiki/Crasher_Wake/Quotes",
+          "https://bulbapedia.bulbagarden.net/wiki/Villa",
+          "https://www.serebii.net/platinum/toptrainercafe.shtml"
+        ]
       },
       {
         "id": "crasher-wake-gym",
@@ -7544,7 +8781,18 @@ window.CHARACTERS = [
             ]
           }
         ],
-        "repeatable": false
+        "repeatable": false,
+        "tags": [
+          "Battle",
+          "Item / HM",
+          "Progression"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Crasher_Wake",
+          "https://bulbapedia.bulbagarden.net/wiki/Crasher_Wake/Quotes",
+          "https://bulbapedia.bulbagarden.net/wiki/Villa",
+          "https://www.serebii.net/platinum/toptrainercafe.shtml"
+        ]
       },
       {
         "id": "crasher-wake-marsh",
@@ -7554,7 +8802,14 @@ window.CHARACTERS = [
         "optional": false,
         "summary": "Barry wants Wake as a mentor. Wake responds to the explosion while you pursue the fleeing grunt.",
         "teams": [],
-        "repeatable": false
+        "repeatable": false,
+        "tags": [],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Crasher_Wake",
+          "https://bulbapedia.bulbagarden.net/wiki/Crasher_Wake/Quotes",
+          "https://bulbapedia.bulbagarden.net/wiki/Villa",
+          "https://www.serebii.net/platinum/toptrainercafe.shtml"
+        ]
       },
       {
         "id": "crasher-wake-zone",
@@ -7564,7 +8819,16 @@ window.CHARACTERS = [
         "optional": false,
         "summary": "Discusses Barry’s wish to train, warns about Stark Mountain’s strong wild Pokémon, then leaves to prepare for a tournament.",
         "teams": [],
-        "repeatable": false
+        "repeatable": false,
+        "tags": [
+          "Postgame"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Crasher_Wake",
+          "https://bulbapedia.bulbagarden.net/wiki/Crasher_Wake/Quotes",
+          "https://bulbapedia.bulbagarden.net/wiki/Villa",
+          "https://www.serebii.net/platinum/toptrainercafe.shtml"
+        ]
       },
       {
         "id": "crasher-wake-battleground",
@@ -7640,7 +8904,20 @@ window.CHARACTERS = [
             ]
           }
         ],
-        "repeatable": true
+        "repeatable": true,
+        "tags": [
+          "Battle",
+          "Repeatable",
+          "Optional",
+          "Postgame",
+          "Facility"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Crasher_Wake",
+          "https://bulbapedia.bulbagarden.net/wiki/Crasher_Wake/Quotes",
+          "https://bulbapedia.bulbagarden.net/wiki/Villa",
+          "https://www.serebii.net/platinum/toptrainercafe.shtml"
+        ]
       },
       {
         "id": "crasher-wake-villa",
@@ -7650,7 +8927,18 @@ window.CHARACTERS = [
         "optional": true,
         "summary": "Repeatable visiting dialogue; not a fixed number of encounters. ",
         "teams": [],
-        "repeatable": true
+        "repeatable": true,
+        "tags": [
+          "Repeatable",
+          "Optional",
+          "Postgame"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Crasher_Wake",
+          "https://bulbapedia.bulbagarden.net/wiki/Crasher_Wake/Quotes",
+          "https://bulbapedia.bulbagarden.net/wiki/Villa",
+          "https://www.serebii.net/platinum/toptrainercafe.shtml"
+        ]
       }
     ],
     "image": "crasher_wake-artwork.png",
@@ -7674,7 +8962,7 @@ window.CHARACTERS = [
         "source": "https://bulbapedia.bulbagarden.net/wiki/Crasher_Wake"
       }
     ],
-    "sourceNotes": "Platinum only. Timeline counts group continuous scenes; repeatable dialogue and visits are listed separately, never treated as a finite appearance total. Event text/trainer IDs require checking in your ROM and DSPRE. Minor ambient and TV dialogue is not counted as a physical appearance.",
+    "sourceNotes": "Platinum only. Timeline counts group continuous scenes; repeatable dialogue and visits are listed separately, never treated as a finite appearance total. Minor ambient and TV dialogue is not counted as a physical appearance.",
     "appearanceCounts": {
       "scripted": 4,
       "battleEncounters": 1,
@@ -7754,7 +9042,18 @@ window.CHARACTERS = [
             ]
           }
         ],
-        "repeatable": false
+        "repeatable": false,
+        "tags": [
+          "Battle",
+          "Item / HM",
+          "Progression"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Byron",
+          "https://bulbapedia.bulbagarden.net/wiki/Byron/Quotes",
+          "https://bulbapedia.bulbagarden.net/wiki/Villa",
+          "https://www.serebii.net/platinum/toptrainercafe.shtml"
+        ]
       },
       {
         "id": "byron-metal-coat",
@@ -7764,7 +9063,18 @@ window.CHARACTERS = [
         "optional": true,
         "summary": "After the National Pokédex, reflects on Roark and gives a Metal Coat.",
         "teams": [],
-        "repeatable": false
+        "repeatable": false,
+        "tags": [
+          "Item / HM",
+          "Optional",
+          "Postgame"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Byron",
+          "https://bulbapedia.bulbagarden.net/wiki/Byron/Quotes",
+          "https://bulbapedia.bulbagarden.net/wiki/Villa",
+          "https://www.serebii.net/platinum/toptrainercafe.shtml"
+        ]
       },
       {
         "id": "byron-battleground",
@@ -7840,7 +9150,20 @@ window.CHARACTERS = [
             ]
           }
         ],
-        "repeatable": true
+        "repeatable": true,
+        "tags": [
+          "Battle",
+          "Repeatable",
+          "Optional",
+          "Postgame",
+          "Facility"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Byron",
+          "https://bulbapedia.bulbagarden.net/wiki/Byron/Quotes",
+          "https://bulbapedia.bulbagarden.net/wiki/Villa",
+          "https://www.serebii.net/platinum/toptrainercafe.shtml"
+        ]
       },
       {
         "id": "byron-villa",
@@ -7850,7 +9173,18 @@ window.CHARACTERS = [
         "optional": true,
         "summary": "Repeatable visiting dialogue; not a fixed number of encounters. ",
         "teams": [],
-        "repeatable": true
+        "repeatable": true,
+        "tags": [
+          "Repeatable",
+          "Optional",
+          "Postgame"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Byron",
+          "https://bulbapedia.bulbagarden.net/wiki/Byron/Quotes",
+          "https://bulbapedia.bulbagarden.net/wiki/Villa",
+          "https://www.serebii.net/platinum/toptrainercafe.shtml"
+        ]
       }
     ],
     "image": "byron-artwork.png",
@@ -7874,7 +9208,7 @@ window.CHARACTERS = [
         "source": "https://bulbapedia.bulbagarden.net/wiki/Byron"
       }
     ],
-    "sourceNotes": "Platinum only. Timeline counts group continuous scenes; repeatable dialogue and visits are listed separately, never treated as a finite appearance total. Event text/trainer IDs require checking in your ROM and DSPRE. Minor ambient and TV dialogue is not counted as a physical appearance.",
+    "sourceNotes": "Platinum only. Timeline counts group continuous scenes; repeatable dialogue and visits are listed separately, never treated as a finite appearance total. Minor ambient and TV dialogue is not counted as a physical appearance.",
     "appearanceCounts": {
       "scripted": 2,
       "battleEncounters": 1,
@@ -7966,7 +9300,18 @@ window.CHARACTERS = [
             ]
           }
         ],
-        "repeatable": false
+        "repeatable": false,
+        "tags": [
+          "Battle",
+          "Item / HM",
+          "Progression"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Candice",
+          "https://bulbapedia.bulbagarden.net/wiki/Candice/Quotes",
+          "https://bulbapedia.bulbagarden.net/wiki/Villa",
+          "https://www.serebii.net/platinum/toptrainercafe.shtml"
+        ]
       },
       {
         "id": "candice-temple",
@@ -7976,7 +9321,18 @@ window.CHARACTERS = [
         "optional": true,
         "summary": "After the National Pokédex, tells the guard to allow you inside.",
         "teams": [],
-        "repeatable": false
+        "repeatable": false,
+        "tags": [
+          "Progression",
+          "Optional",
+          "Postgame"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Candice",
+          "https://bulbapedia.bulbagarden.net/wiki/Candice/Quotes",
+          "https://bulbapedia.bulbagarden.net/wiki/Villa",
+          "https://www.serebii.net/platinum/toptrainercafe.shtml"
+        ]
       },
       {
         "id": "candice-battleground",
@@ -8052,7 +9408,20 @@ window.CHARACTERS = [
             ]
           }
         ],
-        "repeatable": true
+        "repeatable": true,
+        "tags": [
+          "Battle",
+          "Repeatable",
+          "Optional",
+          "Postgame",
+          "Facility"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Candice",
+          "https://bulbapedia.bulbagarden.net/wiki/Candice/Quotes",
+          "https://bulbapedia.bulbagarden.net/wiki/Villa",
+          "https://www.serebii.net/platinum/toptrainercafe.shtml"
+        ]
       },
       {
         "id": "candice-villa",
@@ -8062,7 +9431,18 @@ window.CHARACTERS = [
         "optional": true,
         "summary": "Repeatable visiting dialogue; not a fixed number of encounters. Can appear together with Maylene.",
         "teams": [],
-        "repeatable": true
+        "repeatable": true,
+        "tags": [
+          "Repeatable",
+          "Optional",
+          "Postgame"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Candice",
+          "https://bulbapedia.bulbagarden.net/wiki/Candice/Quotes",
+          "https://bulbapedia.bulbagarden.net/wiki/Villa",
+          "https://www.serebii.net/platinum/toptrainercafe.shtml"
+        ]
       }
     ],
     "image": "candice-artwork.png",
@@ -8086,7 +9466,7 @@ window.CHARACTERS = [
         "source": "https://bulbapedia.bulbagarden.net/wiki/Candice"
       }
     ],
-    "sourceNotes": "Platinum only. Timeline counts group continuous scenes; repeatable dialogue and visits are listed separately, never treated as a finite appearance total. Event text/trainer IDs require checking in your ROM and DSPRE. Minor ambient and TV dialogue is not counted as a physical appearance.",
+    "sourceNotes": "Platinum only. Timeline counts group continuous scenes; repeatable dialogue and visits are listed separately, never treated as a finite appearance total. Minor ambient and TV dialogue is not counted as a physical appearance.",
     "appearanceCounts": {
       "scripted": 2,
       "battleEncounters": 1,
@@ -8124,7 +9504,16 @@ window.CHARACTERS = [
         "optional": false,
         "summary": "Agrees to return to his Gym after Flint directs you to him.",
         "teams": [],
-        "repeatable": false
+        "repeatable": false,
+        "tags": [
+          "Progression"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Volkner",
+          "https://bulbapedia.bulbagarden.net/wiki/Volkner/Quotes",
+          "https://bulbapedia.bulbagarden.net/wiki/Villa",
+          "https://www.serebii.net/platinum/toptrainercafe.shtml"
+        ]
       },
       {
         "id": "volkner-gym",
@@ -8188,7 +9577,18 @@ window.CHARACTERS = [
             ]
           }
         ],
-        "repeatable": false
+        "repeatable": false,
+        "tags": [
+          "Battle",
+          "Item / HM",
+          "Progression"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Volkner",
+          "https://bulbapedia.bulbagarden.net/wiki/Volkner/Quotes",
+          "https://bulbapedia.bulbagarden.net/wiki/Villa",
+          "https://www.serebii.net/platinum/toptrainercafe.shtml"
+        ]
       },
       {
         "id": "volkner-frontier",
@@ -8281,7 +9681,17 @@ window.CHARACTERS = [
             ]
           }
         ],
-        "repeatable": false
+        "repeatable": false,
+        "tags": [
+          "Battle",
+          "Postgame"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Volkner",
+          "https://bulbapedia.bulbagarden.net/wiki/Volkner/Quotes",
+          "https://bulbapedia.bulbagarden.net/wiki/Villa",
+          "https://www.serebii.net/platinum/toptrainercafe.shtml"
+        ]
       },
       {
         "id": "volkner-battleground",
@@ -8357,7 +9767,20 @@ window.CHARACTERS = [
             ]
           }
         ],
-        "repeatable": true
+        "repeatable": true,
+        "tags": [
+          "Battle",
+          "Repeatable",
+          "Optional",
+          "Postgame",
+          "Facility"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Volkner",
+          "https://bulbapedia.bulbagarden.net/wiki/Volkner/Quotes",
+          "https://bulbapedia.bulbagarden.net/wiki/Villa",
+          "https://www.serebii.net/platinum/toptrainercafe.shtml"
+        ]
       },
       {
         "id": "volkner-villa",
@@ -8367,7 +9790,18 @@ window.CHARACTERS = [
         "optional": true,
         "summary": "Repeatable visiting dialogue; not a fixed number of encounters. Can include paired dialogue with Flint.",
         "teams": [],
-        "repeatable": true
+        "repeatable": true,
+        "tags": [
+          "Repeatable",
+          "Optional",
+          "Postgame"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Volkner",
+          "https://bulbapedia.bulbagarden.net/wiki/Volkner/Quotes",
+          "https://bulbapedia.bulbagarden.net/wiki/Villa",
+          "https://www.serebii.net/platinum/toptrainercafe.shtml"
+        ]
       }
     ],
     "image": "volkner-artwork.png",
@@ -8391,7 +9825,7 @@ window.CHARACTERS = [
         "source": "https://bulbapedia.bulbagarden.net/wiki/Volkner"
       }
     ],
-    "sourceNotes": "Platinum only. Timeline counts group continuous scenes; repeatable dialogue and visits are listed separately, never treated as a finite appearance total. Event text/trainer IDs require checking in your ROM and DSPRE. Minor ambient and TV dialogue is not counted as a physical appearance.",
+    "sourceNotes": "Platinum only. Timeline counts group continuous scenes; repeatable dialogue and visits are listed separately, never treated as a finite appearance total. Minor ambient and TV dialogue is not counted as a physical appearance.",
     "appearanceCounts": {
       "scripted": 3,
       "battleEncounters": 2,
@@ -8494,7 +9928,17 @@ window.CHARACTERS = [
             ]
           }
         ],
-        "repeatable": false
+        "repeatable": false,
+        "tags": [
+          "Battle",
+          "Progression"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Aaron",
+          "https://bulbapedia.bulbagarden.net/wiki/Aaron/Quotes",
+          "https://bulbapedia.bulbagarden.net/wiki/Villa",
+          "https://www.serebii.net/platinum/elitefour.shtml"
+        ]
       },
       {
         "id": "aaron-league-rematch",
@@ -8570,7 +10014,19 @@ window.CHARACTERS = [
             ]
           }
         ],
-        "repeatable": true
+        "repeatable": true,
+        "tags": [
+          "Battle",
+          "Repeatable",
+          "Optional",
+          "Postgame"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Aaron",
+          "https://bulbapedia.bulbagarden.net/wiki/Aaron/Quotes",
+          "https://bulbapedia.bulbagarden.net/wiki/Villa",
+          "https://www.serebii.net/platinum/elitefour.shtml"
+        ]
       },
       {
         "id": "aaron-strong-rematch",
@@ -8646,7 +10102,19 @@ window.CHARACTERS = [
             ]
           }
         ],
-        "repeatable": true
+        "repeatable": true,
+        "tags": [
+          "Battle",
+          "Repeatable",
+          "Optional",
+          "Postgame"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Aaron",
+          "https://bulbapedia.bulbagarden.net/wiki/Aaron/Quotes",
+          "https://bulbapedia.bulbagarden.net/wiki/Villa",
+          "https://www.serebii.net/platinum/elitefour.shtml"
+        ]
       }
     ],
     "image": "aaron-artwork.png",
@@ -8670,7 +10138,7 @@ window.CHARACTERS = [
         "source": "https://bulbapedia.bulbagarden.net/wiki/Aaron"
       }
     ],
-    "sourceNotes": "Platinum only. Timeline counts group continuous scenes; repeatable dialogue and visits are listed separately, never treated as a finite appearance total. Event text/trainer IDs require checking in your ROM and DSPRE. Minor ambient and TV dialogue is not counted as a physical appearance.",
+    "sourceNotes": "Platinum only. Timeline counts group continuous scenes; repeatable dialogue and visits are listed separately, never treated as a finite appearance total. Minor ambient and TV dialogue is not counted as a physical appearance.",
     "appearanceCounts": {
       "scripted": 1,
       "battleEncounters": 1,
@@ -8773,7 +10241,17 @@ window.CHARACTERS = [
             ]
           }
         ],
-        "repeatable": false
+        "repeatable": false,
+        "tags": [
+          "Battle",
+          "Progression"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Bertha",
+          "https://bulbapedia.bulbagarden.net/wiki/Bertha/Quotes",
+          "https://bulbapedia.bulbagarden.net/wiki/Villa",
+          "https://www.serebii.net/platinum/elitefour.shtml"
+        ]
       },
       {
         "id": "bertha-league-rematch",
@@ -8849,7 +10327,19 @@ window.CHARACTERS = [
             ]
           }
         ],
-        "repeatable": true
+        "repeatable": true,
+        "tags": [
+          "Battle",
+          "Repeatable",
+          "Optional",
+          "Postgame"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Bertha",
+          "https://bulbapedia.bulbagarden.net/wiki/Bertha/Quotes",
+          "https://bulbapedia.bulbagarden.net/wiki/Villa",
+          "https://www.serebii.net/platinum/elitefour.shtml"
+        ]
       },
       {
         "id": "bertha-strong-rematch",
@@ -8925,7 +10415,19 @@ window.CHARACTERS = [
             ]
           }
         ],
-        "repeatable": true
+        "repeatable": true,
+        "tags": [
+          "Battle",
+          "Repeatable",
+          "Optional",
+          "Postgame"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Bertha",
+          "https://bulbapedia.bulbagarden.net/wiki/Bertha/Quotes",
+          "https://bulbapedia.bulbagarden.net/wiki/Villa",
+          "https://www.serebii.net/platinum/elitefour.shtml"
+        ]
       }
     ],
     "image": "bertha-artwork.png",
@@ -8949,7 +10451,7 @@ window.CHARACTERS = [
         "source": "https://bulbapedia.bulbagarden.net/wiki/Bertha"
       }
     ],
-    "sourceNotes": "Platinum only. Timeline counts group continuous scenes; repeatable dialogue and visits are listed separately, never treated as a finite appearance total. Event text/trainer IDs require checking in your ROM and DSPRE. Minor ambient and TV dialogue is not counted as a physical appearance.",
+    "sourceNotes": "Platinum only. Timeline counts group continuous scenes; repeatable dialogue and visits are listed separately, never treated as a finite appearance total. Minor ambient and TV dialogue is not counted as a physical appearance.",
     "appearanceCounts": {
       "scripted": 1,
       "battleEncounters": 1,
@@ -8989,7 +10491,14 @@ window.CHARACTERS = [
         "optional": false,
         "summary": "Asks you to restore Volkner’s enjoyment of battling.",
         "teams": [],
-        "repeatable": false
+        "repeatable": false,
+        "tags": [],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Flint",
+          "https://bulbapedia.bulbagarden.net/wiki/Flint/Quotes",
+          "https://bulbapedia.bulbagarden.net/wiki/Villa",
+          "https://www.serebii.net/platinum/elitefour.shtml"
+        ]
       },
       {
         "id": "flint-gym-door",
@@ -8999,7 +10508,16 @@ window.CHARACTERS = [
         "optional": false,
         "summary": "Directs you to Volkner at the lighthouse; moves aside after you find him.",
         "teams": [],
-        "repeatable": false
+        "repeatable": false,
+        "tags": [
+          "Progression"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Flint",
+          "https://bulbapedia.bulbagarden.net/wiki/Flint/Quotes",
+          "https://bulbapedia.bulbagarden.net/wiki/Villa",
+          "https://www.serebii.net/platinum/elitefour.shtml"
+        ]
       },
       {
         "id": "flint-league",
@@ -9075,7 +10593,17 @@ window.CHARACTERS = [
             ]
           }
         ],
-        "repeatable": false
+        "repeatable": false,
+        "tags": [
+          "Battle",
+          "Progression"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Flint",
+          "https://bulbapedia.bulbagarden.net/wiki/Flint/Quotes",
+          "https://bulbapedia.bulbagarden.net/wiki/Villa",
+          "https://www.serebii.net/platinum/elitefour.shtml"
+        ]
       },
       {
         "id": "flint-frontier",
@@ -9168,7 +10696,17 @@ window.CHARACTERS = [
             ]
           }
         ],
-        "repeatable": false
+        "repeatable": false,
+        "tags": [
+          "Battle",
+          "Postgame"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Flint",
+          "https://bulbapedia.bulbagarden.net/wiki/Flint/Quotes",
+          "https://bulbapedia.bulbagarden.net/wiki/Villa",
+          "https://www.serebii.net/platinum/elitefour.shtml"
+        ]
       },
       {
         "id": "flint-villa",
@@ -9178,7 +10716,18 @@ window.CHARACTERS = [
         "optional": true,
         "summary": "Optional visit and conversations with Volkner; no battle.",
         "teams": [],
-        "repeatable": true
+        "repeatable": true,
+        "tags": [
+          "Repeatable",
+          "Optional",
+          "Postgame"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Flint",
+          "https://bulbapedia.bulbagarden.net/wiki/Flint/Quotes",
+          "https://bulbapedia.bulbagarden.net/wiki/Villa",
+          "https://www.serebii.net/platinum/elitefour.shtml"
+        ]
       },
       {
         "id": "flint-league-rematch",
@@ -9254,7 +10803,19 @@ window.CHARACTERS = [
             ]
           }
         ],
-        "repeatable": true
+        "repeatable": true,
+        "tags": [
+          "Battle",
+          "Repeatable",
+          "Optional",
+          "Postgame"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Flint",
+          "https://bulbapedia.bulbagarden.net/wiki/Flint/Quotes",
+          "https://bulbapedia.bulbagarden.net/wiki/Villa",
+          "https://www.serebii.net/platinum/elitefour.shtml"
+        ]
       },
       {
         "id": "flint-strong-rematch",
@@ -9330,7 +10891,19 @@ window.CHARACTERS = [
             ]
           }
         ],
-        "repeatable": true
+        "repeatable": true,
+        "tags": [
+          "Battle",
+          "Repeatable",
+          "Optional",
+          "Postgame"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Flint",
+          "https://bulbapedia.bulbagarden.net/wiki/Flint/Quotes",
+          "https://bulbapedia.bulbagarden.net/wiki/Villa",
+          "https://www.serebii.net/platinum/elitefour.shtml"
+        ]
       }
     ],
     "image": "flint-artwork.png",
@@ -9354,7 +10927,7 @@ window.CHARACTERS = [
         "source": "https://bulbapedia.bulbagarden.net/wiki/Flint"
       }
     ],
-    "sourceNotes": "Platinum only. Timeline counts group continuous scenes; repeatable dialogue and visits are listed separately, never treated as a finite appearance total. Event text/trainer IDs require checking in your ROM and DSPRE. Minor ambient and TV dialogue is not counted as a physical appearance.",
+    "sourceNotes": "Platinum only. Timeline counts group continuous scenes; repeatable dialogue and visits are listed separately, never treated as a finite appearance total. Minor ambient and TV dialogue is not counted as a physical appearance.",
     "appearanceCounts": {
       "scripted": 4,
       "battleEncounters": 2,
@@ -9458,7 +11031,17 @@ window.CHARACTERS = [
             ]
           }
         ],
-        "repeatable": false
+        "repeatable": false,
+        "tags": [
+          "Battle",
+          "Progression"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Lucian",
+          "https://bulbapedia.bulbagarden.net/wiki/Lucian/Quotes",
+          "https://bulbapedia.bulbagarden.net/wiki/Villa",
+          "https://www.serebii.net/platinum/elitefour.shtml"
+        ]
       },
       {
         "id": "lucian-library",
@@ -9468,7 +11051,17 @@ window.CHARACTERS = [
         "optional": true,
         "summary": "After you become Champion, finds time to read in the library; still returns to the League for rematches.",
         "teams": [],
-        "repeatable": false
+        "repeatable": false,
+        "tags": [
+          "Optional",
+          "Postgame"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Lucian",
+          "https://bulbapedia.bulbagarden.net/wiki/Lucian/Quotes",
+          "https://bulbapedia.bulbagarden.net/wiki/Villa",
+          "https://www.serebii.net/platinum/elitefour.shtml"
+        ]
       },
       {
         "id": "lucian-league-rematch",
@@ -9544,7 +11137,19 @@ window.CHARACTERS = [
             ]
           }
         ],
-        "repeatable": true
+        "repeatable": true,
+        "tags": [
+          "Battle",
+          "Repeatable",
+          "Optional",
+          "Postgame"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Lucian",
+          "https://bulbapedia.bulbagarden.net/wiki/Lucian/Quotes",
+          "https://bulbapedia.bulbagarden.net/wiki/Villa",
+          "https://www.serebii.net/platinum/elitefour.shtml"
+        ]
       },
       {
         "id": "lucian-strong-rematch",
@@ -9620,7 +11225,19 @@ window.CHARACTERS = [
             ]
           }
         ],
-        "repeatable": true
+        "repeatable": true,
+        "tags": [
+          "Battle",
+          "Repeatable",
+          "Optional",
+          "Postgame"
+        ],
+        "sources": [
+          "https://bulbapedia.bulbagarden.net/wiki/Lucian",
+          "https://bulbapedia.bulbagarden.net/wiki/Lucian/Quotes",
+          "https://bulbapedia.bulbagarden.net/wiki/Villa",
+          "https://www.serebii.net/platinum/elitefour.shtml"
+        ]
       }
     ],
     "image": "lucian-artwork.png",
@@ -9644,7 +11261,7 @@ window.CHARACTERS = [
         "source": "https://bulbapedia.bulbagarden.net/wiki/Lucian"
       }
     ],
-    "sourceNotes": "Platinum only. Timeline counts group continuous scenes; repeatable dialogue and visits are listed separately, never treated as a finite appearance total. Event text/trainer IDs require checking in your ROM and DSPRE. Minor ambient and TV dialogue is not counted as a physical appearance.",
+    "sourceNotes": "Platinum only. Timeline counts group continuous scenes; repeatable dialogue and visits are listed separately, never treated as a finite appearance total. Minor ambient and TV dialogue is not counted as a physical appearance.",
     "appearanceCounts": {
       "scripted": 2,
       "battleEncounters": 1,
