@@ -33,7 +33,17 @@ window.POKEMON = [
     "entry": "Its eyes gleam whenever it senses food being prepared. Trainers often forget why they banned it from the kitchen bench after meeting its mysterious gaze.",
     "sheet": "assets/andusk.png?v=20261004-1506",
     "category": "",
-    "typeNote": ""
+    "typeNote": "",
+    "sprites": {
+      "standard": {
+        "front": "assets/andusk-standard-front.png?v=20261017-1245",
+        "back": "assets/andusk-standard-back.png?v=20261017-1245"
+      },
+      "shiny": {
+        "front": "assets/andusk-shiny-front.png?v=20261017-1245",
+        "back": "assets/andusk-shiny-back.png?v=20261017-1245"
+      }
+    }
   },
   {
     "id": "andistral",
@@ -47,7 +57,17 @@ window.POKEMON = [
     "entry": "It subtly controls its Trainer’s thoughts to secure snacks and food straight from their plate. Those under its influence insist they gave it permission all along.",
     "sheet": "assets/andistral.png?v=20261004-1506",
     "category": "",
-    "typeNote": ""
+    "typeNote": "",
+    "sprites": {
+      "standard": {
+        "front": "assets/andistral-standard-front.png?v=20261017-1245",
+        "back": "assets/andistral-standard-back.png?v=20261017-1245"
+      },
+      "shiny": {
+        "front": "assets/andistral-shiny-front.png?v=20261017-1245",
+        "back": "assets/andistral-shiny-back.png?v=20261017-1245"
+      }
+    }
   },
   {
     "id": "rory",
@@ -60,7 +80,17 @@ window.POKEMON = [
     "entry": "It seeks out the warmest spot in every room. Trainers often return to find it sleeping on the seat they have just left.",
     "sheet": "assets/rory.png?v=20261004-1506",
     "category": "",
-    "typeNote": ""
+    "typeNote": "",
+    "sprites": {
+      "standard": {
+        "front": "assets/rory-standard-front.png?v=20261017-1245",
+        "back": "assets/rory-standard-back.png?v=20261017-1245"
+      },
+      "shiny": {
+        "front": "assets/rory-shiny-front.png?v=20261017-1245",
+        "back": "assets/rory-shiny-back.png?v=20261017-1245"
+      }
+    }
   },
   {
     "id": "roaryre",
@@ -73,7 +103,17 @@ window.POKEMON = [
     "entry": "It loves batting at dripping taps and splashing through shallow puddles. Steam rises from its warm paws as it plays, but it hardly seems to notice.",
     "sheet": "assets/roaryre.png?v=20261004-1506",
     "category": "",
-    "typeNote": ""
+    "typeNote": "",
+    "sprites": {
+      "standard": {
+        "front": "assets/roaryre-standard-front.png?v=20261017-1245",
+        "back": "assets/roaryre-standard-back.png?v=20261017-1245"
+      },
+      "shiny": {
+        "front": "assets/roaryre-shiny-front.png?v=20261017-1245",
+        "back": "assets/roaryre-shiny-back.png?v=20261017-1245"
+      }
+    }
   },
   {
     "id": "roariptide",
@@ -87,7 +127,17 @@ window.POKEMON = [
     "entry": "Despite its commanding appearance, it still enjoys warm beds and stolen snacks. Water from its tail betrays it whenever it sneaks onto the kitchen bench.",
     "sheet": "assets/roariptide.png?v=20261004-1506",
     "category": "",
-    "typeNote": ""
+    "typeNote": "",
+    "sprites": {
+      "standard": {
+        "front": "assets/roariptide-standard-front.png?v=20261017-1245",
+        "back": "assets/roariptide-standard-back.png?v=20261017-1245"
+      },
+      "shiny": {
+        "front": "assets/roariptide-shiny-front.png?v=20261017-1245",
+        "back": "assets/roariptide-shiny-back.png?v=20261017-1245"
+      }
+    }
   },
   {
     "id": "percy",
@@ -100,7 +150,17 @@ window.POKEMON = [
     "entry": "It practises its fighting stance by pouncing on fallen leaves. After a successful strike, it looks around to make sure its Trainer was watching.",
     "sheet": "assets/percy.png?v=20261004-1506",
     "category": "",
-    "typeNote": ""
+    "typeNote": "",
+    "sprites": {
+      "standard": {
+        "front": "assets/percy-standard-front.png?v=20261017-1245",
+        "back": "assets/percy-standard-back.png?v=20261017-1245"
+      },
+      "shiny": {
+        "front": "assets/percy-shiny-front.png?v=20261017-1245",
+        "back": "assets/percy-shiny-back.png?v=20261017-1245"
+      }
+    }
   },
   {
     "id": "purrspar",
@@ -113,7 +173,17 @@ window.POKEMON = [
     "entry": "It appears calm even during fierce battles, though its twitching tail reveals its excitement. A faint electrical charge builds in its white paws as it fights.",
     "sheet": "assets/purrspar.png?v=20261004-1506",
     "category": "",
-    "typeNote": ""
+    "typeNote": "",
+    "sprites": {
+      "standard": {
+        "front": "assets/purrspar-standard-front.png?v=20261017-1245",
+        "back": "assets/purrspar-standard-back.png?v=20261017-1245"
+      },
+      "shiny": {
+        "front": "assets/purrspar-shiny-front.png?v=20261017-1245",
+        "back": "assets/purrspar-shiny-back.png?v=20261017-1245"
+      }
+    }
   },
   {
     "id": "purrvolt",
@@ -127,7 +197,17 @@ window.POKEMON = [
     "entry": "It channels electricity through its claws, releasing thunderous strikes with precise movements. Despite its imposing appearance, it still gently kneads its Trainer’s lap before settling down.",
     "sheet": "assets/purrvolt.png?v=20261004-1506",
     "category": "",
-    "typeNote": ""
+    "typeNote": "",
+    "sprites": {
+      "standard": {
+        "front": "assets/purrvolt-standard-front.png?v=20261017-1245",
+        "back": "assets/purrvolt-standard-back.png?v=20261017-1245"
+      },
+      "shiny": {
+        "front": "assets/purrvolt-shiny-front.png?v=20261017-1245",
+        "back": "assets/purrvolt-shiny-back.png?v=20261017-1245"
+      }
+    }
   },
   {
     "id": "cinnacub",
