@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="theme-color" content="#be253a"><meta name="description" content="Meet the custom Pokémon of Luce: an animated Pokédex of original creatures, stories and evolution families.">
-<title>Luce Pokédex</title><link rel="icon" href="favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="style.css?v=20261007-0046">
-<script src="pokemon.js?v=20261007-0046" defer></script><script src="app.js?v=20261007-0046" defer></script>
+<title>Luce Pokédex</title><link rel="icon" href="favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="style.css?v=20261017-1238">
+<script src="pokemon.js?v=20261017-1238" defer></script><script src="app.js?v=20261017-1238" defer></script>
 </head>
 <body>
 
@@ -20,6 +20,7 @@
 <div class="screen-bottom"><span>SPECIES RECORD</span><span id="frame-status">01 / 02</span></div>
 </div><div class="frame-bottom"><span class="red-dot" aria-hidden="true"></span><div class="speaker" aria-hidden="true"></div></div></div>
 <div class="sprite-controls"><div class="segmented" aria-label="Sprite view"><button id="front" class="active" aria-pressed="true">Front</button><button id="back" aria-pressed="false">Back</button></div><button class="small-button" id="replay" aria-label="Replay sprite animation">↻ Replay</button><button class="small-button" id="animate" aria-pressed="true">Animation on</button></div>
+<div id="variant-controls" class="variant-controls" role="group" aria-label="Sprite colour" hidden><button id="standard" class="active" aria-pressed="true">Standard</button><button id="shiny" aria-pressed="false"><span aria-hidden="true">✦</span> Shiny</button></div>
 <div class="entry-panel"><div class="entry-heading"><div><p class="eyebrow" id="category">POKÉMON</p><h1 id="name">Cinnecub</h1></div><div id="types" class="types"></div></div><p class="type-note" id="type-note" hidden></p><p id="entry" class="dex-entry"></p><div class="evolution-head"><h2>Evolution family</h2><span id="family-count"></span></div><div id="evolution" class="evolution"></div></div>
 <div class="navigation"><button id="previous" aria-label="Previous Pokémon">‹</button><span id="position"></span><button id="next" aria-label="Next Pokémon">›</button></div>
 </section>
@@ -33,4 +34,5 @@
 <footer><span id="footer-count">44 Pokémon · 22 evolution families</span></footer>
 <noscript><p class="noscript">Enable JavaScript to explore the Pokédex.</p></noscript>
 </body></html>
+
 

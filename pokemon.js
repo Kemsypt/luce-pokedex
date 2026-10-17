@@ -10,7 +10,17 @@ window.POKEMON = [
     "entry": "It watches its Trainer from shadowy corners, rarely making a sound. A lingering stare somehow earns it extra snacks, even moments after it has been fed.",
     "sheet": "assets/andi.png?v=20261004-1506",
     "category": "",
-    "typeNote": ""
+    "typeNote": "",
+    "sprites": {
+      "standard": {
+        "front": "assets/andi-standard-front.png?v=20261017-1238",
+        "back": "assets/andi-standard-back.png?v=20261017-1238"
+      },
+      "shiny": {
+        "front": "assets/andi-shiny-front.png?v=20261017-1238",
+        "back": "assets/andi-shiny-back.png?v=20261017-1238"
+      }
+    }
   },
   {
     "id": "andusk",

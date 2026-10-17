@@ -2,22 +2,24 @@
 7-Zip 24.08 (x64) : Copyright (c) 1999-2024 Igor Pavlov : 2024-08-11
 
 Scanning the drive for archives:
-1 file, 48092 bytes (47 KiB)
+1 file, 21910 bytes (22 KiB)
 
-Extracting archive: E:\CitiesSkylines\New folder\New folder\Pokedex-Hermiamore-Maxling-Update.zip
+Extracting archive: E:\CitiesSkylines\New folder\New folder\Pokedex-Andi-Shiny-Update.zip
 --
-Path = E:\CitiesSkylines\New folder\New folder\Pokedex-Hermiamore-Maxling-Update.zip
+Path = E:\CitiesSkylines\New folder\New folder\Pokedex-Andi-Shiny-Update.zip
 Type = zip
-Physical Size = 48092
+Physical Size = 21910
 
 - index.html
+- app.js
+- style.css
 - pokemon.js
-- assets\hermiamore.png
-- assets\maxling.png
-- assets\scarldrake.png
-- assets\chaosigil.png
+- assets\andi-standard-front.png
+- assets\andi-standard-back.png
+- assets\andi-shiny-front.png
+- assets\andi-shiny-back.png
 Everything is Ok
 
-Files: 6
-Size:       65388
-Compressed: 48092
+Files: 8
+Size:       58183
+Compressed: 21910
