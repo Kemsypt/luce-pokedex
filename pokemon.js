@@ -893,5 +893,32 @@ window.POKEMON = [
     "sheet": "assets/impostalk.png?v=20261027-0050",
     "category": "",
     "typeNote": ""
+  },
+  {
+    "id": "matildawn",
+    "number": 60,
+    "name": "Matildawn",
+    "types": [
+      "Normal"
+    ],
+    "family": "Matildawn",
+    "entry": "It practises dribbling from dawn until dusk. Whenever it trips over the ball, it springs back up and tries again.",
+    "sheet": "assets/matildawn.png?v=20261027-0100",
+    "category": "",
+    "typeNote": ""
+  },
+  {
+    "id": "tillaroo",
+    "number": 61,
+    "name": "Tillaroo",
+    "types": [
+      "Normal",
+      "Fighting"
+    ],
+    "family": "Matildawn",
+    "entry": "It never abandons a struggling teammate, even with victory within reach. Stories of its unlikely comebacks inspire Pokémon across the region.",
+    "sheet": "assets/tillaroo.png?v=20261027-0100",
+    "category": "",
+    "typeNote": ""
   }
 ];
