@@ -799,5 +799,99 @@ window.POKEMON = [
     "sheet": "assets/chaosigil.png?v=20261007-0046",
     "category": "",
     "typeNote": ""
+  },
+  {
+    "id": "chirpip",
+    "number": 53,
+    "name": "Chirpip",
+    "types": [
+      "Flying"
+    ],
+    "family": "Chirpip",
+    "entry": "It repeats the four-note whistles of forest workers. When one calls, others answer until the melody reaches the edge of the woods.",
+    "sheet": "assets/chirpip.png?v=20261027-0050",
+    "category": "",
+    "typeNote": ""
+  },
+  {
+    "id": "mockarrow",
+    "number": 54,
+    "name": "Mockarrow",
+    "types": [
+      "Flying"
+    ],
+    "family": "Chirpip",
+    "entry": "Its arrow-shaped tail keeps it steady through narrow gaps in the forest. It can snatch a berry from a moving branch without disturbing a leaf.",
+    "sheet": "assets/mockarrow.png?v=20261027-0050",
+    "category": "",
+    "typeNote": ""
+  },
+  {
+    "id": "everjaye",
+    "number": 55,
+    "name": "Everjaye",
+    "types": [
+      "Flying",
+      "Fire"
+    ],
+    "family": "Chirpip",
+    "entry": "It sings above battlefields until the fighting stops. Exhausted Pokémon are said to find the strength to stand whenever they hear its voice.",
+    "sheet": "assets/everjaye.png?v=20261027-0050",
+    "category": "",
+    "typeNote": ""
+  },
+  {
+    "id": "earbud",
+    "number": 56,
+    "name": "Earbud",
+    "types": [
+      "Normal"
+    ],
+    "family": "Earbud",
+    "entry": "It taps its oversized paws to a rhythm only it can hear. If interrupted, it starts the entire routine again from the beginning.",
+    "sheet": "assets/earbud.png?v=20261027-0050",
+    "category": "",
+    "typeNote": ""
+  },
+  {
+    "id": "basshound",
+    "number": 57,
+    "name": "Basshound",
+    "types": [
+      "Normal",
+      "Electric"
+    ],
+    "family": "Earbud",
+    "entry": "It synchronises every stride with its favourite rhythm. At full speed, it can weave through crowded streets without brushing a single passer-by.",
+    "sheet": "assets/basshound.png?v=20261027-0050",
+    "category": "",
+    "typeNote": ""
+  },
+  {
+    "id": "susprout",
+    "number": 58,
+    "name": "Susprout",
+    "types": [
+      "Grass"
+    ],
+    "family": "Susprout",
+    "entry": "It happily completes small tasks around its forest home. If a branch breaks or berries go missing, it gathers the others to investigate.",
+    "sheet": "assets/susprout.png?v=20261027-0050",
+    "category": "",
+    "typeNote": ""
+  },
+  {
+    "id": "impostalk",
+    "number": 59,
+    "name": "Impostalk",
+    "types": [
+      "Grass",
+      "Dark"
+    ],
+    "family": "Susprout",
+    "entry": "It disguises itself as other creatures to gain their trust. While pretending to help, it secretly damages nests and steals their food.",
+    "sheet": "assets/impostalk.png?v=20261027-0050",
+    "category": "",
+    "typeNote": ""
   }
 ];
